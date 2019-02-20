@@ -8,7 +8,7 @@ This repository contains the code, data, and report for the different stages of 
 
 **Contents:**
 
-1. [Stage 1](#stage1)
+1. [Stage 1: Information Extraction Form Text](#stage1)
 2. [Stage 2](#stage2)
 3. [Stage 3](#stage3)
 4. [Stage 4](#stage4)
