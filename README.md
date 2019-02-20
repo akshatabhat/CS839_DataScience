@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+## Webpage for CS839 Project
 
-You can use the [editor on GitHub](https://github.com/akshatabhat/DataScience/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This repository contains the code, data, and report for the different stages of the Data Science project for CS 839.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Team:** Akshata Bhat, Pratyush Mahapatra, Felipe Gutierrez Barragan.
 
-### Markdown
+**Group ID:** 4.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Contents:**
 
-```markdown
-Syntax highlighted code block
+1. [Stage 1](#stage1)
+2. [Stage 2](#stage2)
+3. [Stage 3](#stage3)
+4. [Stage 4](#stage4)
+5. [Python Environment Setup](#envsetup)
 
-# Header 1
-## Header 2
-### Header 3
+<hr>
+<a name="stage1"></a>
 
-- Bulleted
-- List
+### Stage 1: Information Extraction From Text
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+<hr>
+<a name="stage2"></a>
 
-[Link](url) and ![Image](src)
-```
+### Stage 2: 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<hr>
+<a name="stage3"></a>
 
-### Jekyll Themes
+### Stage 3: 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/akshatabhat/DataScience/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<hr>
+<a name="stage4"></a>
 
-### Support or Contact
+### Stage 4: 
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<hr>
+<a name="envsetup"></a>
+
+### Python Environment Setup
+
+We used anaconda virtual environments 
