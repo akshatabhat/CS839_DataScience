@@ -1,0 +1,17 @@
+ By Michael McCracken, Assistant Vice President and Economist
+You heard it here first: The U.S. economy will suffer a 10- to 15-percent contraction in real gross domestic product (RGDP) in the first quarter of 2019. While the amount of this contraction is uncertain, that it will contract is all but a certainty.
+So why don't we hear about this in the press? Is the deep state suppressing this information to keep the population pacified? Is the press spreading fake news?
+Nope. The answer is much less dramatic. But for those of you who like data, it is no less interesting. The U.S. economy almost always contracts in the first quarter of the year after expanding in the second, third and fourth quarters of the previous year.
+There are numerous reasons for this, but two leading causes are:
+The harsh winter weather, which negatively affects the supply of goods and services A post-holiday season drawback in spending by households, which negatively affects the demand for goods and services Seasonally Adjusted Data
+Policymakers often focus on trends and deviations from them. Hence, the interesting question isn't whether the economy has contracted in the first quarter (because it has and we know it has); it's whether the economy has contracted more or less than normal.
+That is why policymakers are typically interested in seasonally adjusted data, which removes seasonal patterns like the regular declines in RGDP during the first quarter. The distinction between seasonally adjusted (SA) and not seasonally adjusted (NSA) real GDP growth can be seen in the figure below.
+We can clearly see the sharp declines in RGDP growth in the first quarter of every year using the NSA data. In contrast, the SA data smooths through these regular declines.
+Release of Not Seasonally Adjusted Data
+While the comparison is interesting, there is more to the story. The U.S. Bureau of Economic Analysis (BEA) only began releasing NSA RGDP on a quarterly basis in July 2018, so 2019 will be the first full year in which the series is available regularly.
+Prior to July 2018, the BEA only released SA RGDP on a regular, quarterly basis. Historical values for NSA RGDP were released irregularly and sometimes simply not released at all due to BEA budgeting decisions. But over the last handful of years, policymakers and private sector economists have been clamoring for the BEA to release NSA RGDP so that they can interpret and, more importantly, seasonally adjust the raw number themselves rather than simply relying on the BEA to do so.
+Difficulties in Performing Seasonal Adjustments
+Seasonal adjustment of data is not as straightforward as many people assume. As noted in a recent Regional Economist article by St. Louis Fed Assistant Vice President and Economist Michael Owyang and Senior Research Associate Hannah Shell, statistical errors can lead to residual seasonality that inhibits policymakers from knowing whether the economy is stronger or weaker than normal in any given quarter.
+And that's the real motivation for this blog post. It isn't to point out that contractions in the economy occur every year in the first quarter. That's well known.
+Instead, it's to highlight the fact that we have new NSA RGDP data being released by the BEA this year that we couldn't access this time last year. We can look at the raw data ourselves now and make our own decisions about the current strength of the U.S. economy without relying on the ability of the BEA to seasonally adjust the data.
+(Federal Reserve Bank of St. Louis)
