@@ -44,7 +44,7 @@ Follow the steps in this section to setup an anaconda virtual environment that c
 
 1. **Install miniconda**
 2. **Create anaconda environment:** The following command creates an anaconda environment called `dsenv` with python 3.5.
-```conda env create -n dsenv python=3.5 ```
+```conda create -n dsenv python=3.5 ```
 
 3. **Activate environment:** 
 ```source activate dsenv```
