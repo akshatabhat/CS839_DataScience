@@ -6,10 +6,10 @@ JP Morgan's Sally Auld said changes to housing, share dividend imputation and in
 But financial markets are unlikely to be fazed by the four-month election campaign, the economists found.
 "A Labor win is already factored into expectations in the financial markets," said Monash University economist Jakob Madsen. "Thus the financial markets are unlikely to react much to the election campaign."
 The Morrison government trailed Labor by 46 to 54 per cent in a two-party preferred terms in the most recent Herald poll in December. News Corp's Newspoll had that at 47-53 in January, a result that would still see a comfortable victory for Labor.
-Sarah Hunter from BIS Oxford Economics said, "What businesses want is certainty, a clear view on what the regulatory-tax environment is going to look like, that they can plan around."
-Housing is looming as the key election threat for both parties, with house price falls in Sydney and Melbourne that could go south of 15 per cent in a year by May.
+Sarah Hunter from BIS <loc>Oxford</loc> Economics said, "What businesses want is certainty, a clear view on what the regulatory-tax environment is going to look like, that they can plan around."
+Housing is looming as the key election threat for both parties, with house price falls in <loc>Sydney</loc> and <loc>Melbourne</loc> that could go south of 15 per cent in a year by May.
 Such a drop is likely to cramp consumer spending as nervous homeowners opt to save instead of spend, slowing economic growth and reducing government tax revenue.
 The Coalition has launched a daily campaign against Labor's negative gearing policy, which would be maintained for all existing investors, but the government argues would have damning effect on a falling housing market.
-However, the panel said the biggest threats to the economy remained overseas through slowdowns in China and the US amid trade tensions.
-Industry Super Australia chief economist Stephen Anthony said the federal election was "particular poorly timed given rising uncertainty around domestic and global market conditions" and that both parties were likely to spend big to win voters given the precedent set by the recent Victorian election.
+However, the panel said the biggest threats to the economy remained overseas through slowdowns in <loc>China</loc> and the <loc>US</loc> amid trade tensions.
+Industry Super <loc>Australia</loc> chief economist Stephen Anthony said the federal election was "particular poorly timed given rising uncertainty around domestic and global market conditions" and that both parties were likely to spend big to win voters given the precedent set by the recent Victorian election.
 "The few months preceding elections is usually a period of hiatus in private investment as business decision makers hedge their bets as to future policy moves," he said.

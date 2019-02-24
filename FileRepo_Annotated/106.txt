@@ -1,15 +1,15 @@
- Pakistan, Feb. 5 -- The Sindh government is set to launch World Bank-supported Medium Term
+ <loc>Pakistan</loc>, Feb. 5 -- The <loc>Sindh</loc> government is set to launch World Bank-supported Medium Term
 Fiscal Framework (MTFF) and Fiscal Responsibility and Debt Management
 Legislation (FRDML).
-This was stated in a joint meeting chaired by Sindh Chief Minister Syed
-Murad Ali Shah with the World Bank experts and Sindh Finance department
+This was stated in a joint meeting chaired by <loc>Sindh</loc> Chief Minister Syed
+Murad Ali Shah with the World Bank experts and <loc>Sindh</loc> Finance department
 team, said a statement on Friday.
 The World Bank was represented by Economist Ms Mehwish Ashraf,
-Lead Economist Fernando Blanco, Consultant Ariel Melamud while Sindh
-Secretary Finance Najam Shah led the five-member team of Sindh Finance
+Lead Economist Fernando Blanco, Consultant Ariel Melamud while <loc>Sindh</loc>
+Secretary Finance Najam Shah led the five-member team of <loc>Sindh</loc> Finance
 department.
-Addressing on the occasion, Chief Minister Sindh Syed Murad Ali Shah
-said that the objective was to strengthen Sindh's fiscal planning through
+Addressing on the occasion, Chief Minister <loc>Sindh</loc> Syed Murad Ali Shah
+said that the objective was to strengthen <loc>Sindh</loc>'s fiscal planning through
 preparation of MTFF. It was also expected to support budget preparation
 and improve resource allocation.
 He added that the adoption of FRDML would enhance credibility and

@@ -1,15 +1,15 @@
  By Benneth Oghifo
-The Economist Intelligence Unit (EIU) Africa is insisting that the presidential candidate of the Peoples Democratic Party (PDP), Atiku Abubakar, will win the February 16 presidential election.
-Yesterday, EIU Africa said the margin of victory was getting narrower as the election approaches, but Atiku and his political party will win the historic election.
-“Less than two weeks before #Nigeria‘s presidential election. Abubakar has floated idea of corruption amnesty. It is arguably an impolitic time for such a delicate proposal.
+The Economist Intelligence Unit (EIU) <loc>Africa</loc> is insisting that the presidential candidate of the Peoples Democratic Party (PDP), Atiku Abubakar, will win the February 16 presidential election.
+Yesterday, EIU <loc>Africa</loc> said the margin of victory was getting narrower as the election approaches, but Atiku and his political party will win the historic election.
+“Less than two weeks before #<loc>Nigeria</loc>‘s presidential election. Abubakar has floated idea of corruption amnesty. It is arguably an impolitic time for such a delicate proposal.
 “Abubakar is hard-pressed to convince voters that he is a clean politician, having been on the receiving end of numerous graft allegations in the past.
-“We retain out forecast for #Abubakar to win, but expected margin of victory is narrowing as the poll approaches,” EIU Africa tweeted.
-The research unit of London-based The Economist Magazine had said in 2018 that the PDP will win the 2019 election.
+“We retain out forecast for #Abubakar to win, but expected margin of victory is narrowing as the poll approaches,” EIU <loc>Africa</loc> tweeted.
+The research unit of <loc>London</loc>-based The Economist Magazine had said in 2018 that the PDP will win the 2019 election.
 “With the vote likely to be split in the North, Abubakar will find it easier to garner support from the country’s south, which has traditionally been a safe haven for the PDP.
-“This gives Abubakar an edge, as does popular frustration over the rise in joblessness and poverty (two of the biggest voter concerns) on Mr. Buhari’s watch, as well as growing insecurity in central Nigeria.”
+“This gives Abubakar an edge, as does popular frustration over the rise in joblessness and poverty (two of the biggest voter concerns) on Mr. Buhari’s watch, as well as growing insecurity in <loc>central <loc>Nigeria</loc></loc>.”
 Lai Mohammed, minister for information and culture, had said The Economist’s prediction was nothing but fake news.
 “We have all read that the intelligence unit of The Economist said the PDP will defeat the ruling APC in 2019,” he had said.
-“We have also read that the international financial institution HSBC said Nigeria’s economic development will be stunted if President Buhari gets a second term
+“We have also read that the international financial institution HSBC said <loc>Nigeria</loc>’s economic development will be stunted if President Buhari gets a second term
 “Let me state clearly that these reports are based on fake premises and, therefore, qualify as fake news. It is a psychological warfare by those who have been badly hit by our policies.”
 In 2015, the magazine also predicted victory for Muhammadu Buhari over then-incumbent Goodluck Jonathan, stating that Buhari was “the least awful choice,” which would be chosen “with a heavy heart”.
 “Voters have ample cause to send Mr Jonathan packing. In a country where power has often changed through the barrel of a gun, the opposition All Progressives Congress has a real chance of winning through the ballot box,” The Economist said in 2015.
