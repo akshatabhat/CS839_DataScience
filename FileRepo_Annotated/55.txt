@@ -1,15 +1,15 @@
- The worsening property markets in Melbourne and Sydney have further to fall, leaving top economists worried about damage to the national economy.
+ The worsening property markets in <loc>Melbourne</loc> and <loc>Sydney</loc> have further to fall, leaving top economists worried about damage to the national economy.
 As CoreLogic reported house values tumbling at their fastest rate since the global financial crisis, the latest Scope survey for The Age reveals concern is growing about how households will react to those falling prices.
-Across all economists surveyed, the average forecast fall in Melbourne prices this financial year is 7.2 per cent, and 7.6 per cent in Sydney.
-The forecasts, provided in January, may yet prove optimistic with CoreLogic's measure of housing values released yesterday showing a 1.7 per cent fall in Melbourne in January and a 1.4 per cent fall in Sydney.
-Through 2018, Melbourne house values dropped 10.6 per cent. Total dwelling values across the city have dropped by 8.7 per cent since their November peak, equalling the fall during the GFC.
-Every capital city bar Canberra reported a fall in January.
-The rate at which values are dropping has accelerated in the past three months while the number of homes on the market has soared. In Melbourne, the number of listed properties is 34 per cent up on the same time last year.
-In the Scope panel, Industry Super's top economist Stephen Anthony is the most pessimistic on property, predicting a 14.5 per cent drop in Sydney prices this financial year and 9.7 per cent in Melbourne.
+Across all economists surveyed, the average forecast fall in <loc>Melbourne</loc> prices this financial year is 7.2 per cent, and 7.6 per cent in <loc>Sydney</loc>.
+The forecasts, provided in January, may yet prove optimistic with CoreLogic's measure of housing values released yesterday showing a 1.7 per cent fall in <loc>Melbourne</loc> in January and a 1.4 per cent fall in <loc>Sydney</loc>.
+Through 2018, <loc>Melbourne</loc> house values dropped 10.6 per cent. Total dwelling values across the city have dropped by 8.7 per cent since their November peak, equalling the fall during the GFC.
+Every capital city bar <loc>Canberra</loc> reported a fall in January.
+The rate at which values are dropping has accelerated in the past three months while the number of homes on the market has soared. In <loc>Melbourne</loc>, the number of listed properties is 34 per cent up on the same time last year.
+In the Scope panel, Industry Super's top economist Stephen Anthony is the most pessimistic on property, predicting a 14.5 per cent drop in <loc>Sydney</loc> prices this financial year and 9.7 per cent in <loc>Melbourne</loc>.
 "We are likely to see household consumption fall to - or below - 2 per cent growth rates per year, unless households are somehow able to take on even more debt," he said. "That seems unlikely given current bank lending practices."
-AMP Capital chief economist Shane Oliver, who is tipping a 10 per cent fall this financial year in Melbourne and Sydney, said the overall economy could be hit as people moved to offload properties before prices fell even further.
+AMP Capital chief economist Shane Oliver, who is tipping a 10 per cent fall this financial year in <loc>Melbourne</loc> and <loc>Sydney</loc>, said the overall economy could be hit as people moved to offload properties before prices fell even further.
 "Over the last 12 months we have come to expect even deeper falls in house prices with the tightening in credit conditions and a shift from 'fear of missing out' or FOMO towards a 'fear of not getting out' or FONGO by some property market participants being major drivers," he said.
-Only one Scope panel economist, the University of Melbourne's Neville Norman, is tipping house prices to rise in Melbourne and Sydney across the 2018-19 financial year. He is forecasting a a 1.5 per cent lift in Melbourne and 2.5 per cent gain in Sydney.
+Only one Scope panel economist, the University of <loc>Melbourne</loc>'s Neville Norman, is tipping house prices to rise in <loc>Melbourne</loc> and <loc>Sydney</loc> across the 2018-19 financial year. He is forecasting a a 1.5 per cent lift in <loc>Melbourne</loc> and 2.5 per cent gain in <loc>Sydney</loc>.
 But every other member of the panel is expecting further falls and a flow-on in the overall economy.
 Figures from the Reserve Bank this week showed credit for housing grew at less than 0.3 per cent in December, the poorest monthly performance since mid-1984.
 Investor credit for housing grew by just 0.1 per cent in the month with annual growth at 1.1 per cent, the worst figures since 1990.

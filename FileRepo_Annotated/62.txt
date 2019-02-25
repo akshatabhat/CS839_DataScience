@@ -1,6 +1,6 @@
  Rebuilding momentum MAINLANDER C1-C2
-Central Christchurch may be busy but Canterbury's economy is "lacklustre" and will be the flattest in the country during 2019, a leading economist says.
-Westpac chief economist Dominick Stephens said while it was "not all doom and gloom" and there was "no need to panic", the region had a sluggish economic year ahead. "The Canterbury economy is about the weakest in the country.
+<loc>Central <loc>Christchurch</loc></loc> may be busy but <loc>Canterbury</loc>'s economy is "lacklustre" and will be the flattest in the country during 2019, a leading economist says.
+Westpac chief economist Dominick Stephens said while it was "not all doom and gloom" and there was "no need to panic", the region had a sluggish economic year ahead. "The <loc>Canterbury</loc> economy is about the weakest in the country.
 "There was a huge rebuild and the economy was never going to be sustained at that level. Now it's coming back to earth. That was entirely what was expected and it's not fully back to earth yet," he said.
 ChristchurchNZ's latest economic report also indicates how much the brakes are coming on, putting economic growth at 1.4 per cent, half the national figure.
 Peter Fieger, senior economist at ChristchurchNZ, said that while the rebuild was slowing, there was "still plenty of big construction ahead" with projects including the new stadium yet to come.
@@ -9,13 +9,13 @@ Peter Fieger, senior economist at ChristchurchNZ, said that while the rebuild wa
 Stephens said the slowing down of the rebuild, falling immigration, rising unemployment and a flat housing market were all contributing to dampen economic growth.
 Some businesses that had over- invested during the boom times, such as hospitality outlets, were now struggling, he said.
 "Anyone who overdid it risks getting their fingers burned."
-Flat house prices meant Canterbury householders were more cautious about spending as they did not feel as wealthy, he said.
-Retail spending has spiked in central Christchurch with new shops and eateries opening, but overall spending trends in the city were tracking at a "stable and consistent" level, according to the ChristchurchNZ report.
+Flat house prices meant <loc>Canterbury</loc> householders were more cautious about spending as they did not feel as wealthy, he said.
+Retail spending has spiked in <loc>central <loc>Christchurch</loc></loc> with new shops and eateries opening, but overall spending trends in the city were tracking at a "stable and consistent" level, according to the ChristchurchNZ report.
 It noted the new places had "succeeded in attracting residents back into the central city".
 The organisation's latest spending report showed Christmas spending in the central city was 17 per cent up from the previous year, with a 63 per cent jump in bar and restaurant spending the biggest contributor. Hospitality landlord Antony Gough said his tenants on The Terrace were doing "very, very well" but were drawing patrons from the suburbs.
-Fieger said the increasing number of tourists visiting Canterbury was one "area that we can really be happy about".
-While there were early indications that tourist numbers from China, a big contributor, would start to fall, both the commercial accommodation and Airbnb sectors were busy, he said.
-Government data puts unemployment at 4.1 per cent in Christchurch and 3.5 per cent across the region at the end of last year. The city's post-quake unemployment bottomed out at 3.2 per cent in 2014.
-Fieger said while the rural economy remained in good shape, it formed "a surprisingly small part of the economy" in Canterbury.
-The latest ANZ business survey said Canterbury appeared to be "in a bit of a slump" but the rest of the South Island was "busy and looking to employ".
-A recent confidence survey, also from Westpac, said economic confidence in Canterbury remained "jittery" because of uncertainty about the post-rebuild period.
+Fieger said the increasing number of tourists visiting <loc>Canterbury</loc> was one "area that we can really be happy about".
+While there were early indications that tourist numbers from <loc>China</loc>, a big contributor, would start to fall, both the commercial accommodation and Airbnb sectors were busy, he said.
+Government data puts unemployment at 4.1 per cent in <loc>Christchurch</loc> and 3.5 per cent across the region at the end of last year. The city's post-quake unemployment bottomed out at 3.2 per cent in 2014.
+Fieger said while the rural economy remained in good shape, it formed "a surprisingly small part of the economy" in <loc>Canterbury</loc>.
+The latest ANZ business survey said <loc>Canterbury</loc> appeared to be "in a bit of a slump" but the rest of the <loc>South Island</loc> was "busy and looking to employ".
+A recent confidence survey, also from Westpac, said economic confidence in <loc>Canterbury</loc> remained "jittery" because of uncertainty about the post-rebuild period.
