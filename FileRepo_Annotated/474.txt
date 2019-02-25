@@ -1,5 +1,5 @@
  AVAILABLE economic activity data has shown that the economy ended last year on a weaker footing, with December retail sales figures being the latest to disappoint, declining for the first time in nearly two years.
-Statistics South Africa (StatsSA) said yesterday that retail sales declined 1.4 percent on a yearly basis in December - the first decline in retail trade since February 2017.
+Statistics <loc>South <loc>Africa</loc></loc> (StatsSA) said yesterday that retail sales declined 1.4 percent on a yearly basis in December - the first decline in retail trade since February 2017.
 StatsSA said that on a monthly basis, retail sales slumped 4.8 percent, the most since May 2011. Lower sales were recorded for clothing, textiles, food, beverages and tobacco.
 FNB economist Siphamandla Mkhwanazi said despite the weak December figure, he expected a moderate positive contribution to the fourth quarter gross domestic product.
 "Looking ahead we expect the combination of a sharp decline in the December and January petrol price and the gradually increasing credit take-up by consumers (particularly unsecured credit) to support retail sales in the coming months," Mkhwanazi said.
@@ -11,5 +11,5 @@ Economist at Investec Lara Hodes said retail inflation lifted marginally to 2.4 
 December's retail sales figure added another layer to a month of poor activity data.
 Manufacturing output inched up 0.1 percent year-on-year in December and missed estimates of a 1.7 percent rise. It is the weakest rise in manufacturing activity since September.
 The mining production data expected to be released today will provide a clearer picture of how the economy fared in the fourth quarter.
-Meanwhile, the SA Chamber of Commerce and Industry (Sacci) Trade Activity Index for January came in at just 30 points - its lowest level since the survey's inception in 2000.
+Meanwhile, the <loc>SA</loc> Chamber of Commerce and Industry (Sacci) Trade Activity Index for January came in at just 30 points - its lowest level since the survey's inception in 2000.
 Economist at Sacci Richard Downing said: "Although 2019 is more promising, it still points to the reality of continuing political uncertainty, high unemployment, load shedding, land reform, and a subdued local and world economy."

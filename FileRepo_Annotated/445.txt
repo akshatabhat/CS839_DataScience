@@ -1,37 +1,37 @@
- THE economic crisis engulfing the eurozone is threatening the growth of the global economy, with the deepening struggles in Italy and Germany driving the bloc into a debt disaster, experts have warned.
+ THE economic crisis engulfing the eurozone is threatening the growth of the global economy, with the deepening struggles in <loc>Italy</loc> and <loc>Germany</loc> driving the bloc into a debt disaster, experts have warned.
 Last week, eurozone growth forecasts were slashed by the European Commission as fears continue to intensify over the bloc's biggest economies. In its latest quarterly forecasts, the Commission warned eurozone growth will slow to 1.3 percent this year from 1.9 percent in 2018. Growth is expected to rebound slightly to 1.6 percent in 2020, but alarm bells will be ringing as the new estimates are less optimistic than the Commission’s previous forecasts.
 Related articles Eurozone on alert as economist predicts huge global recession EU BOMBSHELL: Economists claim the euro is 'spreading STAGNATION'
-In November, Brussels said it expected eurozone growth to hit 1.9 percent this year and 1.7 percent in 2020.
-The Commission is also forecasting growth in a 27-nation European Union - without Britain due to Brexit - to dramatically slow to 1.5 percent this year from 2.1 percent in 2018.
+In November, <loc>Brussels</loc> said it expected eurozone growth to hit 1.9 percent this year and 1.7 percent in 2020.
+The Commission is also forecasting growth in a 27-nation European Union - without <loc>Britain</loc> due to Brexit - to dramatically slow to 1.5 percent this year from 2.1 percent in 2018.
 The recent gloomy forecasts have spooked investors, who fear the crisis dominating the eurozone could drag down the global economy with it.
-Salman Ahmed, chief investment strategist at Lombard Oliver, told Bloomberg: “The concern I have right now is in Europe.
-Euro news: Investors fear the economic crisis engulfing Europe could threaten global growth
-“It’s clear China is going through a slowdown, but there’s also a strong amount of stimulus in the pipeline. However, in Europe, things are deteriorating quite fast.”
-Germany’s crumbling economy - Europe’s biggest at £3.1trillion - has magnified the seriousness of the financial problems engulfing the bloc.
+Salman Ahmed, chief investment strategist at Lombard Oliver, told Bloomberg: “The concern I have right now is in <loc><loc>Europe</loc></loc>.
+Euro news: Investors fear the economic crisis engulfing <loc>Europe</loc> could threaten global growth
+“It’s clear China is going through a slowdown, but there’s also a strong amount of stimulus in the pipeline. However, in <loc>Europe</loc>, things are deteriorating quite fast.”
+<loc>Germany</loc>’s crumbling economy - <loc>Europe’s</loc> biggest at £3.1trillion - has magnified the seriousness of the financial problems engulfing the bloc.
 In December, industrial output fell for the fourth consecutive month, down 0.4 percent on November.
 This was in contrast to a forecast from Reuters for an increase of 0.7 percent. Industrial output was down 3.9 percent on December 2017.
-Earlier this month, Germany’s lucrative manufacturing sector plunged into contraction territory, slumping to 49.7 points in January from 51.1 in December, according to the latest figures from IHS Markit.
-Related articles Italy crisis: Industrial production falls AGAIN - fears over recession German finance minister ADMITS budget pressures - recession fears grow
+Earlier this month, <loc>Germany</loc>’s lucrative manufacturing sector plunged into contraction territory, slumping to 49.7 points in January from 51.1 in December, according to the latest figures from IHS Markit.
+Related articles <loc>Italy</loc> crisis: Industrial production falls AGAIN - fears over recession German finance minister ADMITS budget pressures - recession fears grow
 Euro news: Eurozone growth is forecast to rapidly slow in 2019
 Deutsche Bank has already warned the country’s crumbling economy is coming dangerously close to tumbling into recession.
 Sebastian Becker, an economist at the bank, wrote in a report: “The start of the German economy into 2019 has been a major disappointment so far.
 “The development of several key cyclical indicators is telling us that the German economy is drifting towards recession right now.”
-On Thursday, the German Federal Statistics Office reveals its data for fourth quarter economic growth, but further poor results could see Germany slide into recession after its economy shrank 0.2 percent in the third quarter.
-Ludovic Subran, deputy chief economist at Allianz, told Bloomberg: “If France stops consuming and Germany stops producing, you have a major problem in the eurozone.”
+On Thursday, the German Federal Statistics Office reveals its data for fourth quarter economic growth, but further poor results could see <loc>Germany</loc> slide into recession after its economy shrank 0.2 percent in the third quarter.
+Ludovic Subran, deputy chief economist at Allianz, told Bloomberg: “If France stops consuming and <loc>Germany</loc> stops producing, you have a major problem in the eurozone.”
 Euro news: Eurozone growth for 2019 has been slashed by the European Commission
-Italy tumbled into recession last month after a second consecutive month of decline was recorded for the final quarter of 2018.
+<loc>Italy</loc> tumbled into recession last month after a second consecutive month of decline was recorded for the final quarter of 2018.
 The country’s economy contracted 0.2 percent in October to December following a decrease of 0.1 percent in the previous quarter.
 Industrial production fell for the fourth consecutive month in December, with data from the National Institute of Statistics revealing this slumped 0.8 percent from November.
-The European Commission also cut Italy’s growth predictions for this year, from 1.2 percent to 0.2 percent - the weakest annual performance in five years.
-Rome spent much of last year engaged in a bitter spat with European Union finance chiefs over its budget plans.
+The European Commission also cut <loc>Italy’s</loc> growth predictions for this year, from 1.2 percent to 0.2 percent - the weakest annual performance in five years.
+<loc>Rome</loc> spent much of last year engaged in a bitter spat with European Union finance chiefs over its budget plans.
 Euro news: Angela Merkel has seen the German economy struggle badly this year
 The Italian government finally passed their monetary agreement at the end of December, averting a major showdown with the EU after being accused of breaching spending commitments.
-Rome proposed a debt target of 2.4 percent of GDP but the EU would only allow 2.04 percent for 2019, falling to 1.8 percent next year and 1.5 percent in 2021.
+<loc>Rome</loc> proposed a debt target of 2.4 percent of GDP but the EU would only allow 2.04 percent for 2019, falling to 1.8 percent next year and 1.5 percent in 2021.
 Desmond Lachman, former Deputy Director in the IMF’s Policy Development and Review Department, warned if the Italian government can’t repair the damage quickly, the world should brace itself for a huge debt crisis.
 He told the Official Monetary and Financial Institutions Forum: “With public debt at around 130 percent of GDP, the economy must grow if investors are to be persuaded that the country's finances are sustainable. This is crucial for the Italian government now that its gross borrowing needs are close to a staggering $275billion a year.
-Euro news: Italy's government were involved in a bitter spat with EU finance bosses
+Euro news: <loc>Italy</loc>'s government were involved in a bitter spat with EU finance bosses
 “Stuck within the euro straitjacket, the Italian government lacks the macroeconomic tools for stimulating the economy.
-“As part of a single currency, it is the European Central Bank - not the Banca d'Italia - which manages Italy's interest rate and exchange rate policy.
-Mr Lachman added: “All of this is of the utmost concern for the global economy. The Italian economy is around 10 times the size of Greece's and it has a government debt in excess of $2.5trillion.
+“As part of a single currency, it is the European Central Bank - not the Banca d'Italia - which manages <loc>Italy</loc>'s interest rate and exchange rate policy.
+Mr Lachman added: “All of this is of the utmost concern for the global economy. The Italian economy is around 10 times the size of <loc>Greece</loc>'s and it has a government debt in excess of $2.5trillion.
 “In addition, it has a populist government whose economic policies are at odds with those of its European partners. That will make it all the more difficult for the Italian government to obtain a bail-out package if investor appetite for its debt evaporates.
 “Hopefully the Italian government will heed the early warning signs coming out of the market and start seriously reforming the economy. If not, the world should brace itself for another, more vicious round of the European sovereign debt crisis.”
