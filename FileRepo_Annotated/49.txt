@@ -25,8 +25,8 @@ If that were true it should also be true that countries with high tax rates have
 Try as they might, however, economists have never been able to find an inverse correlation between the level of taxes and a country's rate of growth.
 For a start, the poor countries have much lower rates of total taxation than the rich ones. Rich countries have high tax rates so they can enjoy the many benefits of being rich: the welfare state, good public infrastructure, good health care, good education and much else.
 The Organisation for Economic Co-operation and Development regularly publishes figures for their 35 member-countries' rate of total taxation (federal and state) as a percentage of gross domestic product.
-Its latest figures, for 2017, show its rich-country members ranging from 46 per cent for France and Denmark to 23 per cent for Ireland. Sweden is on 44 per cent, Germany on 37.5 per cent.
-The average for the whole OECD is 34 per cent, with us on about 28 per cent and the United States on 27 per cent (but with a much bigger budget deficit).
+Its latest figures, for 2017, show its rich-country members ranging from 46 per cent for <loc>France</loc> and <loc>Denmark</loc> to 23 per cent for <loc>Ireland</loc>. <loc>Sweden</loc> is on 44 per cent, <loc>Germany</loc> on 37.5 per cent.
+The average for the whole OECD is 34 per cent, with us on about 28 per cent and the <loc>United States</loc> on 27 per cent (but with a much bigger budget deficit).
 If they don't tell you all that in economics 101, ask for your money back.
 Ross Gittins is the Herald's economics editor.
 If Morrison was really on about encouraging more work, his tax cuts would be aimed at working mothers, not the highly paid full-timers they are aimed at.
