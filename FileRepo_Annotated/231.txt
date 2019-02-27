@@ -1,5 +1,5 @@
  THE ECONOMY THE Reserve Bank has retreated from its position that the next move in the cash rate is likely to be up, sending the Australian dollar into a tailspin.
-The central bank has indicated there is now an even-money chance the next move will be a cut as house prices fall in Melbourne and Sydney.
+The central bank has indicated there is now an even-money chance the next move will be a cut as house prices fall in <loc>Melbourne</loc> and <loc>Sydney</loc>.
 In a speech yesterday, governor Philip Lowe said “there are scenarios where the next move in the cash rate is up and other scenarios where it is down”.
 “Over the past year, the next-move-is-up scenarios were more likely than the next-move-is-down scenarios,” he said, speaking at a National Press Club event.
 “Today, the probabilities appear to be more evenly balanced.” It marks a shift from last year, when rates were expected to rise. The cash rate has been moored at an all-time low of 1.5 per cent for the two-and-a-half years.
@@ -14,4 +14,4 @@ That probably suggested there was “enough to worry about right now” that it 
 ANZ economist David Plank said Dr Lowe’s comments indicated the RBA had adopted a position that was “pretty much a text book definition of neutral”.
 Separately, in his first comments since the final report for the banking royal commission was released on Monday, Dr Lowe said he welcomed Kenneth Hayne’s recommendations and the government’s response.
 “It is not revolution, which we didn’t need. We needed sensible … pragmatic reform and that’s what we’ve got,” he said. “I really hope and expect that the banks learn the lessons.” Dr Lowe called for bank leaders to take responsibility for the misconduct rife in the sector.
-“There has to be accountability and it starts at the top,” he said. He also said house price falls in Melbourne and Sydney were “manageable” and not expected to derail economic growth.“We recognise that this correction will have an effect on parts of our economy but our economy should be able to handle this and it will put the housing market on a more sustainable footing,” he said.
+“There has to be accountability and it starts at the top,” he said. He also said house price falls in <loc>Melbourne</loc> and <loc>Sydney</loc> were “manageable” and not expected to derail economic growth.“We recognise that this correction will have an effect on parts of our economy but our economy should be able to handle this and it will put the housing market on a more sustainable footing,” he said.
