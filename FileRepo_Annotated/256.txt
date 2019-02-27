@@ -1,21 +1,21 @@
  GERMAN industrial output surprisingly fell in December for the fourth consecutive month, putting the eurozone on high alert and increasing concerns around Europe’s biggest economy.
 The latest data from the country’s Federal Statistics Office revealed industrial output was down 0.4 percent on November. This was in complete contrast to a forecast from Reuters for an increase of 0.7 percent. Industrial output was also down 3.9 percent on the same month a year earlier.
-Related articles EUROZONE CRISIS: Germany ‘drifting towards RECESSION’ EUROZONE CRISIS: Growth forecast SLASHED - fears mount for economies
-The latest blow to the economy in Germany was driven by continued struggles in the construction sector, where activity shrank by 4.1 percent.
-The Federal Statistics Office said the motor sector - vital to Germany’s economy but has been a drag because new emissions standards translated into fewer new vehicle registrations - rebounded as output rose more than seven percent.
+Related articles EUROZONE CRISIS: <loc>Germany</loc> ‘drifting towards RECESSION’ EUROZONE CRISIS: Growth forecast SLASHED - fears mount for economies
+The latest blow to the economy in <loc>Germany</loc> was driven by continued struggles in the construction sector, where activity shrank by 4.1 percent.
+The Federal Statistics Office said the motor sector - vital to <loc>Germany</loc>’s economy but has been a drag because new emissions standards translated into fewer new vehicle registrations - rebounded as output rose more than seven percent.
 The figure total for November was revised up to a fall of 1.3 percent from a previously reported drop of 1.9 percent.
 Thomas Gitzel of VP Bank Group, warned not to expect an upturn in the German economy anytime soon.
 Eurozone crisis: Angela Merkel has seen the German economy hit by a series of blows this year
 He said: "A positive GDP reading in the fourth quarter of 2018 now looks tight.
 “A positive industry reading would have reduced the chance of a negative GDP reading in the fourth quarter."
-It is the latest in a series of blows for Germany’s economy - valued at £3trillion - as it struggles to rebound from struggles in 2018.
+It is the latest in a series of blows for <loc>Germany</loc>’s economy - valued at £3trillion - as it struggles to rebound from struggles in 2018.
 Last week, the country’s manufacturing sector plunged into contraction territory, dropping to 49.7 points in January from 51.1 in December, according to the latest figures from IHS Markit.
-Related articles Germany and EU on COLLISION COURSE - Berlin fury at industry decisions Germany TERRIFIED of Brexit: No deal could trigger ‘MASSIVE CRISIS'...
-Eurozone crisis: Deutsche Bank warned Germany is 'drifting towards recession'
+Related articles <loc>Germany</loc> and EU on COLLISION COURSE - Berlin fury at industry decisions <loc>Germany</loc> TERRIFIED of Brexit: No deal could trigger ‘MASSIVE CRISIS'...
+Eurozone crisis: Deutsche Bank warned <loc>Germany</loc> is 'drifting towards recession'
 On Wednesday, Deutsche Bank warned the country’s economy is under serious threat of hurtling towards recession.
-Germany’s largest lender expects Eurozone’s largest economy to contract further during this quarter, with new business surveys pointing towards souring moods at companies and worsening expectations for new orders.
+<loc>Germany</loc>’s largest lender expects Eurozone’s largest economy to contract further during this quarter, with new business surveys pointing towards souring moods at companies and worsening expectations for new orders.
 Deutsche Bank economists, including Sebastian Becker, wrote in a report: “The start of the German economy into 2019 has been a major disappointment so far.
 “The development of several key cyclical indicators is telling us that the German economy is drifting towards recession right now.”
 Deutsche Bank economists have not yet refined their one percent forecast growth for this year as they await fourth quarter data to be released by the German statistics office on February 22.
-Poor results would put Germany into a state of recession after its economy shrank by 0.2 percent in the third quarter, largely due to a continued slump in its lucrative car sector.
+Poor results would put <loc>Germany</loc> into a state of recession after its economy shrank by 0.2 percent in the third quarter, largely due to a continued slump in its lucrative car sector.
 Deutsche Bank is expecting the same 0.2 percent contraction to start off 2019.
