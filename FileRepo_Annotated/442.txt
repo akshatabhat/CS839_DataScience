@@ -1,38 +1,38 @@
  * Markets lifted by hopes Trump will extend trade talks deadline
 * Trump could let March 2 deadline 'slide'; FTSE 100 climbs to four-month high
-* Plans to crackdown on share buybacks in US dampens rally late on
-* Inflation falls below Bank of England's 2pc target for first time in two years
+* Plans to crackdown on share buybacks in <loc>US</loc> dampens rally late on
+* Inflation falls below Bank of <loc>England</loc>'s 2pc target for first time in two years
 * We can do without hypocrite Brady's brand of plastic feminism
 * Whoever heads the European Central Bank has a tough task ahead of them
-5:57PMMarkets wrap: FTSE 100 hits four-month high but rally fades on fears of US buyback clampdown
+5:57PMMarkets wrap: FTSE 100 hits four-month high but rally fades on fears of <loc>US</loc> buyback clampdown
 The justification for corporate buybacks is company has no better investment available. This may be true for any company from time to time. But what does it say when it is true for many companies year after year?
 1/9
 - Marco Rubio (@marcorubio) February 13, 2019
-The FTSE 100 has hit a four-month high after global stocks were propelled higher by signs that Donald Trump is softening his stance in the trade war with China.
-Mr Trump admitted that he could extend a crucial trade talks deadline in early March to help secure a deal with Beijing. Tariffs on $200bn of Chinese goods will be automatically hiked on March 2 without a deal.
+The FTSE 100 has hit a four-month high after global stocks were propelled higher by signs that Donald Trump is softening his stance in the trade war with <loc>China</loc>.
+Mr Trump admitted that he could extend a crucial trade talks deadline in early March to help secure a deal with <loc>Beijing</loc>. Tariffs on $200bn of Chinese goods will be automatically hiked on March 2 without a deal.
 Led higher by its climbing mining and packaging stocks, the FTSE 100 advanced 0.8pc but fell short of closing above the 7,200 mark.
-US stocks later gave up some of their strong gains after US Republican Senator Marco Rubio unveiled a bill to tax share buybacks like dividends in a bid to redirect investment back into the economy. Mr Rubio said that the rule change would drive investment into "productivity" and "jobs". The Dow Jones pulled back to a 0.2pc gain after advancing 0.8pc in early trade.
-5:01PMBank of America and Barclays spend more than $500m bracing for Brexit
-Bank of America and Barclays have spent more than half a billion dollars alone on preparing for Brexit by moving staff and assets out of London to cities such as Paris and Dublin.
-Bank of America has chalked up a bill of $400m bill, vice-chairman Anne Finucane told a conference in Dublin on Wednesday.
-The New York-based institution was unlikely to reverse its decision even if the UK changes its mind about leaving the EU, she said.
+<loc>US</loc> stocks later gave up some of their strong gains after <loc>US</loc> Republican Senator Marco Rubio unveiled a bill to tax share buybacks like dividends in a bid to redirect investment back into the economy. Mr Rubio said that the rule change would drive investment into "productivity" and "jobs". The Dow Jones pulled back to a 0.2pc gain after advancing 0.8pc in early trade.
+5:01PMBank of <loc>America</loc> and Barclays spend more than $500m bracing for Brexit
+Bank of <loc>America</loc> and Barclays have spent more than half a billion dollars alone on preparing for Brexit by moving staff and assets out of <loc>London</loc> to cities such as <loc>Paris</loc> and <loc>Dublin</loc>.
+Bank of <loc>America</loc> has chalked up a bill of $400m bill, vice-chairman Anne Finucane told a conference in <loc>Dublin</loc> on Wednesday.
+The <loc>New York</loc>-based institution was unlikely to reverse its decision even if the <loc>UK</loc> changes its mind about leaving the EU, she said.
 Read the full report here
-4:27PMMnuchin adds to bullish mood; China talks 'so far, so good'
-#NEW Chinese President Xi Jinping is set to meet with Trade Rep Lighthizer, Treasury Secy Steven Mnuchin Friday in Beijing.
+4:27PMMnuchin adds to bullish mood; <loc>China</loc> talks 'so far, so good'
+#NEW Chinese President Xi Jinping is set to meet with Trade Rep Lighthizer, Treasury Secy Steven Mnuchin Friday in <loc>Beijing</loc>.
 The two arrived in the Chinese capital Tuesday with high-level talks set to kick off Thursday.
 - Greta Wall (@GretaLWall) February 13, 2019
-US Treasury Secretary Steven Mnuchin has added to the bullish mood on markets this afternoon by insisting that trade talks with China were "so far, so good".
+<loc>US</loc> Treasury Secretary Steven Mnuchin has added to the bullish mood on markets this afternoon by insisting that trade talks with <loc>China</loc> were "so far, so good".
 Donald Trump had fuelled today's rally by revealing that he could extend the 90-day ceasefire in the trade war to help secure a deal.
 The FTSE 100 has drifted away from its intraday highs ahead of the end of trading on European markets. The FTSE has stabilised on a 0.8pc gain, leaving the index on course for its highest close in four months.
 3:40PMSmurfit boss blasts Venezuelan regime in wake of [Euro]1.2bn writeoff
-The boss of Smurfit Kappa hit out against the crisis-hit regime of Venezuela’s Nicolas Maduro after its exile from the country sent it plunging into the red for the full year.
+The boss of Smurfit Kappa hit out against the crisis-hit regime of <loc>Venezuela</loc>’s Nicolas Maduro after its exile from the country sent it plunging into the red for the full year.
 The cardboard box maker wrote off its Venezuelan operations after 65 years in September after they were seized by the Government following months of harassment.
-Tony Smurfit, grandson of the company's founder Jefferson Smurfit, said: “I’m old enough to remember when Venezuela was by far the best country in Latin America and it shows you that that kind of socialism is absolutely terrible and we’ve got to make sure that doesn’t happen here.”
+Tony Smurfit, grandson of the company's founder Jefferson Smurfit, said: “I’m old enough to remember when Venezuela was by far the best country in <loc>Latin <loc>America</loc></loc> and it shows you that that kind of socialism is absolutely terrible and we’ve got to make sure that doesn’t happen here.”
 Read the full report here
 2:53PMFTSE 100 rallies to four-month high as Trump softens stance on trade war and border fundingMarkets Hub I Dow Jones Industrial Average
 The FTSE 100 has hit a four-month high this afternoon as global stocks rally on trade war and shutdown optimism.
-Signs of Donald Trump softening his stance in the US-China trade war and his border funding battle with the Democrats has triggered a relief rally on markets.
-The FTSE 100 has leapt 0.9pc to hit an intraday high in the last few moments while the Dow Jones has extended its rally in New York this afternoon, climbing 0.7pc.
+Signs of Donald Trump softening his stance in the <loc>US</loc>-<loc>China</loc> trade war and his border funding battle with the Democrats has triggered a relief rally on markets.
+The FTSE 100 has leapt 0.9pc to hit an intraday high in the last few moments while the Dow Jones has extended its rally in <loc>New York</loc> this afternoon, climbing 0.7pc.
 2:08PMGalliford Try still dogged by troubled Carillion bypass
 Galliford Try sees FY at upper end of consensus. Cautious about political uncertainty, medium-term macro outlook. H1 pre-exceptional revenues -5% YoY, pre-tax profit +4%, net debt -53% (avg net debt now sub guidance), div -18%, completions +6.6%, fwd sales +8.8%, Order book -3.3%
 - Mike van Dulken (@Accendo_Mike) February 13, 2019
@@ -40,25 +40,25 @@ Construction contractor Galliford Try’s profits dipped as it took another hit 
 The company has now booked £71m of costs in relation to the so-called Aberdeen Western Peripheral Route, which has been plagued by delays and cost over-runs and is still yet to fully open.
 Peter Truscott, chief executive, said: “It’s effectively finished - the civil servants and lawyers and still dotting the i’s and crossing t’s to get the thing open to the public, but it is physically complete.”
 Read the full report here
-1:15PMUS stocks to extend rally; Trump close to agreeing deal to avert shutdown
+1:15PM<loc>US</loc> stocks to extend rally; Trump close to agreeing deal to avert shutdown
 President Trump Intending To Sign Border Deal In Order To Avoid Shutdown - CNN
 - LiveSquawk (@LiveSquawk) February 13, 2019
-US stocks are expect to continue their rally when trading on Wall Street opens this afternoon.
+<loc>US</loc> stocks are expect to continue their rally when trading on Wall Street opens this afternoon.
 Stock futures indicate that the Dow Jones will climb a further 0.3pc, building on yesterday's strong gains.
-The mood on global markets has been lifted by Donald Trump signalling that he could extend a crucial deadline in trade talks to help secure a deal. The US president could give stocks an extra boost if he green lights the tentative agreement struck by the Democrats and Republicans to avert another government shutdown.
+The mood on global markets has been lifted by Donald Trump signalling that he could extend a crucial deadline in trade talks to help secure a deal. The <loc>US</loc> president could give stocks an extra boost if he green lights the tentative agreement struck by the Democrats and Republicans to avert another government shutdown.
 Bloomberg has reported that he is leaning towards approving the deal and will seek other sources of funding for his wall on the Mexican border.
 12:25PMHeineken toasts highest sales growth for more than a decade
-A thirst in Europe for Heineken shows no sign of abating, after world's second-biggest brewer reported the best growth in more than a decade of its flagship beer.
+A thirst in <loc>Europe</loc> for Heineken shows no sign of abating, after world's second-biggest brewer reported the best growth in more than a decade of its flagship beer.
 Annual Heineken volumes swelled by 7.7pc, in part boosted by the popularity of its alcohol-free version that is now available in 38 countries.
-Shares in the Amsterdam-listed company jumped almost 5pc as 2018 profits beat expectations.
+Shares in the <loc>Amsterdam</loc>-listed company jumped almost 5pc as 2018 profits beat expectations.
 Read the full report by Oliver Gill here
 11:50AMFTSE 100 close to four-month high
 The FTSE 100 is only a couple of points away from hitting a four-month high as global stocks jump on cooling trade tensions.
-London's heavyweight housebuilders and packaging giants are driving the index higher.
+<loc>London</loc>'s heavyweight housebuilders and packaging giants are driving the index higher.
 Housebuilders have been boosted by reports suggesting that MPs will be asked to decide between Theresa May's Brexit deal or a long delay, cutting the odds of a no deal outcome.
 Packaging companies Smurfit Kappa and DS Smith have jumped to the top of the FTSE leaderboard after the former reported strong results.
 Markets Hub I FTSE 10011:22AMWhy a cheaper pound is not always a good thing
-A cheaper pound will boost exports. This is the mantra that is often repeated by those arguing a drop in the value of sterling is not a problem and might, in fact, benefit the UK economy. Recent political events have tested this theory and found it wanting.
+A cheaper pound will boost exports. This is the mantra that is often repeated by those arguing a drop in the value of sterling is not a problem and might, in fact, benefit the <loc>UK</loc> economy. Recent political events have tested this theory and found it wanting.
 Why is a cheap pound not necessarily a good thing? The answer boils down to what it is that gives a currency value in the first place.
 Read the full analysis here
 10:54AMPound shrugs off slide in inflation
@@ -66,27 +66,27 @@ January's CPI inflation rate of 1.8% probably is as good as it will get for cons
 - Samuel Tombs (@samueltombs) February 13, 2019
 The pound has largely shrugged off this morning's fall in inflation knocking rate rise hopes.
 Sterling is flat versus the dollar and euro at $1.2885 and [Euro]1.1384, respectively.
-Inflation sinking below the Bank of England's 2pc target rate does not end hopes of a post-Brexit hike, according to Pantheon Macro economist Samuel Tombs.
+Inflation sinking below the Bank of <loc>England</loc>'s 2pc target rate does not end hopes of a post-Brexit hike, according to Pantheon Macro economist Samuel Tombs.
 He explained that past experience indicates that "low inflation won’t stop the Monetary Policy Committee from raising the Bank Rate later this year, if, as we expect, the economy regains some momentum following relief that a no-deal Brexit has been averted".
 10:44AMNew look returns to profit as turnaround efforts pay off
 New Look’s turnaround efforts are beginning to deliver as the fashion chain returned to profit and posted an encouraging improvement in sales.
 The clothing retailer, which last year announced a radical store closure programme and a debt-for-equity swap in January, said the focus remained on improving its “operational and financial stability amid the challenging retail environment”.
-Sales fell 5pc over the the nine months to Dec 22, but New Look revealed that like-for-like sales in the last quarter were down by just 2.3pc, compared to the steep 10.7pc it reported a year earlier. In the UK, New Look’s performance was even better, with sales rising by 0.9pc.
+Sales fell 5pc over the the nine months to Dec 22, but New Look revealed that like-for-like sales in the last quarter were down by just 2.3pc, compared to the steep 10.7pc it reported a year earlier. In the <loc>UK</loc>, New Look’s performance was even better, with sales rising by 0.9pc.
 Read the full report here
-10:37AM'CPI fall riding to the rescue of UK consumers'
-Sinking inflation is "riding to the rescue of the UK consumer" and shoppers could hit the high street again when Brexit uncertainty lifts, according to Ian Stewart, chief economist at Deloitte.
+10:37AM'CPI fall riding to the rescue of <loc>UK</loc> consumers'
+Sinking inflation is "riding to the rescue of the <loc>UK</loc> consumer" and shoppers could hit the high street again when Brexit uncertainty lifts, according to Ian Stewart, chief economist at Deloitte.
 "Together with rising earnings it is delivering a powerful uplift to spending power," he added.
 Will the economy be given a much-needed boost by consumers unleashing their new-found spending power when the Brexit fog finally lifts?
-Cooling down! UK headline #inflation falls below the #BoE target for the first time since January 2017. pic.twitter.com/9HkFRvVNXt
+Cooling down! <loc>UK</loc> headline #inflation falls below the #BoE target for the first time since January 2017. pic.twitter.com/9HkFRvVNXt
 - jeroen blokland (@jsblokland) February 13, 2019
 9:49AMFalling electricity and gas prices drag down inflation
-Welcome news for UK real pay growth prospects, as UK CPI inflation fell to 1.8%y/y in January, with the core measure (that excludes food & fuel) steady at 1.9%y/y. Gas & electric prices were the biggest factor behind the fall (linked to Ofgem's January price cap). pic.twitter.com/JAblwNnZJo
+Welcome news for <loc>UK</loc> real pay growth prospects, as <loc>UK</loc> CPI inflation fell to 1.8%y/y in January, with the core measure (that excludes food & fuel) steady at 1.9%y/y. Gas & electric prices were the biggest factor behind the fall (linked to Ofgem's January price cap). pic.twitter.com/JAblwNnZJo
 - Rupert Seggins (@Rupert_Seggins) February 13, 2019
 After suffering a year-long squeeze following the Brexit vote, household incomes have been bolstered in recent months by inflation and wage growth moving in different directions.
 Price rises have now slipped to a two-year low while wage growth has surged to 3.4pc, a 10-year high.
 Inflation was dragged down in January by falling electricity and gas prices, according to ONS. It added that that downward push was partially offset by air fares.
-9:37AMReal wages boosted by inflation sinking below Bank of England's 2pc target for first time in two years
-Inflation has slipped below the Bank of England's 2pc target for the first time in two years, marking the end of a surge in prices caused by sterling's slump.
+9:37AMReal wages boosted by inflation sinking below Bank of <loc>England</loc>'s 2pc target for first time in two years
+Inflation has slipped below the Bank of <loc>England</loc>'s 2pc target for the first time in two years, marking the end of a surge in prices caused by sterling's slump.
 The pressure on real wages eased further in January after CPI sank to 1.8pc. The drop in inflation to below the Bank's target rate will knock hopes that its policymakers will lift interest rates after Brexit.
 9:14AMWith the eurozone economy slowing, whoever heads its central bank will have a tough task ahead of them
 And they are off. It may seem too early for the starting gun on runners and riders to succeed Mario Draghi as president of the European Central Bank, but he is leaving in November, and in order to give reasonable notice, a successor has to be announced by July at the latest.
@@ -95,19 +95,19 @@ Worryingly for such an important post, the best man for the job doesn’t necess
 Read Jeremy Warner's full analysis here
 8:56AMRelief rally sweeps global markets
 Signs of cooling trade tensions has sparked a relief rally across global markets.
-Shanghai's blue-chip index has surged 4.6pc in three days on trade war hopes, leaving it on course for its second best weekly performance in the last two years.
+<loc>Shanghai</loc>'s blue-chip index has surged 4.6pc in three days on trade war hopes, leaving it on course for its second best weekly performance in the last two years.
 European markets are also building on their early gains with the FTSE 100 now within just a few points of a four-month high.
-"We’ve seen a clear shift in risk appetite over the last 24 hours, with the US being the source of most of this as the government looks to avoid a shutdown and the truce deadline with China may be extended," explained Oanda analyst Craig Erlam.
-"I could live receiving billions and billions of dollars a month from China," Trump discusses U.S.-China trade talks. https://t.co/zyePF4kwNvpic.twitter.com/CPhdirrNBP
+"We’ve seen a clear shift in risk appetite over the last 24 hours, with the <loc>US</loc> being the source of most of this as the government looks to avoid a shutdown and the truce deadline with <loc>China</loc> may be extended," explained Oanda analyst Craig Erlam.
+"I could live receiving billions and billions of dollars a month from <loc>China</loc>," Trump discusses <loc>U.S.</loc>-<loc>China</loc> trade talks. https://t.co/zyePF4kwNvpic.twitter.com/CPhdirrNBP
 - CNBC (@CNBC) February 12, 2019
-8:40AMAgenda: FTSE 100 rally extends into third day after Trump hints at extension to tariffs ceasefire with China
-The FTSE 100's rally has entered a third day after Donald Trump revealed that he could extend a crucial deadline in US-China trade talks to secure a "real deal".
-US tariffs on $200bn of Chinese goods are set to be automatically hiked on March 2 at the end of a 90-day ceasefire in the trade war but Donald Trump said that he could let the deadline "slide for a little while" if a deal with Beijing is close.
-“But generally speaking I’m not inclined” to agreeing to a delay, Mr Trump warned. The US president spooked markets last week by admitting that he would not be able to meet with Chinese counterpart Xi Jinping before the deadline, stoking fears that fresh tariffs could weigh on already slowing global growth.
-Asian and European markets took their lead from strong trading on Wall Street overnight after the US president signalled a delay to the tariffs. The FTSE 100 rallied 0.5pc in early trade to near a four-month high while eurozone blue-chip stocks climbed 0.4pc.
+8:40AMAgenda: FTSE 100 rally extends into third day after Trump hints at extension to tariffs ceasefire with <loc>China</loc>
+The FTSE 100's rally has entered a third day after Donald Trump revealed that he could extend a crucial deadline in <loc>US</loc>-<loc>China</loc> trade talks to secure a "real deal".
+<loc>US</loc> tariffs on $200bn of Chinese goods are set to be automatically hiked on March 2 at the end of a 90-day ceasefire in the trade war but Donald Trump said that he could let the deadline "slide for a little while" if a deal with <loc>Beijing</loc> is close.
+“But generally speaking I’m not inclined” to agreeing to a delay, Mr Trump warned. The <loc>US</loc> president spooked markets last week by admitting that he would not be able to meet with Chinese counterpart Xi Jinping before the deadline, stoking fears that fresh tariffs could weigh on already slowing global growth.
+Asian and European markets took their lead from strong trading on Wall Street overnight after the <loc>US</loc> president signalled a delay to the tariffs. The FTSE 100 rallied 0.5pc in early trade to near a four-month high while eurozone blue-chip stocks climbed 0.4pc.
 Full-year results: Tullow Oil
 Interim results: Dunelm, Galliford Try
 Trading update: Smurfit Kappa
-Economics: Inflation data (UK & US), House price index (UK), Industrial production (EZ)
-Asia stocks touch 4mth peak and S&P 500 Futures breaking through 200d MA for first time since early Dec on US-China trade deal hopes. China Yuan extends gains. Govt bond yield nudges higher in Risk On move. #Oil rebounded from 2week low after Saudi Arabia pledged to deepen cuts. pic.twitter.com/obS2SMAejY
+Economics: Inflation data (<loc>UK</loc> & US), House price index (<loc>UK</loc>), Industrial production (EZ)
+<loc>Asia</loc> stocks touch 4mth peak and S&P 500 Futures breaking through 200d MA for first time since early Dec on US-<loc>China</loc> trade deal hopes. <loc>China</loc> Yuan extends gains. Govt bond yield nudges higher in Risk On move. #Oil rebounded from 2week low after <loc>Saudi Arabia</loc> pledged to deepen cuts. pic.twitter.com/obS2SMAejY
 - Holger Zschaepitz (@Schuldensuehner) February 13, 2019

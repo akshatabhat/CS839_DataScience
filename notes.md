@@ -2,14 +2,14 @@
 
 Article 402 
     * had ANZ which stands for Australia New Zealand, but I think ANZ refers to some bank. Should we count that?
-    * Is there a bug in the script? There seems to be a sentence that go cut off
 
 Article 403
-    * It says National Australia Bank. Would Australia be a location in this context?
-    * <loc>South Australia</loc> is that correct?
+    * It says National <loc>Australia</loc> Bank. Would Australia be a location in this context?
+    * South <loc>Australia</loc> is that correct?
 
 Article 407
     * The <loc>Central American</loc> nation's economy?
+    * North America = Central America = Latin America = 
 
 Article 408
     * The <loc>U.S.</loc> dept of agriculture?
@@ -18,13 +18,13 @@ Article 408
 Article 409
     * There may be a bug in the script. See 409.txt .. Sentences were not broken down.
     * Would <loc>Delhi</loc> Police?
-    * India's ??
+    * <loc>India</loc>'s 
     * article is chopped off..
 
 Article 413
-    * It says US West Texas. How to annotate this case?
-    * US-China
-    * eastern Germany vs Germany
+    * It says <loc>US</loc> West <loc>Texas</loc>. How to annotate this case?
+    * <loc>US</loc>-<loc>China</loc>
+    * eastern <loc>Germany</loc> vs Germany
 
 Article 414
-    * India vs rural India
+    * India vs rural <loc>India</loc>

@@ -1,4 +1,4 @@
- Singapore
+ <loc>Singapore</loc>
 RETAIL sales this year could stay sluggish, analysts warned, after full-year figures were released by the Department of Statistics on Tuesday.
 Cashiers here rang up 0.7 per cent less in 2018 than in the year before - the first annual decline since 2013. Stripping out auto sales, which have been on a downward jag, Singapore retail sales grew by a softer 1.1 per cent last year, against 1.8 per cent in 2017.
 With consumers likely turning cautious on slower economic growth, economists told The Business Times that support for retail will depend on the local labour market - a factor that Selena Ling, head of treasury research and strategy at OCBC Bank, called "key for private consumption health".
@@ -16,7 +16,7 @@ He said the sales drop was largely on the back of vehicle and supermarket declin
 Retailers' modest full-year performance came in spite of a worse-than-expected year-end festive period.
 Sales slid by 6 per cent in December on the previous year, for a sales value of S$4.3 billion - well below economists' median estimate of a 3.6 per cent decline, in a Bloomberg poll.
 Even shorn of vehicle sales, the annual drop was 3 per cent, with medical goods and toiletries the only major retail segment to post growth.
-The monthly slump could be due in part to slowing visitor arrivals, said Ms Lee. Chinese tourists may be steering clear as a slowing economy and the trade war with the United States eat into consumer sentiments there.
+The monthly slump could be due in part to slowing visitor arrivals, said Ms Lee. Chinese tourists may be steering clear as a slowing economy and the trade war with the <loc>United States</loc> eat into consumer sentiments there.
 Food and beverage services receipts rose year on year by 4.5 per cent in December, to S$925 million.
 Based on the recent data, including factory output and exports, CIMB's Mr Song now expects fourth-quarter gross domestic product figures to be trimmed by some 0.1 percentage point from flash estimates.
 The government has guided for 2.2 per cent growth in the final quarter, and a full-year gain of 3.3 per cent. Final figures are due on Friday.

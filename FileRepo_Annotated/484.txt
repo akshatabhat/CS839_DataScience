@@ -1,19 +1,19 @@
- BBC Question Time tonight hosts a panel including Tory MP Jacob Rees-Mogg and Labour's Lisa Nandy, who will debate the week's main political stories after reports Theresa May will force MPs to back her deal or face a delay in the UK's withdrawal from the EU.
+ BBC Question Time tonight hosts a panel including Tory MP Jacob Rees-Mogg and Labour's Lisa Nandy, who will debate the week's main political stories after reports Theresa May will force MPs to back her deal or face a delay in the <loc>UK</loc>'s withdrawal from the EU.
 BBC Question Time LIVE
-Question Time will also feature Wikipedia founder Jimmy Wales, economist Grace Blakely and comedian Geoff Norcott. With Theresa May running out of time for her Brexit deal, it's likely the debate will focus on the ongoing Brexit negotiations especially after the reports of Oliy Robbins admitting that the EU will probably give the UK an extension to Article 50. The panel will also likely talk about Shamima Begum who fled the UK to join ISIS.
-Related articles May told ‘Get your act together’ to deter 'panic-buying' over Brexit Second Brexit vote would ‘THREATEN UK’s democracy’ - WARNING
+Question Time will also feature Wikipedia founder Jimmy Wales, economist Grace Blakely and comedian Geoff Norcott. With Theresa May running out of time for her Brexit deal, it's likely the debate will focus on the ongoing Brexit negotiations especially after the reports of Oliy Robbins admitting that the EU will probably give the <loc>UK</loc> an extension to Article 50. The panel will also likely talk about Shamima Begum who fled the <loc>UK</loc> to join ISIS.
+Related articles May told ‘Get your act together’ to deter 'panic-buying' over Brexit Second Brexit vote would ‘THREATEN <loc>UK</loc>’s democracy’ - WARNING
 The show will be broadcast on BBC One at 10.45pm.
 Follow below for live updates - times in GMT.
 11.46pm update: Tonight’s Question Time finishes
 That's it for this week.
 Fiona Bruce ends by thanking the panel and audience.
-Next week's show will be from Chester.
+Next week's show will be from <loc>Chester</loc>.
 11.45pm: Mr Norcott brings the debate back to John McDonnell
 He says: "By the end of his life, defeating Hiter should give him a pass."
 The Labour MP, Lisa Nandy argues that the debate is ridiculous.
 She concludes: "History is nuanced and we deserve a better debate."
 11.41pm: Ms Blakely argues with Rees-Mogg over his opinion
-The Tory MP likens the mortality rates in the South African concentration camps to the mortality rate in Glasgow at the time.
+The Tory MP likens the mortality rates in the South African concentration camps to the mortality rate in <loc>Glasgow</loc> at the time.
 The economist interjects asking whether the Tory MP just "justified the use of concentration camps."
 She argues that it was "systematic murder".
 The Tory MP concludes that we can't compare the internment camps with Hitler's concentration camps.
@@ -24,7 +24,7 @@ She says: "What this daft debate has done is that it has allowed people in Briti
 Jacob Rees-Mogg and economist Grace Blakely debate over Churchill
 11.34pm: Next question - Is Winston Churchill a villain?
 She thinks some of his actions should be applauded but some other things should not.
-The economist lists off some of Mr Churchill's reported atrocities in Kenya and India.
+The economist lists off some of Mr Churchill's reported atrocities in <loc>Kenya</loc> and <loc>India</loc>.
 In conclusion, she says that the real heroes are the soldiers who died.
 11.29pm: Mr Rees-Mogg says it's a "complete waste of money"
 He argues that smaller projects to address pinch points and bottleneck should be used.
@@ -37,16 +37,16 @@ Ms Bruce asks if anyone supports HS2 to which no one responds except one man who
 The majority of the audience boo the man as he describes the place as insular.
 11.22pm: Audience question - should we scrap HS2?
 The question was met with huge cheers - the loudest of the night.
-Mr Norcott says: "We need rebalance this London-centric that we have."
+Mr Norcott says: "We need rebalance this <loc>London</loc>-centric that we have."
 Ms Blakely takes the mantle by agreeing that we must ditrubute transport evenly.
-She adds: "The UK is the most regionally unabalanced country in the EU and we must rebalance our economy away from London."
+She adds: "The <loc>UK</loc> is the most regionally unabalanced country in the EU and we must rebalance our economy away from <loc>London</loc>."
 11.19pm: Mr Norcott quips that the arguing feels more like Valentine's Day
 He criticises Jean-Claude Junker for not having "the stones" for not talking to the people.
 One audience member asks why there was no bipartisan agreement going forward.
 She says: "Why can't we come together as a country."
 11.16: Grace Blakely criticises the Tory Party
 In a balanced response she also criticises both parties for their ineptitude.
-The Government must decide on whether they want to completely change the UK economy or turn into a tax haven that some want.
+The Government must decide on whether they want to completely change the <loc>UK</loc> economy or turn into a tax haven that some want.
 Ms Nandy respond: "We have a divided country and we must heal and come to terms with it all."
 11.14pm: Mr Rees-Mogg responds
 He argues that businesses will prosper in the end.
@@ -84,14 +84,14 @@ Ms Bruce questions whether tax money should be used to bring her back.
 He says: Yes she can come back but we want information in return.
 "In saving her baby we might be able to save more."
 10.49pm: First question
-Should the schoolgirl who joined ISIS from Bethnal Green be allowed to return to the UK?
-Lisa Nandy is up first and argues that she should be entitled to come back but must face UK law too.
-She also states that the UK "is just not serious" in tackling terrorist groups operating in the UK.
+Should the schoolgirl who joined ISIS from Bethnal Green be allowed to return to the <loc>UK</loc>?
+Lisa Nandy is up first and argues that she should be entitled to come back but must face <loc>UK</loc> law too.
+She also states that the <loc>UK</loc> "is just not serious" in tackling terrorist groups operating in the <loc>UK</loc>.
 10.48pm update: We're live
-Question Time is now live on BBC One from Aylesbury.
+Question Time is now live on BBC One from <loc>Aylesbury</loc>.
 Question Time
 Who is Jacob Rees-Mogg?
-He is the Conservative MP for North East Somerset.
+He is the Conservative MP for <loc>North East <loc>Somerset</loc></loc>.
 He is also the Chairman of the eurosceptic European Research Group.
 Has his own weekly podcast named the 'Moggcast'.
 Who is Lisa Nandy?

@@ -1,7 +1,7 @@
- Former ANZ chief economist to visit Whanganui, tour businesses
-Whanganui businesses are invited to put their hands up for a visit from economist Cameron Bagrie.
-Bagrie will be in Whanganui on Wednesday, March 6. Most of his time will be spent on invitation-only engagements, however, he has some time available for a tour around town to visit businesses.
-Bayleys Whanganui and Ruapehu marketing manager Ananda de Koning said Bagrie will speak about “all things economy” in a morning session for invited guests and will be guest speaker at the grand opening of Bayleys’ new Whanganui premises in Wicksteed St that evening.
+ Former ANZ chief economist to visit <loc>Whanganui</loc>, tour businesses
+<loc>Whanganui</loc> businesses are invited to put their hands up for a visit from economist Cameron Bagrie.
+Bagrie will be in <loc>Whanganui</loc> on Wednesday, March 6. Most of his time will be spent on invitation-only engagements, however, he has some time available for a tour around town to visit businesses.
+Bayleys <loc>Whanganui</loc> and <loc>Ruapehu</loc> marketing manager Ananda de Koning said Bagrie will speak about “all things economy” in a morning session for invited guests and will be guest speaker at the grand opening of Bayleys’ new <loc>Whanganui</loc> premises in Wicksteed St that evening.
 “He’ll have lunch with some industry leaders and then do some off-site visits around town during the afternoon,” de Koning said.
 “People who would like to have Cameron visit them can register their interest.”
 The time slot for visits is 1.30pm to 3pm on March 6. Interested businesses can register with Ananda de Koning at Bayleys, phone 348 0573.

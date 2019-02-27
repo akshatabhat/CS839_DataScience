@@ -1,5 +1,5 @@
  Industrial growth remained subdued at 2.4%; retail inflation at 2.05% in January
-India's industrial growth remained subdued in December - bad news for the incumbent government facing polls this year - even as retail inflation offered some comfort at 2.05 per cent for January.
+<loc>India</loc>'s industrial growth remained subdued in December - bad news for the incumbent government facing polls this year - even as retail inflation offered some comfort at 2.05 per cent for January.
 The mild rate of inflation, which surprised analysts who were expecting a 2.5 per cent rise in prices, also raises hopes for another rate cut in the RBI's next bi-monthly review.
 Industrial growth, however, remained a laggard at 2.4 per cent in December as mining contracted and manufacturing growth slowed. Factory output had plunged to a 17-month low of 0.5 per cent in November 2018, which was revised downwards to 0.3 per cent by the Central Statistics Office in its data released on Monday.
 Factory output numbers for November and December 2017 had stood at 8.5 per cent and 7.3 per cent, respectively.
@@ -11,7 +11,7 @@ Growth in the power sector, too, remained flat at 4.4 per cent in December 2018.
 Consumer durables grew 2.9 per cent against 2.1 per cent in December 2017. Consumer non-durables growth was slightly better at 5.3 per cent in December 2018 but was very low compared with 16.8 per cent in the year-ago month.
 In all, 13 out of 23 industry groups in the manufacturing sector showed positive growth during December 2018.
 Inflation slows
-India's consumer prices rose at its slowest pace since June 2017 in January at 2.05 per cent. However, some economists remain unconvinced. Shilan Shah, senior India economist at Capital Economics said: "Headline consumer price inflation was low and virtually unchanged in January but, more importantly, core inflation remained elevated."
+<loc>India</loc>'s consumer prices rose at its slowest pace since June 2017 in January at 2.05 per cent. However, some economists remain unconvinced. Shilan Shah, senior <loc>India</loc> economist at Capital Economics said: "Headline consumer price inflation was low and virtually unchanged in January but, more importantly, core inflation remained elevated."
 Core inflation eased a tad to 5.4 per cent last month, from 5.6 per cent in December.
 However, it continues to hover close to its highest rate in four years.
 "Most measures suggest that there is little, if any, spare capacity left in the economy. Given this, the resulting boost in demand from last week's 25bp rate cut, and the further two cuts that we think the RBI will deliver this year, is likely to fuel inflation," said Shah.

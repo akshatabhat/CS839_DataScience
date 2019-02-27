@@ -7,6 +7,6 @@ The Trump administration contends that its tax cuts will eventually pay for them
 Despite the rising levels of federal debt, many economists say they think the risks remain slight and point to current interest rates, which remain unusually low by historical standards.
 Still, some budget experts warn that ever-rising federal debt poses substantial risks for the government because it could make it harder to respond to a financial crisis through tax cuts or spending increases.
 Michael Peterson, the head of the Peter G. Peterson Foundation, said “our growing national debt matters because it threatens the economic future of every American.”
-The Department of the Treasury is an executive department and the treasury of the US federal government located in Washington D.C.
+The Department of the Treasury is an executive department and the treasury of the <loc>US</loc> federal government located in <loc><loc>Washington</loc> <loc>D.C.</loc></loc>
 Resource: AP
-© Iran Cultural and Press Institute. All Rights Reserved. Provided by SyndiGate Media Inc. (Syndigate.info).
+© <loc>Iran</loc> Cultural and Press Institute. All Rights Reserved. Provided by SyndiGate Media Inc. (Syndigate.info).
