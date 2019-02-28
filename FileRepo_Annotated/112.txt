@@ -7,14 +7,14 @@ But financial markets are unlikely to be fazed by the four-month election campai
 "A Labor win is already factored into expectations in the financial markets," said Monash University economist Jakob Madsen.
 "Thus the financial markets are unlikely to react much to the election campaign."
 The Morrison government trailed Labor by 46 to 54 per cent in a two-party preferred terms in the most recent Age poll in December. News Corp's Newspoll had that at 47-53 in January, a result that would still see a comfortable victory for Labor.
-Sarah Hunter from BIS Oxford economics said a clear policy platform was key.
+Sarah Hunter from BIS <loc>Oxford</loc> economics said a clear policy platform was key.
 "What businesses want is certainty, a clear view on what the regulatory tax environment is going to look like, that they can plan around," she said.
-Housing is looming as the key election threat for both parties, with house price falls in Sydney and Melbourne that could go south of 15 per cent in a year by May.
+Housing is looming as the key election threat for both parties, with house price falls in <loc>Sydney</loc> and <loc>Melbourne</loc> that could go south of 15 per cent in a year by May.
 Such a drop is likely to cramp consumer spending as nervous homeowners opt to save instead of spend, slowing economic growth and reducing government tax revenue.
 The Coalition has launched a daily campaign against Labor's negative gearing policy, which will be grand-fathered for existing investors, but the government maintains will have a dampening effect on a housing market already in decline.
 Housing Industry Association economist Tim Reardon said the policy would have an adverse impact on new home sales.
-"But as long as there's a clear majority that comes out of the federal election, Australia will be able to work towards positive government policy that starts driving private and foreign investment again," he said.
-The panel said the biggest threats to the local economy remained overseas through slowdowns in China and the United States amid trade tensions.
+"But as long as there's a clear majority that comes out of the federal election, <loc>Australia</loc> will be able to work towards positive government policy that starts driving private and foreign investment again," he said.
+The panel said the biggest threats to the local economy remained overseas through slowdowns in <loc>China</loc> and the <loc>United States</loc> amid trade tensions.
 Industry Super's Stephen Anthony said the federal election was "particular poorly timed given rising uncertainty around domestic and global market conditions" and that both parties were likely to spend big to win voters given the precedent set by the recent Victorian election.
 Michael Blythe from the Commonwealth Bank was more circumspect.
 He said the underlying business cycle trends would be more dominant than any electoral disruption.
