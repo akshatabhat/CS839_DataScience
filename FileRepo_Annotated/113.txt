@@ -11,7 +11,7 @@ The National Party is champing at the bit to campaign on a very unsubtle attack 
 That’s a unfair. The cannabis referendum is a Green Party initiative that Labour doesn’t have to take a definitive stance on.
 Then there’s the science that suggests reforming drug laws and regulating the use of marijuana actually minimises harm.
 But that hasn’t stopped the Nats appointing Paula Bennett as their drugs Czar.
-Expect to see her using her considerable stash of “middle-New Zealand charisma” to present the friendly face of the anti-reform argument.
+Expect to see her using her considerable stash of “middle-<loc>New Zealand</loc> charisma” to present the friendly face of the anti-reform argument.
 The binding nature of the referendum allows her to put the onus for any change on the whole Government — not just the Greens.
 This presents a big opportunity for National to go after Labour by default.
 On that basis I’d expect to see the PM back away from the debate.
@@ -31,7 +31,7 @@ A CGT is favoured by many economists and tax experts for reasons of fairness and
 But the Nats will be counting on the nuances of tax policy being lost on the bulk of voters.
 The Labour leadership team has fought and lost elections running with a CGT policy.
 I’m sure they believe deeply in the economic and social value of this reform but they now face a stark and difficult choice between pragmatism and idealism.
-It would be the biggest reform of New Zealand’s tax system in generations and dramatically raise the stakes for the next election.
+It would be the biggest reform of <loc>New Zealand</loc>’s tax system in generations and dramatically raise the stakes for the next election.
 It’s a reform which could ensure this Government’s place in the economic history books.
 The easier option would be to walk away from it, to make the case for more incremental changes to the existing system — but I don’t think that’s why the likes of Robertson and Ardern got into politics.
 Their other option is to take some time, soften the edges and then hope they have still got the political capital to sell a bigger vision next year.

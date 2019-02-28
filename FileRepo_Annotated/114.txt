@@ -6,13 +6,13 @@ Holt is a member of a union, and was this week celebrating a report into the imp
 Being from a small town, and just having celebrated her 60th birthday, she feels she has little power to demand higher wages.
 "Sometimes what keeps me in my job is fear there's nothing else out there because I have already looked," she says.
 "Even my husband (a worker on a dairy farm), would love to do something else, but there's just not the possibility."
-She has a mortgage on her modest home, in a nice little Waikato town near Cambridge, and doesn't have the money to up sticks and move somewhere else.
+She has a mortgage on her modest home, in a nice little <loc>Waikato</loc> town near <loc>Cambridge</loc>, and doesn't have the money to up sticks and move somewhere else.
 And that leaves workers like her with little power to leverage against employers.
 "I'm sure the fact that we can't chop and change keeps things where they are," Holt says.
 If she had the power, she would use it to achieve her dream of putting aside $3000 to cope with any emergency that comes the family's way, but she and her husband don't earn enough to do it. She is not expecting the world.
 "$20 a week would mean a lot in this household," she said.
 Workers, it seems, are a lot stickier than classical economics might suggest.
-Richard Wagstaff, president of the Council of Trade Unions, says despite low unemployment, we are not seeing wages rise fast, or employment conditions improve rapidly. It's a phenomenon that's not limited to New Zealand.
+Richard Wagstaff, president of the Council of Trade Unions, says despite low unemployment, we are not seeing wages rise fast, or employment conditions improve rapidly. It's a phenomenon that's not limited to <loc>New Zealand</loc>.
 "That's had people scratching their heads around the world," Wagstaff says.
 People cheesed off with their employers and their pay are not downing tools, and negotiating a better wage at a rival company, as might be expected when unemployment is so low.
 "People just don't move around like goods and services. They are much stickier," he says.
@@ -21,7 +21,7 @@ Once, that would have seemed unacceptably high.
 In the 1960s nearly everyone who wanted a job, had one.
 In 1962 just 0.5 per cent of New Zealanders, or about 4500 people, were officially recorded as being unemployed.
 The 1962 figure wasn't a blip either. Through the mid 1950s to late 1960s there was a 10-year period during which the number of jobless hovered around 5000 from a population of about a million people.
-"New Zealand had from 1938 onwards a very artificially managed economy that sponsored full employment, that sought full employment and protected the economy from competition to ensure that wages were high and there was demand for jobs," Massey University history professor Michael Belgrave says.
+"<loc>New Zealand</loc> had from 1938 onwards a very artificially managed economy that sponsored full employment, that sought full employment and protected the economy from competition to ensure that wages were high and there was demand for jobs," Massey University history professor Michael Belgrave says.
 "Almost until the 1980s unemployment was seen as the critical indicator of political success," he says.
 The country will never return to those halcyon employment days, but economists reckon we are as close today to full employment as we are ever going to get.
 "Those days are gone," says BNZ senior economist Craig Ebert.
@@ -46,29 +46,29 @@ Younger bosses, from the millennial age-group (who reached adulthood after 2000)
 It's especially hard for unskilled, or semi-skilled older people, Jarvie says.
 "This is a worldwide problem," he says.
 Wagstaff notes another way in which employers are not behaving as if they have a role in closing the skills gap.
-"We are very conscious that in New Zealand in workplaces, there's not much investment in training," he says.
+"We are very conscious that in <loc>New Zealand</loc> in workplaces, there's not much investment in training," he says.
 Industry, and successive governments, have done a terrible job at ensuring the country has the skilled workers it needs.
-Immigration NZ's skills shortage list shows shortages in economically essential sectors, potentially driving up the price of services like construction and health.
+Immigration <loc>NZ</loc>'s skills shortage list shows shortages in economically essential sectors, potentially driving up the price of services like construction and health.
 The list includes: The medical profession, civil engineers, accountants, construction, motor mechanics, panelbeaters, roof tilers, teachers, glaziers, carpenters, joiners and bricklayers.
 Some sectors, such as construction, are going quite well on rebuilding apprenticeships and training schemes, and some companies have become better at selling themselves to workers, rather than waiting for them to rock up.
-Edgecumbe-based Tunnicliffe Timber is a company that used to feel the labour and skills shortage in its industry, exacerbated by its location outside of the main urban centres.
-But new owner Mark Andrew, who has ambitious expansion plans, isn't having trouble attracting talent, thanks to a strategy of selling the attractions of leaving a city like Auckland for a smaller town, where commutes are much shorter, homes are cheaper and the cost of living is far more affordable.
-Andrew, himself an escapee from Auckland, says "the lifestyle is the number one thing we will be pushing".
-Anthony Leighs, managing director of Leighs Construction, based in Auckland and Christchurch, is another business leader who knows how to sell the benefits of working for his company.
-The construction industry has struggled with acute skilled labour shortages, though that may ease as some large projects in Auckland are completed.
+<loc>Edgecumbe</loc>-based Tunnicliffe Timber is a company that used to feel the labour and skills shortage in its industry, exacerbated by its location outside of the main urban centres.
+But new owner Mark Andrew, who has ambitious expansion plans, isn't having trouble attracting talent, thanks to a strategy of selling the attractions of leaving a city like <loc>Auckland</loc> for a smaller town, where commutes are much shorter, homes are cheaper and the cost of living is far more affordable.
+Andrew, himself an escapee from <loc>Auckland</loc>, says "the lifestyle is the number one thing we will be pushing".
+Anthony Leighs, managing director of Leighs Construction, based in <loc>Auckland</loc> and <loc>Christchurch</loc>, is another business leader who knows how to sell the benefits of working for his company.
+The construction industry has struggled with acute skilled labour shortages, though that may ease as some large projects in <loc>Auckland</loc> are completed.
 To attract workers, Leighs Construction produced a video to introduce itself, and set out why it would be great to come and work for it.
 "It's part of our recruitment strategy," he says.
 "We want to tell our story, and get across the point that we are a bit different to your everyday construction company."
 Leighs has also welcomed many migrant workers into the ranks of its staff.
 A big part of that is being open to hiring from another subset of the workforce, which does not always feel like it's seeking work in a land of low unemployment.
-One Dutch migrant, who asked not to be named, has struggled to get work despite having a long track record as an IT project manager in New Zealand, and he hears the same excuse for not hiring him again, and again.
+One Dutch migrant, who asked not to be named, has struggled to get work despite having a long track record as an IT project manager in <loc>New Zealand</loc>, and he hears the same excuse for not hiring him again, and again.
 "You don't have Kiwi experience."
 He's been looking for work for more than a year.
 As with older job-seekers, a labour shortage isn't, he feels, translating into ending discrimination in employment.
-"When I came here, they said that's the business where we definitely need people to grow the New Zealand economy," he says.
+"When I came here, they said that's the business where we definitely need people to grow the <loc>New Zealand</loc> economy," he says.
 Highly-educated, wanting to make a contribution, he's so frustrated, he's started looking overseas for work.
 He called on employers to open their eyes to the people whose skills are going to waste, either because they are unemployed, or because they are among the legion of under-employed, either working in roles below their skill-level, or in part-time work.
 "You are getting more foreigners in your country, so the people who are leading the companies will have to change," he says.
 CAPTION:
-Waikato supermarket worker Jackie Holt feels she has little leverage in her job even though New Zealand has a labour shortage. DOMINICO ZAPATA/STUFF
-Long gone are the days when New Zealand would manufacture cars as Governments protected the economy from competition to ensure jobs were available.
+<loc>Waikato</loc> supermarket worker Jackie Holt feels she has little leverage in her job even though <loc>New Zealand</loc> has a labour shortage. DOMINICO ZAPATA/STUFF
+Long gone are the days when <loc>New Zealand</loc> would manufacture cars as Governments protected the economy from competition to ensure jobs were available.
