@@ -1,25 +1,25 @@
  By Lee Kyung-min
-The Seoul stock market is expected to continue on an upward trend for a while on the back of China's stimulus, eased concerns over global trade disputes and the dovish stance of the U.S. Federal Reserve, according to market analysts.
+The Seoul stock market is expected to continue on an upward trend for a while on the back of <loc>China</loc>'s stimulus, eased concerns over global trade disputes and the dovish stance of the <loc>U.S.</loc> Federal Reserve, according to market analysts.
 They forecast that the market will fluctuate depending on the development of global events but may enjoy mild rallies in the long term.
 The upbeat outlook came after the benchmark KOSPI enjoyed unexpected rallies in January on a foreign buying spree driven by investors' renewed appetite toward Asian markets.
 In January alone, foreign investors net-bought over 4 trillion won ($3.7 billion) worth of local shares, the highest monthly amount in 45 months.
 This is in stark contrast to retail investors offloading around 3.23 trillion won and institutions selling 843.1 billion won more than they bought.
 The benchmark KOSPI suffered a mild setback Friday but has gained nearly 9 percent since the end of 2018.
-Alicia Garcia-Herrero, Asia Pacific chief economist at Natixis Global Market Research, expects that Seoul stocks will continue mild rallies, citing China's stimulus and the Fed's stance.
-“I believe that, beyond the rally from a dovish U.S. Fed, the Korean stock market will further profit from Chinese stimulus in the making and especially the People's Bank of China (PBOC) support to Chinese banks' recapitalization,” the Hong Kong-based economist said.
-“The recovery I expect in China's equity market should also help Korea's stock market.”
+Alicia Garcia-Herrero, <loc>Asia</loc> <loc>Pacific</loc> chief economist at Natixis Global Market Research, expects that <loc>Seoul</loc> stocks will continue mild rallies, citing <loc>China</loc>'s stimulus and the Fed's stance.
+“I believe that, beyond the rally from a dovish <loc>U.S.</loc> Fed, the Korean stock market will further profit from Chinese stimulus in the making and especially the People's Bank of <loc>China</loc> (PBOC) support to Chinese banks' recapitalization,” the <loc>Hong Kong</loc>-based economist said.
+“The recovery I expect in <loc>China</loc>'s equity market should also help <loc>Korea</loc>'s stock market.”
 The PBOC injected a net 560 billion yuan (91 trillion won) into the economy, Jan 16.
-Eric Lee, chief strategist at Daishin Securities said that the U.S. Fed reversing its stance from hawkish to dovish in setting the key interest rate largely helped global investors' sentiment.
-U.S. Federal Reserve Chairman Jerome Powell said Jan. 4 that the central bank will be “patient and flexible” in determining when to hike interest rates, relieving stock market investors.
+Eric Lee, chief strategist at Daishin Securities said that the <loc>U.S.</loc> Fed reversing its stance from hawkish to dovish in setting the key interest rate largely helped global investors' sentiment.
+<loc>U.S.</loc> Federal Reserve Chairman Jerome Powell said Jan. 4 that the central bank will be “patient and flexible” in determining when to hike interest rates, relieving stock market investors.
 Powell reiterated while the bank expects rates “will go slightly higher in the long run, it will not be sudden, or any more than the underlying economy can handle.”
 Such a notable change in stance largely dispelled concerns that the market will take another nosedive, Lee said.
 “It is rather unexpected given the chairman's continued signal toward rate hike before early 2019.”
 However, some analysts warn that investors should be cautious over downside risks.
 “The Korean stock market has enjoyed a strong start in 2019, but risks that the upbeat run will last are weighted to the downside,” said Katrina Ell, an economist at Moody's Analytics.
-She pointed out that the looming Brexit deadline, alongside some key sticking points still to be resolved in the U.S.-China trade war could drag global equity markets lower affecting the Korean market.
-“The softer outlook for global growth is also an important weight on South Korea's equity market given its large exposure to offshore demand. The Fed's more dovish stance in 2019 means that emerging markets are so far not under the same pressure that they were in 2018,” she said.
-Sohn Sung-won, economics professor at California State University-Channel Islands, echoed the view, saying that Korea's high dependence on exports could hurt the stock market.
-“As the economies in the U.S., China and Europe continue to slow, Korean exports will suffer. The economic policies of the Moon administration, if continued, could hold back economic growth,” he said.
-“With the U.S. central bank standing pat, the value of the dollar could weaken hurting Korean exports further.”
+She pointed out that the looming Brexit deadline, alongside some key sticking points still to be resolved in the <loc>U.S.</loc>-<loc>China</loc> trade war could drag global equity markets lower affecting the Korean market.
+“The softer outlook for global growth is also an important weight on <loc>South <loc>Korea</loc></loc>'s equity market given its large exposure to offshore demand. The Fed's more dovish stance in 2019 means that emerging markets are so far not under the same pressure that they were in 2018,” she said.
+Sohn Sung-won, economics professor at <loc>California</loc> State University-Channel Islands, echoed the view, saying that <loc>Korea</loc>'s high dependence on exports could hurt the stock market.
+“As the economies in the <loc>U.S.</loc>, <loc>China</loc> and <loc>Europe</loc> continue to slow, Korean exports will suffer. The economic policies of the Moon administration, if continued, could hold back economic growth,” he said.
+“With the <loc>U.S.</loc> central bank standing pat, the value of the dollar could weaken hurting Korean exports further.”
 He pointed out that in the past, two important sectors, semiconductors and specialized shipbuilding, have contributed to Korean exports and boosted corporate profits.
 “Alas, the bloom is off the rose and a downturn is ahead of us. This will hurt the Korean stock market,” he said.

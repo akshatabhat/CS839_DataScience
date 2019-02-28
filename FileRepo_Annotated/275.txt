@@ -6,8 +6,8 @@ This makes him sometimes order food via mobile platforms, or buy ingredients wit
 'Then, I get guilty pleasure from buying food and eating like them. I try to fight the temptation of overindulging myself.'
 Such shows are one of reasons driving people to increase their spending on food, analysts say.
 And the rising consumer prices of meat and vegetables have further increased their food purchases in proportion to their total spending.
-The so-called Engel's coefficient, the proportion of money spent on food in household expenses, reached 14 percent in 2017, up from nearly 13 percent in 2016, according to Statistics Korea and the Bank of Korea.
-'With such food shows, inflation and the growing number of singles and working couples preferring to buy and eat ready-made premium food, the coefficient seems to have increased,' said Yun Chang-hyun, an economist at the University of Seoul.
+The so-called Engel's coefficient, the proportion of money spent on food in household expenses, reached 14 percent in 2017, up from nearly 13 percent in 2016, according to Statistics <loc>Korea</loc> and the Bank of <loc>Korea</loc>.
+'With such food shows, inflation and the growing number of singles and working couples preferring to buy and eat ready-made premium food, the coefficient seems to have increased,' said Yun Chang-hyun, an economist at the University of <loc>Seoul</loc>.
 Ernst Engel, a German statistician, introduced his index in 1857.
 His theory was when a household's income grows, the percentage of the income spent on food decreases.
 For example, when a household's total spending amounts to $200, and it spent $80 on food, the coefficient would stand at 40 percent.
@@ -16,7 +16,7 @@ His index was aimed at measuring the relationship between income and food consum
 Sung Tae-yoon, an economist at Yonsei University, said, 'The increasing prices of daily necessities such as vegetables were the key reason behind the rise in the index. This has led most people to spend much less on other goods.'
 A series of summer heat waves, for one, have fueled such prices over the years.
 Even though prices of gas and electricity have decreased on the back of state measures, those of agricultural products have increased.
-Overall consumer prices increased 1.5 percent in 2018, but the prices of vegetables and meat rose nearly 4 percent, according to Statistics Korea. This was far higher than the Bank of Korea's inflation target of 2 percent.
+Overall consumer prices increased 1.5 percent in 2018, but the prices of vegetables and meat rose nearly 4 percent, according to Statistics <loc>Korea</loc>.. This was far higher than the Bank of <loc>Korea</loc>.'s inflation target of 2 percent.
 The 19th century statistician's index does not reflect inflation, dining out and the changing eating culture amid economic progress. Eating at restaurants is not included in the calculation. If it is added, the coefficient would be higher at over 20 percent here.
 To this end, the analysts say the coefficient is a bit outdated and not an 'absolute index' that can measure the overall quality of life and health, especially for advanced economies.
 'It would be more practical to use it with another index measuring poverty for underdeveloped economies,' Yun said.
