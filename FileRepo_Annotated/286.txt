@@ -1,22 +1,22 @@
- VENEZUELA is in the throes of a political crisis after Juan Guaido declared himself the country’s caretaker president in order to topple incumbent leader Nicolas Maduro - is the country now heading for civil war?
-Venezuela remains in chaos following controversy over recent elections, which saw Nicolas Maduro effectively stripped of his title as president. About 20 European Union nations have now backed Venezuela’s opposition leader Juan Guaido as its legitimate temporary leader. But Mr Maduro refuses to acknowledge Mr Guaido’s claim, despite mounting pressure against him as tensions skyrocket.
-Related articles Venezuela crisis: Maduro opposition uses US fund to bankroll oil mo... Venezuela crisis: Maduro claims US planned military COUP
-The socialist dictator continues to be protected by Venezuela’s powerful military, with the only international support coming from Russian and China.
-About three million Venezuelans have already fled the border after years of hyperinflation caused crippling food and medicine shortages in the country.
-Blockades at the Colombia-Venezuela border are being monitored by troops to stop emergency supplies getting through from the United States.
+ <loc>VENEZUELA</loc> is in the throes of a political crisis after Juan Guaido declared himself the country’s caretaker president in order to topple incumbent leader Nicolas Maduro - is the country now heading for civil war?
+<loc>Venezuela</loc> remains in chaos following controversy over recent elections, which saw Nicolas Maduro effectively stripped of his title as president. About 20 European Union nations have now backed <loc>Venezuela</loc>’s opposition leader Juan Guaido as its legitimate temporary leader. But Mr Maduro refuses to acknowledge Mr Guaido’s claim, despite mounting pressure against him as tensions skyrocket.
+Related articles <loc>Venezuela</loc> crisis: Maduro opposition uses <loc>US</loc> fund to bankroll oil mo... <loc>Venezuela</loc> crisis: Maduro claims <loc>US</loc> planned military COUP
+The socialist dictator continues to be protected by <loc>Venezuela</loc>’s powerful military, with the only international support coming from Russian and <loc>China</loc>.
+About three million <loc>Venezuela</loc>ns have already fled the border after years of hyperinflation caused crippling food and medicine shortages in the country.
+Blockades at the <loc>Colombia</loc>-<loc>Venezuela</loc> border are being monitored by troops to stop emergency supplies getting through from the <loc>United States</loc>.
 Mr Mauro, who refuses to acknowledge an existing humanitarian crisis, has told his opponents “we are not beggars”.
-Venezuela CRISIS: Nicolas Maduro is refusing to step down and let Juan Guaido assume presidency
-With President Donald Trump refusing to rule out a possible military intervention, fears are now growing Venezuela could be headed for civil war.
-Is Venezuela heading for civil war?
+<loc>Venezuela</loc> CRISIS: Nicolas Maduro is refusing to step down and let Juan Guaido assume presidency
+With President Donald Trump refusing to rule out a possible military intervention, fears are now growing <loc>Venezuela</loc> could be headed for civil war.
+Is <loc>Venezuela</loc> heading for civil war?
 Fernando Freijedo, analyst at The Economist Intelligence Unit, warns “violence, even if limited and brief, is highly likely” even if civil war is not.
 The Latin American expert told Express.co.uk: “We do not foresee the military splitting into pro-Maduro and pro-Guaido sides that go to war with each other.
-Related articles Venezuela black market: How Venezuela's black market has REPLACED bank Venezuela CRISIS: Maduro troops BARRICADE bridge to block US aid
-Venezuela CRISIS: Mr Maduro has launched a signature campaign 'Hands off Venezuela'
+Related articles <loc>Venezuela</loc> black market: How <loc>Venezuela</loc>'s black market has REPLACED bank <loc>Venezuela</loc> CRISIS: Maduro troops BARRICADE bridge to block <loc>US</loc> aid
+<loc>Venezuela</loc> CRISIS: Mr Maduro has launched a signature campaign 'Hands off <loc>Venezuela</loc>'
 “As such, our baseline scenario is not for a civil war.
 “Having said that, any outcome that does not lead to a transitional government with buy-in from both sides is likely to yield continued unrest and the potential for low-level insurgency, especially in border areas and outside of major cities.”
 Mr Maduro threatened civil war in an interview on Sunday but Mr Guaido later dismissed this as an empty threat saying “no-one could answer that question with certainty”.
-He added: “Everything depends on the level of madness and aggressiveness of the northern empire [the US] and its Western allies.
-Venezuela CRISIS: Juan Guaido and his wife Fabiana Rosales
+He added: “Everything depends on the level of madness and aggressiveness of the northern empire [the <loc>US</loc>] and its Western allies.
+<loc>Venezuela</loc> CRISIS: Juan Guaido and his wife Fabiana Rosales
 "We ask that nobody intervenes in our internal affairs... and we prepare ourselves to defend our country."
 Mr Maduro’s reign continues as he still has the support of high-ranking military officers.
 Army members have been accused of human rights violations after years of killings and fear recriminations despite Mr Guaido' promise of international amnesty in return for their support.
