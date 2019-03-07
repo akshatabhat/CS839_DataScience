@@ -5,7 +5,7 @@ The drops happened across the retail sector, but were worse in department stores
 However, poor trading in the run-up to Christmas may be explained by a particularly strong November, as American consumers did much of their festive shopping in Black Friday and Cyber Monday sales.
 This stark slowdown in retail sales is leading some economists to revise down GDP forecasts.
 “The unexpected plunge in December means fourth quarter GDP growth was probably nearer 2.5pc annualised than the 3.1pc we had pencilled in and it suggests the economy entered 2019 with much less momentum than anticipated,” said Michael Pearce of Capital Economics.
-While the figures were "off-the-charts bad", ING economist James Smith said there were some bright spots for the<loc> US</loc> economy.
+While the figures were "off-the-charts bad", ING economist James Smith said there were some bright spots for the <loc>US</loc> economy.
 “There are a couple of reasons to treat these numbers with a bit of caution. Firstly, the numbers don’t tally with some other retail indicators, some of which painted a much more reassuring picture of the Christmas trading period," he said.
 “It’s worth noting that the sharp fall in December sales comes after a pretty decent increase in November. This is most likely thanks to the impact of Black Friday and Cyber Monday, which make it tricky for statisticians to seasonally adjust given the constantly evolving nature of sales strategies over the past few years.”
 President Donald Trump often tweets about the strength of the <loc>US</loc> economy, writing in January that: “Our economy is better than it has been in many decades.” Yet as of Thursday afternoon, he had failed to mention these disappointing figures.
