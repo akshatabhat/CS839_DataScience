@@ -52,7 +52,7 @@ def DocumentToDataFrame(file_path, window_size = 1, ngram = 0):
         st_idx = i
         end_idx = i + window_size
         curr_window = words[st_idx:end_idx]
-        curr_label = 0
+        curr_label = False
         curr_ngram_prev = ['<N/A>']*ngram
         curr_ngram_after = ['<N/A>']*ngram
         ## Store ngrams. Deal with beginning and ending corner cases
@@ -69,10 +69,17 @@ def DocumentToDataFrame(file_path, window_size = 1, ngram = 0):
             print("ERROR: Curr window has empty String!!!!!!!!!!")
             breakpoint()
             continue
-        ## Check if first and last word have <loc> and </loc> specifically
+        ## If first word has <loc> then see if full string is a 
         if( ('<loc>' in curr_window[0]) and ('</loc>' in curr_window[-1]) ):
-            curr_label = 1
-        ##
+            n_open_tags = 0
+            curr_label = True
+            for j in range(len(curr_window)):
+                n_open_tags = n_open_tags + curr_window[j].count("<loc>")
+                n_open_tags = n_open_tags - curr_window[j].count("</loc>")
+                if((n_open_tags == 0) and (j != window_size - 1)):
+                    curr_label = False
+                    break
+        # ##
         curr_window = RemoveLocTags(curr_window)
         curr_ngram_prev = RemoveLocTags(curr_ngram_prev)
         curr_ngram_after = RemoveLocTags(curr_ngram_after)

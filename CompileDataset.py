@@ -15,14 +15,14 @@ import UtilsData
 #### Paths and filenames
 in_path = "./FileRepo_Annotated/"
 out_path = "./Data/"
-out_filename = "Data.pkl"
+out_filename = "small_data"
 #### Files to parse. 
 ## Files that are currently annotated: 1-110, 200-310, 400-510.
 file_ids = list(range(0,110))+list(range(200,310))+list(range(400,510))
-# file_ids = ["451 - test"]
+# file_ids = ["101","103","201","222","228","401","402","459"]
 #### Parsing parameters
 ## Number of words that we look at one time.
-window_size = 2
+window_size = 1
 ngram = 5
 
 df = pd.DataFrame()
@@ -41,5 +41,6 @@ for i in file_ids:
     df = pd.concat([df,curr_df],axis=0)
 
 ## Save data
-df.to_pickle(out_path + out_filename)
+out_filename_info = "_window-" + str(window_size) + "_ngram-" + str(ngram)
+df.to_pickle(out_path + out_filename + out_filename_info + ".pkl")
 
