@@ -16,6 +16,7 @@ def GetWordsFromTextFile(text_file):
     text = text.strip() # Remove all beginning and end whitespace and new line characters
     text = text.replace('\n', ' ') # Replace new line characters with whitespace so the window can easily look across sentences 
     text = text.replace('-', ' ') # For special cases like US-China we should just remove the -. 
+    text = text.replace('—', ' ') # For special cases like US-China we should just remove the -. 
     text = re.sub(' +', ' ', text) # Remove all duplicate whitespace characters
     ## After splitting at ' ' we should not get any individual word to be only whitespace. Instead they would be empty strings.
     words = text.split(' ') 
@@ -28,7 +29,7 @@ def RemoveLocTags(word_arr):
     return word_arr 
 
 
-def DocumentToDataFrame(file_path, window_size = 1, ngram = 0):
+def DocumentToDataFrame(file_path, window_size = 1, ngram = 0, ID = -1):
     ''' DocumentToDataFrame
             Read document and produces an dataframe that contains the data and the labels
     '''
@@ -44,6 +45,7 @@ def DocumentToDataFrame(file_path, window_size = 1, ngram = 0):
     data_ngram_prev = pd.DataFrame(columns=col_names_ngram_prev)
     data_ngram_after = pd.DataFrame(columns=col_names_ngram_after)
     labels = pd.DataFrame(columns=['labels'])
+    file_ids = pd.DataFrame(columns=['file_ids'])
     curr_row = 0
     n_locations = 0
     is_location = False
@@ -76,7 +78,7 @@ def DocumentToDataFrame(file_path, window_size = 1, ngram = 0):
             for j in range(len(curr_window)):
                 n_open_tags = n_open_tags + curr_window[j].count("<loc>")
                 n_open_tags = n_open_tags - curr_window[j].count("</loc>")
-                if((n_open_tags == 0) and (j != window_size - 1)):
+                if((n_open_tags <= 0) and (j != window_size - 1)):
                     curr_label = False
                     break
         # ##
@@ -101,8 +103,9 @@ def DocumentToDataFrame(file_path, window_size = 1, ngram = 0):
         data_ngram_prev.loc[curr_row] = curr_ngram_prev
         data_ngram_after.loc[curr_row] = curr_ngram_after
         labels.loc[curr_row] = curr_label
+        file_ids.loc[curr_row] = ID
         curr_row = curr_row + 1
     # breakpoint()
-    ## Return single dataframe that contains the data in the first $window_size$ columns and the labels in the rest of the columns
-    return pd.concat([data_window,data_ngram_prev,data_ngram_after,labels],axis=1)
+    ## Return single dataframe that contains the data in the first $window_size$ columns and the file_ids in the rest of file_ids columns
+    return pd.concat([data_window,data_ngram_prev,data_ngram_after,labels,file_ids],axis=1)
 
