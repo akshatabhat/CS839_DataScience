@@ -19,6 +19,16 @@ This repository contains the code, data, and report for the different stages of 
 
 ### Stage 1: Information Extraction From Text
 
+**Annotated Documents:** You can find the directory with the annotated documents [here](https://github.com/akshatabhat/DataScience/tree/master/FileRepo_Annotated). Please refer to the [README.md](https://github.com/akshatabhat/DataScience/blob/master/FileRepo_Annotated/README.md) file withing that directory for information on the annotations.
+
+**Browsable Directory for Set I:**
+
+**Browsable Directory for Set J:**
+
+**Browsable Directory for Code:**
+
+**Link to compressed file with all of the above directories:**
+
 
 <hr>
 <a name="stage2"></a>

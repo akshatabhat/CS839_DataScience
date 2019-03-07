@@ -2,7 +2,7 @@ This folder contains the annotated documents for stage 1 of the project.
 
 - Number of annotated documents: 330
 - Entity: Any location that is a city, region, country, or continent.
-- Annotation Tags: <loc> ... </loc>
+- Annotation Tags: \<loc> ... \</loc>
 - Example annotated entity: <loc>Silicon Valley</loc> is located in <loc>western <loc>United States</loc></loc>. 
     * Note that we also take into account cascaded locations. In the above example "western United States" is a different entity from "United States" so both are annotated.
 
