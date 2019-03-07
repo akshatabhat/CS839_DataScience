@@ -1,35 +1,14 @@
- THE pound has surged against the euro after market confidence grew over a Brexit deal, but the eurozone suffered a damaging blow after Germany fell into “recession”.
+ THE pound has surged against the euro after market confidence grew over a Brexit deal, but the eurozone suffered a damaging blow after <loc>Germany</loc> fell into “recession”.
 Pound Sterling was trading at 1.1434 against the euro at 1.30pm, overturning a poor start to Thursday after markets sensed a breakthrough in the Brexit impasse.
-The currency had plummeted to as low as 1.1352 against the euro yesterday afternoon after the Bank of England downgraded its 2019 growth forecast to 1.2 percent - the lowest level since the financial crash 10 years ago - citing Brexit uncertainty.
-But the pound has since recovered strongly after it was announced further Brexit talks between the UK and European Union will take place, raising hopes of a deal being agreed between the two sides before the March 29 deadline.
-Related articles Pound LIVE: GBP Sterling DROPS against euro & dollar -forecast slashed Bank of England DOWNGRADES growth to lowest since financial crash
+The currency had plummeted to as low as 1.1352 against the euro yesterday afternoon after the Bank of <loc>England</loc> downgraded its 2019 growth forecast to 1.2 percent - the lowest level since the financial crash 10 years ago - citing Brexit uncertainty.
+But the pound has since recovered strongly after it was announced further Brexit talks between the <loc>UK</loc> and European Union will take place, raising hopes of a deal being agreed between the two sides before the March 29 deadline.
+Related articles Pound LIVE: GBP Sterling DROPS against euro & dollar -forecast slashed Bank of <loc>England</loc> DOWNGRADES growth to lowest since financial crash
 Theresa May’s spokesperson has confirmed Brexit Secretary Stephen Barclay will meet the EU’s chief Brexit negotiator Michel Barnier to discuss alternative arrangements to the Irish backstop.
-The Prime Minister is in Dublin today to hold talks with Irish counterpart Leo Varadkar in an effort to resolve the dispute over the backstop.
+The Prime Minister is in <loc>Dublin</loc> today to hold talks with Irish counterpart Leo Varadkar in an effort to resolve the dispute over the backstop.
 Ahead of her meeting with the Taoiseach over dinner, Attorney General Geoffrey Cox is holding talks in the capital with his Irish counterpart, Seamus Wolfe.
-Mr Cox has been leading work within Whitehall on providing either a time limit on the backstop or providing the UK an exit mechanism from it.
+Mr Cox has been leading work within Whitehall on providing either a time limit on the backstop or providing the <loc>UK</loc> an exit mechanism from it.
 Pound LIVE: Angela Merkel has seen the German economy suffer a series of blows already this year
-Ireland has insisted the backstop proposals can't be time-limited if it is to provide an effective "insurance policy" against the return of a hard border between Northern Ireland and the Republic.
+<loc>Ireland</loc> has insisted the backstop proposals can't be time-limited if it is to provide an effective "insurance policy" against the return of a hard border between Northern <loc>Ireland</loc> and the Republic.
 In addition, the prospect of Labour voting for a Brexit deal became more likely after the party softened its red lines and indicated it would work with the government to achieve the right agreement with Brussels.
 This comes after the Financial Times reported a secret group in Whitehall have been working on emergency plans to kick-start the economy in the event of a no-deal Brexit.
 The group has reportedly been put together by Cabinet Secretary and head of the Civil Service, Sir Mark Sedwill, along with senior figures from the Treasury, Cabinet Office, Department for Business, Energy and Industrial Strategy, and Department for International Trade.
-Related articles EUROZONE CRISIS: Germany ‘drifting towards RECESSION’ Eurozone crisis: German output slumps AGAIN - fears economy
-Pound LIVE: The pound has made strong gains against the euro
-The options said to have been discussed range from cutting taxes and boosting investment, to slashing tariffs.
-One Whitehall source is quoted as saying: "It's basically a Doomsday list of economic levers we could pull if the economy is about to tank."
-Pound Sterling Live said according to a Reuters poll of institutional strategists and analysts conducted between January 31 and February 5, the pound could rise to levels above 1.16 in a year’s time, and as high as 1.40 against the dollar.
-Reuters correspondent Jonathan Cable said: “Reuters polls of economists have consistently indicated that they expect Britain and the European Union to eventually agree on a free trade deal.”
-Pound LIVE: Theresa May met Jean-Claude Juncker in Brussels on Thursday for crunch Brexit talks
-The pound has been helped by the euro slumping to a two-week low as traders nursed losses in a week of gloomy data indicating an economic slowdown in Europe was spreading quickly.
-The European Commission made sharp cuts to its growth and inflation forecasts on Thursday, sparking fears over the strength of the eurozone.
-But the increasing struggles in Germany - the bloc’s largest economy valued at £3.1trillion - is driving fears over the future of the eurozone, with claims Germany slid into outright recession at the end of last year.
-On Thursday, the country’s Federal Statistics Office revealed a surprise fall in German industrial output for December - the fourth consecutive month of decline.
-Pound LIVE: Citigroup has predicted a technical recession for Germany
-Output was down 0.4 percent on November - in huge contrast to a forecast from Reuters for an increase of 0.7 percent.
-The Dax in Frankfurt ended 2.6 percent lower on Thursday, with Deutsche Bank plunging six percent and Daimler and the steel group ThyssenKrupp both down five percent.
-Last week, the country’s manufacturing sector plunged into contraction territory, dropping to 49.7 points in January from 51.1 in December, according to the latest figures from IHS Markit.
-The economy also shrunk by 0.2 percent in the third quarter, largely due to a continued fall in the lucrative German car sector, with Deutsche Bank expecting the same contraction for the start of 2019.
-Investment bank Citigroup has predicted a "technical recession", fearing headline impacts could trigger a further slump in confidence.
-Christian Schulz from Citigroup said the German finance ministry was looking at tax cuts worth 0.1 percent to 0.5 percent of GDP, but not until July.
-Global trade tensions, particularly between the US and China, as well as uncertainty around Brexit, have been cited as significant problems for the German economy.
-Deutsche Bank economists said in a report: “The start of the German economy into 2019 has been a major disappointment so far.
-“The development of several key cyclical indicators is telling us that the German economy is drifting towards recession right now.”
