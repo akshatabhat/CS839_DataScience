@@ -3,27 +3,38 @@
 
 def firstLetterCapital(data):
 	word = str(data["word"])
-	return word[0].isupper() 
+	if (word[0].isupper() == True) :
+		return 1
+	else :
+		return 0 
 
 def allCapitals(data):
 	word = str(data["word"])
-	return word.isupper()
+	if (word.isupper() == True) :
+		return 1
+	else :
+		return 0
 
 def allLower(data):
 	word = str(data["word"])
-	return word.islower()
-
+	if (word.islower() == True) :
+		return 1
+	else :
+		return 0
 
 def isFirstLetterAlphabet(data):
 	word = str(data["word"])
-	return word[0].isalpha()	
+	if (word[0].isalpha() == True) :
+		return 1
+	else :
+		return 0	
 
 def containsDigits(data):
 	word = str(data["word"])
 	for i in word:
 		if (i.isdigit() == True):
-			return True
-	return False
+			return 1
+	return 0
 
 def stringLen(data):
 	word = str(data["word"])
@@ -36,4 +47,4 @@ def stringLen(data):
 #row = data.iloc[0]
 #print(allLower(row))
 #row = data.iloc[1]
-#print(stringLen(row))
+#print(allLower(row))
