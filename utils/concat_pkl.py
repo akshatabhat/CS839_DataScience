@@ -36,6 +36,6 @@ data.to_pickle(f)
 f.close()
 
 f = open('../data/data_window_ngram-5.pkl', 'rb')
-some = pd.read_pickle(f)
-print(some)
+data5 = pd.read_pickle(f)
 f.close()
+print(data5)
