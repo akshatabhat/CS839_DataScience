@@ -24,15 +24,15 @@ def load_data(input_filename):
 def generate_features(data):
 	print("---------- Generating features ---------- ")
 	X = []
-	for index, row in tqdm(data.iloc[:5000].iterrows()):
+	for index, row in tqdm(data.iterrows()):
 		features = []
 		#Generate Letter Fetures
-		features.append(letterFeatures.firstLetterCapital(data))
-		features.append(letterFeatures.allCapitals(data))
-		features.append(letterFeatures.allLower(data))
-		features.append(letterFeatures.isFirstLetterAlphabet(data))
-		features.append(letterFeatures.containsDigits(data))
-		features.append(letterFeatures.stringLen(data))
+		features.append(letterFeatures.firstLetterCapital(row))
+		features.append(letterFeatures.allCapitals(row))
+		features.append(letterFeatures.allLower(row))
+		features.append(letterFeatures.isFirstLetterAlphabet(row))
+		features.append(letterFeatures.containsDigits(row))
+		features.append(letterFeatures.stringLen(row))
 
 		# Other features
 
@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
 	X = generate_features(data)
 
-	Y = data['labels'].iloc[:5000]
+	Y = data['labels']
 	Y=Y.astype('int')
 	training(X, Y)
 
