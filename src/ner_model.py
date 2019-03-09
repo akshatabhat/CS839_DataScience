@@ -34,8 +34,8 @@ def generate_features(data):
 		features.append(letterFeatures.stringLen(row))
 
 		# POS Tagging Features
-		features += posFeatures.posCounts(data)
-		features += posFeatures.posCountsNGram(data) # 1-gram
+		features += posFeatures.posCounts(row)
+		features += posFeatures.posCountsNGram(row) # 1-gram
 
 		X.append(features)
 
