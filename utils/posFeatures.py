@@ -75,10 +75,10 @@ def posCountsNGram(row, ngram=1):
     prev_ngram_str = ""
     after_ngram_str = ""
     for i in range(ngram):
-        if(str(row["prev" + str(i)]) == '<N/A>'):  
-            prev_ngram_str = prev_ngram_str + " N/A"
+        if(str(row["prev" + str(4-i)]) == '<N/A>'):  
+            prev_ngram_str = "N/A " + prev_ngram_str 
         else:  
-            prev_ngram_str = prev_ngram_str + " " + str(row["prev" + str(i)])
+            prev_ngram_str = str(row["prev" + str(4-i)]) + " " + prev_ngram_str 
         if(str(row["after" + str(i)]) == '<N/A>'):  
             after_ngram_str = after_ngram_str + " N/A"
         else:  
