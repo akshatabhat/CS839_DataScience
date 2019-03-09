@@ -9,6 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
+from sklearn.feature_selection import VarianceThreshold, SelectKBest, chi2
 
 sys.path.append('../utils')
 
@@ -50,9 +51,23 @@ def generate_features(data):
 
 		X.append(features)
 
-	print("")	
-	return np.asarray(X)
+		
+	X = np.asarray(X)
+	print("Total number of features : \n", X.shape[1])
 
+	return X
+
+def feature_selection(X, Y, method):
+	print("---------- Performing feature selection using", method, " ---------- ", )
+	if method == 'threshold':
+		sel = VarianceThreshold(threshold=(.8 * (1 - .8)))
+		X = sel.fit_transform(X)
+	elif method == 'select-k-best':
+		sel = SelectKBest(score_func=chi2, k=130)
+		X = sel.fit_transform(X, Y)
+
+	print("Number of features selected : \n", X.shape[1])
+	return X
 
 def training(X_train, Y_train, method):
 	print("---------- Training model using", method ,"----------")
@@ -91,6 +106,9 @@ def build_ner_model(data, method):
 	Y = data['labels'].astype(int)
 	print("Class Distribution : \n", np.unique(Y, return_counts = True))
 
+	# Feature Selection
+	#X = feature_selection(X, Y, 'select-k-best')
+
 	X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.33) #TODO
 
 	# Training model
@@ -98,3 +116,4 @@ def build_ner_model(data, method):
 
 	# Evaluting the model
 	evaluate_model(X_test, Y_test, model)
+
