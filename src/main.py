@@ -23,7 +23,7 @@ if __name__ == '__main__':
 	# Preprocessing
 	processed_data = preprocessing.preprocessing(data)
 
-    data.to_pickle("../data/data_window_ngram-5-processed.pkl")
+	data.to_pickle("../data/data_window_ngram-5-processed.pkl")
 
 	# Build Named Entity Recognizer.
 	ner_model.build_ner_model(processed_data)
