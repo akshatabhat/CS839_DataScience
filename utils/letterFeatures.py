@@ -3,8 +3,12 @@ import pandas as pd
 
 def firstLetterCapital(data):
 	word = str(data["word"])
-	if (word[0].isupper() == True) :
-		return 1
+	if (word[0].isalpha() == False) :
+			if (len(word) > 1) :
+				if (word[1].isupper() == True):
+					return 1	
+			elif (word[0].isupper() == True):
+				return 1
 	else :
 		return 0 
 
@@ -57,13 +61,40 @@ def isFirstLetterofAnyWordCapital(data):
 			return 1
 	return 0
 
+def doesTheStringContainQuotes(data):
+	word = str(data["word"])
+	for char in word:
+		if '"' in char:
+			return 1
+	return 0
+
+def isItPrecededByThe(data):
+	prevWord = str(data["prev4"])
+	if ("the" == prevWord):
+		return 1
+	if ("The" == prevWord):
+		return 1
+	return 0
+
+def numberOfVowels(data):
+	word = str(data["word"])
+	count = 0
+	for char in word:
+		if ("a" == char) :
+			count += 1
+		elif ("e" == char) :
+			count += 1
+		elif ("i" == char) :
+			count += 1
+		elif ("o" == char) :
+			count += 1
+		elif ("u" == char) :
+			count += 1
+	return count
+
 #f = open('../data/data_window_ngram-5.pkl', 'rb')
 #data = pd.read_pickle(f)
 #f.close()
-#print(data)
-#row = data.iloc[1]
-#print(row["word"])
-#print(isFirstLetterofAnyWordCapital(row))
-#row = data.iloc[368680]
-#print(row["word"])
-#print(isFirstLetterofAnyWordCapital(row))
+#for index, row in data.iterrows():
+#	if (numberOfVowels(row) > 0):
+#		print("%d : %s" %(numberOfVowels(row), row["word"]))
