@@ -45,8 +45,10 @@ def posCounts(data):
     words = str(data["word"])
     tokens = nltk.word_tokenize(words)
     tagged_words = nltk.pos_tag(tokens)
+    breakpoint()
     for (word, tag) in tagged_words:
         pos_counts[tag] = pos_counts[tag] + 1
+    
     return list(pos_counts.values())
 
 
@@ -79,11 +81,11 @@ def posCountsNGram(data, ngram=1):
 
 # df = pd.read_pickle('../Data/data_window_ngram-5.pkl')
 
-# row = df.iloc[552328]
+# row = df.iloc[0]
 # print(row)
 
 # pos_counts = posCounts(row)
 # print(pos_counts)
-# pos_counts_ngram = posCountsNGram(row, ngram=3)
+# pos_counts_ngram = posCountsNGram(row, ngram=6)
 # print(pos_counts_ngram)
 
