@@ -1,4 +1,4 @@
-#import pandas as pd
+import pandas as pd
 #import pickle
 
 def firstLetterCapital(data):
@@ -40,11 +40,30 @@ def stringLen(data):
 	word = str(data["word"])
 	return len(word)
 
+def numWords(data):
+	words = str(data["word"])
+	words = words.split(" ")
+	return len(words)
+
+def isFirstLetterofAnyWordCapital(data):
+	words = str(data["word"])
+	words = words.split(" ")
+	for word in words:
+		if (word[0].isalpha() == False) :
+			if (len(word) > 1) :
+				if (word[1].isupper() == True):
+					return 1	
+		elif (word[0].isupper() == True):
+			return 1
+	return 0
 
 #f = open('../data/data_window_ngram-5.pkl', 'rb')
 #data = pd.read_pickle(f)
 #f.close()
-#row = data.iloc[0]
-#print(allLower(row))
+#print(data)
 #row = data.iloc[1]
-#print(allLower(row))
+#print(row["word"])
+#print(isFirstLetterofAnyWordCapital(row))
+#row = data.iloc[368680]
+#print(row["word"])
+#print(isFirstLetterofAnyWordCapital(row))

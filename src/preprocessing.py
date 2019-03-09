@@ -1,5 +1,5 @@
 import pandas as pd
-#import pickle
+import pickle
 import sys
 from tqdm import tqdm
 sys.path.append('../utils')
@@ -11,11 +11,13 @@ def preprocessing(data):
 	for index, row in tqdm(data.iterrows()):
 		if (letterFeatures.allLower(row) == 1):
 			drop_index.append(index)
-	
+		elif (letterFeatures.isFirstLetterofAnyWordCapital(row) == 0):
+			drop_index.append(index)
 	data.drop(drop_index, inplace=True)
 	return data
 
 #f = open('../data/data_window_ngram-5.pkl', 'rb')
 #data = pd.read_pickle(f)
 #f.close()
-#print(preprocessing(data[:1000]))
+#data = preprocessing(data)
+#print(data)
