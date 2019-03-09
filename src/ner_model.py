@@ -30,20 +30,16 @@ def generate_features(data):
 
 		features.append(letterFeatures.firstLetterCapital(row))
 		features.append(letterFeatures.allCapitals(row))
-
 		features.append(letterFeatures.allLower(row))
-
 		features.append(letterFeatures.isFirstLetterAlphabet(row))
 		features.append(letterFeatures.containsDigits(row))
-
 		features.append(letterFeatures.stringLen(row))
-
 		features.append(letterFeatures.numWords(row))
 		features.append(letterFeatures.isFirstLetterofAnyWordCapital(row))
 		features.append(letterFeatures.doesTheStringContainQuotes(row))
 		features.append(letterFeatures.isItPrecededByThe(row))
 		features.append(letterFeatures.numberOfVowels(row))
-
+		features.append(letterFeatures.nextWordISsaid(row))
 		# POS Tagging Features
 
 		features += posFeatures.posCounts(row)
