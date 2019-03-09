@@ -1,5 +1,6 @@
 import pandas as pd
-#import pickle
+import pickle
+import math
 
 def firstLetterCapital(data):
 	word = str(data["word"])
@@ -9,8 +10,7 @@ def firstLetterCapital(data):
 					return 1	
 			elif (word[0].isupper() == True):
 				return 1
-	else :
-		return 0 
+	return 0 
 
 def allCapitals(data):
 	word = str(data["word"])
@@ -92,9 +92,17 @@ def numberOfVowels(data):
 			count += 1
 	return count
 
-#f = open('../data/data_window_ngram-5.pkl', 'rb')
-#data = pd.read_pickle(f)
-#f.close()
-#for index, row in data.iterrows():
-#	if (numberOfVowels(row) > 0):
-#		print("%d : %s" %(numberOfVowels(row), row["word"]))
+def stringContainsFullStop(data):
+	word = str(data["word"])
+	for char in word:
+		if "." in char:
+			return 1
+	return 0
+
+'''
+f = open('../data/data_window_ngram-5.pkl', 'rb')
+data = pd.read_pickle(f)
+f.close()
+for index, row in data.iterrows():
+	print(firstLetterCapital(row))
+'''
