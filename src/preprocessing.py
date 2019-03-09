@@ -7,9 +7,12 @@ import letterFeatures
 
 def preprocessing(data):
 	print("---------- Pre-processing ----------")
+	drop_index = []
 	for index, row in tqdm(data.iterrows()):
 		if (letterFeatures.allLower(row) == 1):
-			data.drop([index], inplace=True)
+			drop_index.append(index)
+	
+	data.drop(drop_index, inplace=True)
 	return data
 
 #f = open('../data/data_window_ngram-5.pkl', 'rb')

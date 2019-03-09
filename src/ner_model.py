@@ -34,9 +34,8 @@ def generate_features(data):
 		features.append(letterFeatures.stringLen(row))
 
 		# POS Tagging Features
-		#features.append(posFeatures.posCounts(data))
-		#features.append(posFeatures.posCountsNGram(data)) # 1-gram
-
+		features += posFeatures.posCounts(data)
+		features += posFeatures.posCountsNGram(data) # 1-gram
 
 		X.append(features)
 
@@ -74,7 +73,7 @@ def evaluate_model(X_test, Y_test, model):
 	print("Recall : ", recall)
 	print("f1-score : ", f1_score)
 
-def build_ner_model(data):
+def build_ner_model(data, method):
 
 	# Generate feature matrix
 	X = generate_features(data)
@@ -84,7 +83,7 @@ def build_ner_model(data):
 	X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.33) #TODO
 
 	# Training model
-	model = training(X_train, Y_train, "Random Forest")
+	model = training(X_train, Y_train, method)
 
 	# Evaluting the model
 	evaluate_model(X_test, Y_test, model)
