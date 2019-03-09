@@ -22,7 +22,7 @@ data3["word"] = data3["w0"] + " " + data3["w1"] + " " + data3["w2"]
 pd.concat([data3, data3["word"]], axis=1, ignore_index=True)
 data3.drop(["w0", "w1", "w2"], axis=1, inplace=True)
 
-data = pd.concat([data1,data2,data3], ignore_index=True)
+data = pd.concat([data1,data2], ignore_index=True)
 
 f = open('../data/data_window_ngram-5.pkl', 'wb')
 data.to_pickle(f)

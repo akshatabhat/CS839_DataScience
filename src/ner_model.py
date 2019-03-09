@@ -1,12 +1,7 @@
 import sys
-import pickle
 from tqdm import tqdm
-
-from IPython.core import debugger
-breakpoint = debugger.set_trace
-
 import numpy as np
-import pandas as pd
+
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
@@ -18,20 +13,13 @@ from sklearn import metrics
 sys.path.append('../utils')
 
 import letterFeatures, posFeatures
-import nltk
-# nltk.download('averaged_perceptron_tagger')
 
-def load_data(input_filename):
-	print("---------- Loading the data ---------- ")
-	print("Data filename : ", input_filename)
-	f = open(input_filename, 'rb')
-	data = pd.read_pickle(f)
-	print("")
-	return data
+import nltk
+nltk.download('averaged_perceptron_tagger')
 	
 def generate_features(data):
 	print("---------- Generating features ---------- ")
-	X = []	
+	X = []
 	for index, row in tqdm(data.iterrows()):
 		features = []
 
@@ -46,12 +34,12 @@ def generate_features(data):
 		features.append(letterFeatures.stringLen(row))
 
 		# POS Tagging Features
-		features = features + posFeatures.posCounts(row) 
-		features = features + posFeatures.posCountsNGram(row) 
-		# features.append(posFeatures.posCounts(row))
-		# features.append(posFeatures.posCountsNGram(row)) # 1-gram
+		#features.append(posFeatures.posCounts(data))
+		#features.append(posFeatures.posCountsNGram(data)) # 1-gram
+
 
 		X.append(features)
+
 	print("")	
 	return np.asarray(X)
 
@@ -86,23 +74,17 @@ def evaluate_model(X_test, Y_test, model):
 	print("Recall : ", recall)
 	print("f1-score : ", f1_score)
 
-if __name__ == '__main__':
-	
-	# Load and read data into pandas dataframe
-	input_filename = '../data/data_window_ngram-5.pkl'
-	data = load_data(input_filename)
-	# data = data[1:10000]
+def build_ner_model(data):
 
 	# Generate feature matrix
 	X = generate_features(data)
-
 	Y = data['labels'].astype(int)
 	print("Class Distribution : \n", np.unique(Y, return_counts = True))
 
 	X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.33) #TODO
 
 	# Training model
-	model = training(X_train, Y_train, "Logistic Regression")
+	model = training(X_train, Y_train, "Random Forest")
 
 	# Evaluting the model
 	evaluate_model(X_test, Y_test, model)

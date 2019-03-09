@@ -6,6 +6,7 @@ sys.path.append('../utils')
 import letterFeatures
 
 def preprocessing(data):
+	print("---------- Pre-processing ----------")
 	for index, row in tqdm(data.iterrows()):
 		if (letterFeatures.allLower(row) == 1):
 			data.drop([index], inplace=True)
