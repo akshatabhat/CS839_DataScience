@@ -113,11 +113,20 @@ def endsWithQuoteS(data):
 		return 1
 	else :
 		return 0
+
+def nextWordISsaid(data):
+	word = str(data["after0"])
+	if (word == "said") :
+		return 1
+	else :
+		return 0		
+
 '''
 f = open('../data/data_window_ngram-5.pkl', 'rb')
 data = pd.read_pickle(f)
 f.close()
+print(data.iloc[0])
 for index, row in data.iterrows():
-	if(endsWithQuoteS(row)):
-		print(row["word"])
+	if(nextWordISsaid(row)):
+		print("%s %s" %(row["word"], row["after0"]))
 '''
