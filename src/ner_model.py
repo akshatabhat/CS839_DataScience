@@ -2,6 +2,9 @@ import sys
 import pickle
 from tqdm import tqdm
 
+from IPython.core import debugger
+breakpoint = debugger.set_trace
+
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
@@ -16,7 +19,7 @@ sys.path.append('../utils')
 
 import letterFeatures, posFeatures
 import nltk
-nltk.download('averaged_perceptron_tagger')
+# nltk.download('averaged_perceptron_tagger')
 
 def load_data(input_filename):
 	print("---------- Loading the data ---------- ")
@@ -28,7 +31,7 @@ def load_data(input_filename):
 	
 def generate_features(data):
 	print("---------- Generating features ---------- ")
-	X = []
+	X = []	
 	for index, row in tqdm(data.iterrows()):
 		features = []
 
@@ -43,12 +46,12 @@ def generate_features(data):
 		features.append(letterFeatures.stringLen(row))
 
 		# POS Tagging Features
-		#features.append(posFeatures.posCounts(data))
-		#features.append(posFeatures.posCountsNGram(data)) # 1-gram
-
+		features = features + posFeatures.posCounts(row) 
+		features = features + posFeatures.posCountsNGram(row) 
+		# features.append(posFeatures.posCounts(row))
+		# features.append(posFeatures.posCountsNGram(row)) # 1-gram
 
 		X.append(features)
-
 	print("")	
 	return np.asarray(X)
 
@@ -88,9 +91,11 @@ if __name__ == '__main__':
 	# Load and read data into pandas dataframe
 	input_filename = '../data/data_window_ngram-5.pkl'
 	data = load_data(input_filename)
+	# data = data[1:10000]
 
 	# Generate feature matrix
 	X = generate_features(data)
+
 	Y = data['labels'].astype(int)
 	print("Class Distribution : \n", np.unique(Y, return_counts = True))
 
