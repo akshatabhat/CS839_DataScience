@@ -99,10 +99,25 @@ def stringContainsFullStop(data):
 			return 1
 	return 0
 
+def endsWithColon(data):
+	word = str(data["word"])
+	if (word[len(word) - 1] == ":"):
+		return 1
+	else :
+		return 0
+
+
+def endsWithQuoteS(data):
+	word = str(data["word"])
+	if (word[len(word) - 2:len(word)] == "'s"):
+		return 1
+	else :
+		return 0
 '''
 f = open('../data/data_window_ngram-5.pkl', 'rb')
 data = pd.read_pickle(f)
 f.close()
 for index, row in data.iterrows():
-	print(firstLetterCapital(row))
+	if(endsWithQuoteS(row)):
+		print(row["word"])
 '''
