@@ -57,6 +57,7 @@ def preprocessing(data):
 			if (pos != len):
 				if (letterFeatures.allCapitals(row) == 0):
 					drop_index.append(index)
+
 	data.drop(drop_index, inplace=True)
 	print("")
 	return data

@@ -105,8 +105,6 @@ def training(X_train, Y_train, method, random_grid):
 		model.fit(X_train, Y_train)
 	elif method == "Random Forest":
 		model = RandomForestClassifier(random_state = 42)
-		#print('Parameters in use:\n')
-		#print(model.get_params())
 		#model.fit(X_train, Y_train)
 		rf_random = RandomizedSearchCV(estimator = model, param_distributions = random_grid, n_iter = 2, cv = 3, verbose=2, random_state=42, n_jobs = -1)
 		rf_random.fit(X_train, Y_train)
