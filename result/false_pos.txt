@@ -1,54 +1,45 @@
-400 Garraway
-400 Bateman’s
 400 Madeley
-400 Garraway
-400 James
+400 Bateman
 400 WIN?
-402 Wednesday,
 403 Colhoun
 405 House
 406 Citi,
-406 RBA
 407 Ortega
-407 Arana
-407 Ortega,
+407 Ortega's
 407 Ortega's
 407 Ortega
-407 October,
 408 MS
-408 Service
 409 CMIE,
+409 US
+410 Manila
+412 February's
 412 Andrew
 413 Tuesday
+413 Monday
 413 Twitter
 413 Twitter
 413 Tuesday
 413 Tuesday
-413 EU
 413 SC
 415 July,
 415 July,
 416 EU
 416 Dubai
 417 Kong
-418 Google
 418 Transport
-418 August
 418 Academy
 418 Industry
 418 August
-418 Everbright
-419 OF
+418 Meituan,
 419 April
 420 April
 421 January.
 425 Middle
 425 Middle
+425 Kiribati;
 425 Ocean
 429 March.
-430 Vanguard.
 430 March,
-430 Panasonic,
 435 Lanka,
 435 CB
 435 CB
@@ -56,7 +47,6 @@
 435 CB
 435 CB
 435 CB
-435 Treasury
 435 Rupee
 435 PD
 435 PD
@@ -76,35 +66,33 @@
 435 CB
 436 EU
 436 EU
+436 Monday
 436 EU
+436 EU’s
+436 January’s
 436 EU
 437 Tuesday
-437 Congress
 437 AP
-438 Gandhi
+439 December's
+439 April
 440 Maduro's
 440 Guaidó
-440 Maduro
 440 Tuesday,
-440 Maduro
 440 David
 441 SIR
 441 MP
 441 EU.
 441 Ukip,
 441 Party
-441 Parliament,
+441 Geoff’s
 441 Geoff’s
 441 Geoff’s
 442 Thursday.
 442 Venezuela
 442 York
-442 FY
 442 Order
 442 January's
-442 April.
-442 New
-442 Risk
+442 ONS.
 443 EU
 443 PM
 443 March
@@ -114,7 +102,6 @@
 443 Barclay
 443 EU
 443 MP
-443 BBC
 443 PM
 443 EU
 443 Labour's
@@ -140,16 +127,16 @@
 444 EU
 444 EU
 445 November,
-445 Brexit
 445 EU
 445 EU
 446 Thursday’s
 447 AN
+447 Dentsu
 447 EU
-447 May’s
 447 EU
 447 EU
 447 Germany
+447 Macron
 447 Macron’s
 447 EU
 447 EU
@@ -163,13 +150,14 @@
 448 EU
 449 EU
 449 EU
+453 Zealand's
 453 Auckland
 456 Panel
 456 Alberto
+456 Flaaen
 456 Claudia
-456 (Queen's
-456 WTO
 456 CV
+457 Manila
 457 CA
 457 CA
 458 China
@@ -181,45 +169,54 @@
 458 China
 458 Baba.
 458 China's
+458 March.
 458 Megumi
 460 December's
 460 February's
+461 January,
 461 House
 461 January's
 461 CPI,
 462 January.
-462 January.
 463 EU
 463 EU
-464 Scotland's
+463 Union
+463 Brexit'
 464 EU
 465 January
 465 Andrew
+468 Brexit
 468 US
 468 EU
 469 Kong
-470 Walmart,
+470 FactSet,
 470 Menear
 471 Europe,
 471 U.K.
 471 EU's
-471 U.K.
 471 February's
+472 Thursday
+472 November,
+472 Thursday
+472 November,
 472 Christmas,"
+473 Union
 474 December
 474 January
 474 South
 474 Investec
+474 December's
 475 KKK.
 476 AN
-476 South
-476 December.
 476 Eastern
 477 January
-477 General
 478 Government
+478 Government
+479 Brynjolfsson
 479 Winners
-481 EU
+479 David
+479 MarketWorld
+481 Brussels
 481 EU
 481 EU
 481 EU
@@ -232,32 +229,28 @@
 482 Wilde's
 482 HP
 482 Thursday’s
-482 Patisserie's
 482 David
+482 Pritchard's
 482 EU
 482 ConvaTec,
 483 EU
 483 AT
 484 MP
-484 Labour's
 484 EU.
 484 Wikipedia
 484 EU
-484 ISIS.
 484 MP
 484 MP
 484 Hitler's
 484 EU
 484 Valentine's
-484 Wikipedia
 484 Wales
 484 EU.
 484 MP
-484 MP
+484 Lisa
 484 Wigan.
 484 Wikipedia
-484 Harvard
-485 Tweedbank
+485 TO
 485 EU
 485 EU
 485 EU,
@@ -267,8 +260,10 @@
 485 Prime
 485 EU.
 485 EU
+485 Triumph
 485 Arrochar
-485 Cafe,
+485 SCREECHING
+485 Valentines.
 485 Thursday,
 486 England
 486 Street’s
@@ -278,27 +273,26 @@
 487 Kandi
 488 Bloomberg,
 488 December,
-489 Brzeski
 489 Brexit
-489 April
 490 Tenaga
 491 Suzuki
+491 Infosys,
 492 Prime
 492 QE
-493 Walmart,
+493 FactSet,
 493 Menear
 494 TV
 496 US
 498 Francis
 498 South
-498 StatsSA
 498 December's
 499 Raghu's
+499 Rajan's
 499 EU
+499 EU
+500 July.
 500 January
-500 April
 500 January.
-500 January’s
 500 November,
 500 December
 500 Jonathan
@@ -307,31 +301,33 @@
 501 December's
 501 Liu
 504 Kingdom
-504 Saudi
 504 Islamabad
 508 Pemex's
 508 Pemex's
-508 Pemex,
-508 Friday,
 508 Pemex's
-508 Sachs.
+508 Pemex,
+508 Pemex's
+508 Pemex's
 508 Robbie
+400 Lucy Verasamy:
 420 OUTPUT UP
 430 Ota, Japan
+443 Ian Blackford,
+443 Jenny Chapman,
 454 China? Lardy
 455 Morgan Stanley
+456 Bern, Switzerland.
 456 WTO Working
 464 United States
-469 China's Hong
+472 Robert W.
 480 Black Friday
 485 VERSUS LA
+488 Beijing today
 504 Ambassador Ali
-1 Kiernan
 3 April
 3 October
 6 Modi's
 6 Rahul's
-23 Gandhi
 24 Business
 26 EU
 26 EU
@@ -357,7 +353,6 @@
 35 GDP.
 35 Friday.
 40 China’s
-40 January
 40 US
 40 US
 40 China
@@ -366,6 +361,7 @@
 44 EM
 45 EU
 45 EU
+46 Jerry’s
 47 Kingston
 54 CoreLogic's
 54 January
@@ -374,6 +370,7 @@
 55 Super's
 55 Bank
 58 US
+58 Instagram,
 59 US.
 59 EU
 61 January
@@ -391,6 +388,7 @@
 71 QE
 71 December.
 79 Aasia
+80 EU’s
 80 EU
 86 EU
 86 EU
@@ -405,6 +403,7 @@
 90 EU
 93 EU
 95 US
+99 Twitter:
 103 US
 103 David
 103 Marxist
@@ -417,7 +416,6 @@
 202 Economy
 202 EU
 202 Macron's
-203 England
 204 State
 205 Nigeria.
 208 India
@@ -425,7 +423,6 @@
 209 Sunday
 209 Africa
 209 Atiku,
-209 DSS
 209 Governor,
 212 Goyal's
 212 FM
@@ -452,7 +449,6 @@
 239 MP
 242 Sarma's
 243 CM
-243 Odisha's
 245 EU
 247 Twitter
 253 EU
@@ -480,6 +476,7 @@
 287 EU
 287 EU
 287 November,
+288 Merkel’s
 289 Times
 296 US
 297 IT
@@ -495,6 +492,8 @@
 59 AMP Capital.
 87 New York
 98 United States,
+102 Goldman Sachs,
+239 Anand Rathi,
 261 Alan Greenspan,
 271 Port Talbot.
 285 Theresa May’s

@@ -1,5 +1,5 @@
  <loc>Beijing</loc>
-<loc>CHINA</loc>'S vast manufacturing sector contracted for the second straight month in January as factories feel the pain from the on-going trade tensions with the US and tepid domestic demand.
+<loc>CHINA</loc>'S vast manufacturing sector contracted for the second straight month in January as factories feel the pain from the on-going trade tensions with the <loc>US</loc> and tepid domestic demand.
 <loc>China</loc>'s Caixin/Markit Manufacturing Purchasing Managers' Index (PMI) for January reached 48.3, its lowest level in almost three years as pressures continue to mount on the world's second-largest economy.
 The official version of the index - which surveys the country's larger state-owned firms compared to the Caixin index - edged up to 49.5 from 49.4 in January, while remaining in negative territory.
 The slight increase was driven by the output and raw materials component rebounding, while the other sub-indices contracted.
