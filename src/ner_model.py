@@ -134,7 +134,8 @@ def build_ner_model(data_train, data_test, method):
 	# Evaluting the model
 	X_test = generate_features(data_test)
 	Y_test = data_test['labels'].astype(int)
-	print("Class Distribution of training data : ", np.unique(Y_test, return_counts = True), "\n")
+	print("---------- Evaluation performance on test data ----------")
+	print("Class Distribution of test data : ", np.unique(Y_test, return_counts = True), "\n")
 
 	false_pos_idx, false_neg_idx = evaluate_model(X_test, Y_test, model)
 	data_test.iloc[false_pos_idx[0], :].reset_index().to_pickle('../result/'+method+'_false_pos.pkl')
