@@ -119,6 +119,15 @@ def build_ner_model(data_train, data_test, method):
 	# Training model
 	model = training(X_train, Y_train, method)
 
+	# Evaluating the model with training data
+
+	print("---------- Evaluation performance on training data ----------")
+
+	false_pos_idx, false_neg_idx = evaluate_model(X_train, Y_train, model)
+	data_train.iloc[false_pos_idx[0], :].reset_index().to_pickle('../result/'+method+'_false_pos_train.pkl')
+	data_train.iloc[false_neg_idx[0], :].reset_index().to_pickle('../result/'+method+'_false_neg_train.pkl')
+
+
 	print("---------- Testing Phase ----------")
 	# Evaluting the model
 	X_test = generate_features(data_test)
@@ -126,7 +135,7 @@ def build_ner_model(data_train, data_test, method):
 	print("Class Distribution of training data : ", np.unique(Y_test, return_counts = True), "\n")
 
 	false_pos_idx, false_neg_idx = evaluate_model(X_test, Y_test, model)
-	data_test.iloc[false_pos_idx[0], :].to_pickle('../result/'+method+'_false_pos.pkl')
-	data_test.iloc[false_neg_idx[0], :].to_pickle('../result/'+method+'_false_neg.pkl')
+	data_test.iloc[false_pos_idx[0], :].reset_index().to_pickle('../result/'+method+'_false_pos.pkl')
+	data_test.iloc[false_neg_idx[0], :].reset_index().to_pickle('../result/'+method+'_false_neg.pkl')
 
 
