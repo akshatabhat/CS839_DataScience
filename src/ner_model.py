@@ -30,9 +30,9 @@ def generate_features(data):
 
 		features.append(letterFeatures.firstLetterCapital(row))
 		features.append(letterFeatures.allCapitals(row))
-		features.append(letterFeatures.allLower(row))
+		#features.append(letterFeatures.allLower(row))
 		features.append(letterFeatures.isFirstLetterAlphabet(row))
-		features.append(letterFeatures.containsDigits(row))
+		#features.append(letterFeatures.containsDigits(row))
 		features.append(letterFeatures.stringLen(row))
 		features.append(letterFeatures.numWords(row))
 		features.append(letterFeatures.isFirstLetterofAnyWordCapital(row))
@@ -87,6 +87,11 @@ def training(X_train, Y_train, method):
 def evaluate_model(X_test, Y_test, model):
 	Y_pred = model.predict(X_test)
 
+	false_neg_idx = np.where((Y_test==1) & (Y_pred==0)) # False Negative
+
+	false_pos_idx = np.where((Y_pred==1) & (Y_test==0)) # False Positive
+
+
 	accuracy = metrics.accuracy_score(Y_test, Y_pred)
 	precision = metrics.precision_score(Y_test, Y_pred) # tp/(tp+fp)
 	recall = metrics.recall_score(Y_test, Y_pred) # tp/(tp+fn)
@@ -96,15 +101,19 @@ def evaluate_model(X_test, Y_test, model):
 	print("Recall : ", recall)
 	print("f1-score : ", f1_score)
 
+	return false_pos_idx, false_neg_idx
+
 def build_ner_model(data_train, data_test, method):
 	print("----------",method,"----------")
 	print("---------- Training Phase ----------")
+
+
 	# Generate feature matrix
 	X_train = generate_features(data_train)
 	Y_train = data_train['labels'].astype(int)
 	print("Class Distribution of training data : ", np.unique(Y_train, return_counts = True)), "\n"
 
-	# Feature Selection - Need to add this to test data as well
+	# Feature Selection 
 	# X_train = feature_selection(X_train, Y, 'select-k-best')
 
 	# Training model
@@ -115,5 +124,9 @@ def build_ner_model(data_train, data_test, method):
 	X_test = generate_features(data_test)
 	Y_test = data_test['labels'].astype(int)
 	print("Class Distribution of training data : ", np.unique(Y_test, return_counts = True), "\n")
-	evaluate_model(X_test, Y_test, model)
+
+	false_pos_idx, false_neg_idx = evaluate_model(X_test, Y_test, model)
+	data_test.iloc[false_pos_idx[0], :].to_pickle('../result/'+method+'_false_pos.pkl')
+	data_test.iloc[false_neg_idx[0], :].to_pickle('../result/'+method+'_false_neg.pkl')
+
 
