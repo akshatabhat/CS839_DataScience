@@ -1,6 +1,6 @@
  Homeowners have another chance to cash in on bank competition to pay off their mortgages faster.
 Westpac and HSBC are now offering a 3.95 per cent home loan rate to qualifying borrowers. Westpac's deal is for one year and HSBC's for three.
-The rates are as low as any that have been offered in the <loc>New Zealand</loc> market.
+The rates are as low as any that have been offered in the <loc>New <loc>Zealand</loc></loc> market.
 There are some catches: Westpac's deal requires borrowers to have at least 20 per cent equity and their income credited to a Westpac account.
 HSBC's offer requires a home loan of at least $500,000, or $100,000 in savings with the bank.
 But taking advantage of the rate should pay off.

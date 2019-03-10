@@ -41,5 +41,5 @@ if __name__ == '__main__':
 	# ner_model.build_ner_model(processed_data_train, processed_data_test, "Logistic Regression")
 	#ner_model.build_ner_model(processed_data, "Support Vector Machine")
 	ner_model.build_ner_model(processed_data_train, processed_data_test, "Random Forest")
-	ner_model.build_ner_model(processed_data_train, processed_data_test, "Decision Tree Classifier")
+	#ner_model.build_ner_model(processed_data_train, processed_data_test, "Decision Tree Classifier")
 
