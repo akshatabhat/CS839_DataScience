@@ -23,6 +23,7 @@ def preprocessingOld(data):
 		elif (letterFeatures.isFirstLetterofAnyWordCapital(row) == 0):
 			drop_index.append(index)
 	data.drop(drop_index, inplace=True)
+	print("")
 	return data
 
 def preprocessing(data):
@@ -63,6 +64,7 @@ def preprocessing(data):
 		#connectors like and
 		#if fullstop is not the last char and not everything is capital (like U.S.)
 	data.drop(drop_index, inplace=True)
+	print("")
 	return data
 
 '''

@@ -49,7 +49,7 @@ def generate_features(data):
 
 		
 	X = np.asarray(X)
-	print("Total number of features : \n", X.shape[1])
+	print("Total number of features : ", X.shape[1], "\n")
 
 	return X
 
@@ -62,11 +62,11 @@ def feature_selection(X, Y, method):
 		sel = SelectKBest(score_func=chi2, k=130)
 		X = sel.fit_transform(X, Y)
 
-	print("Number of features selected : \n", X.shape[1])
+	print("Number of features selected : ", X.shape[1], "\n")
 	return X
 
 def training(X_train, Y_train, method):
-	print("---------- Training model using", method ,"----------")
+	print("---------- Building model ----------")
 
 	if method == "Logistic Regression":
 		model = LogisticRegression(C=1e5, solver='lbfgs')
@@ -86,6 +86,7 @@ def training(X_train, Y_train, method):
 
 def evaluate_model(X_test, Y_test, model):
 	Y_pred = model.predict(X_test)
+
 	accuracy = metrics.accuracy_score(Y_test, Y_pred)
 	precision = metrics.precision_score(Y_test, Y_pred) # tp/(tp+fp)
 	recall = metrics.recall_score(Y_test, Y_pred) # tp/(tp+fn)
@@ -95,21 +96,24 @@ def evaluate_model(X_test, Y_test, model):
 	print("Recall : ", recall)
 	print("f1-score : ", f1_score)
 
-def build_ner_model(data, method):
-
+def build_ner_model(data_train, data_test, method):
+	print("----------",method,"----------")
+	print("---------- Training Phase ----------")
 	# Generate feature matrix
-	X = generate_features(data)
-	Y = data['labels'].astype(int)
-	print("Class Distribution : \n", np.unique(Y, return_counts = True))
+	X_train = generate_features(data_train)
+	Y_train = data_train['labels'].astype(int)
+	print("Class Distribution of training data : ", np.unique(Y_train, return_counts = True)), "\n"
 
-	# Feature Selection
-	#X = feature_selection(X, Y, 'select-k-best')
-
-	X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.33) #TODO
+	# Feature Selection - Need to add this to test data as well
+	# X_train = feature_selection(X_train, Y, 'select-k-best')
 
 	# Training model
 	model = training(X_train, Y_train, method)
 
+	print("---------- Testing Phase ----------")
 	# Evaluting the model
+	X_test = generate_features(data_test)
+	Y_test = data_test['labels'].astype(int)
+	print("Class Distribution of training data : ", np.unique(Y_test, return_counts = True), "\n")
 	evaluate_model(X_test, Y_test, model)
 
