@@ -52,6 +52,8 @@ def generate_features(data):
 		# Rule based features
 		features.append(ruleBasedFeatures.wordContainsDayOfWeek(row))
 		features.append(ruleBasedFeatures.wordContainsMonth(row))
+		features.append(ruleBasedFeatures.prevWordContainsDirection(row))
+		features.append(ruleBasedFeatures.wordContainsDirection(row))
 
 
 		X.append(features)
@@ -176,10 +178,10 @@ def build_ner_model(data_train, data_test, method):
 
 	false_pos_idx, false_neg_idx = evaluate_model(X_train, Y_train, model)
 
-	data_train.iloc[false_pos_idx[0], :].reset_index().to_pickle(result_folder+method+'_false_pos_train.pkl')
-	data_train.iloc[false_neg_idx[0], :].reset_index().to_pickle(result_folder+method+'_false_neg_train.pkl')
+	data_train.iloc[false_pos_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_pos_train.pkl')
+	data_train.iloc[false_neg_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_neg_train.pkl')
 
-	# breakpoint()
+	breakpoint()
 
 
 	print("---------- Testing Phase ----------")
@@ -191,9 +193,9 @@ def build_ner_model(data_train, data_test, method):
 
 	false_pos_idx, false_neg_idx = evaluate_model(X_test, Y_test, model)
 
-	data_test.iloc[false_pos_idx[0], :].reset_index().to_pickle(result_folder+method+'_false_pos.pkl')
-	data_test.iloc[false_neg_idx[0], :].reset_index().to_pickle(result_folder+method+'_false_neg.pkl')
+	data_test.iloc[false_pos_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_pos.pkl')
+	data_test.iloc[false_neg_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_neg.pkl')
 
-	# breakpoint()
+	breakpoint()
 
 
