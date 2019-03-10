@@ -1,5 +1,5 @@
  THE ramifications of the nearly four-month-long strike at <loc>Sibanye</loc>-<loc>Stillwater</loc>'s gold division by the Association of Mineworkers and Construction Union (Amcu) were yesterday laid bare with gold production in December plunging to its worst level since October 2012.
-Data from Statistics <loc>South Africa</loc> showed that gold output tanked 31 percent year-on-year in December.
+Data from Statistics <loc>South <loc>Africa</loc></loc> showed that gold output tanked 31 percent year-on-year in December.
 Production in the mining sector as a whole fell 4.8 percent year-on-year in December. Full mining production decreased 1.6 percent.
 FNB chief economist Mamello Matikinca-Ngwenya said the plunge in gold production had detracted 4.6 percentage points from the headline reading.
 "This can likely be ascribed to the Amcu strike at the <loc>Sibanye</loc>-<loc>Stillwater</loc> gold operation," Matinkica-Ngwenya asserted.

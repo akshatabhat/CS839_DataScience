@@ -102,7 +102,7 @@ def evaluate_model(X_test, Y_test, model):
 	print("Precision : ", precision)
 	print("Recall : ", recall)
 	print("f1-score : ", f1_score)
-
+	print("")
 	return false_pos_idx, false_neg_idx
 
 def build_ner_model(data_train, data_test, method):
