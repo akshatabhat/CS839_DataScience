@@ -29,6 +29,8 @@ def wordContainsMonth(row):
             return True
     return False
 
+# def isPrevWordDirection(row):
+
 
 # df = pd.read_pickle('../Data/data_window_ngram-5.pkl')
 
