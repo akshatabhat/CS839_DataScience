@@ -18,11 +18,15 @@ if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
 
 	# Load and read data into pandas dataframe
-	input_filename = '../data/data_window_ngram-5.pkl'
+	input_filename = '../Data/data_window_ngram-5.pkl'
 	data = load_data(input_filename)
+	# data = data[data['file_ids'] < 100].reset_index()
+	# data_train = data[data['file_ids'] < 70].reset_index()
+	# data_test = data[data['file_ids'] >= 70].reset_index()
+
 	data_train = data[data['file_ids'] < 400].reset_index()
 	data_test = data[data['file_ids'] >= 400].reset_index()
-	
+
 	print("Training data size : ", data_train.shape[0], ", Test data size : ",data_test.shape[0])
 	# Preprocessing
 	processed_data_train = preprocessing.preprocessing(data_train)
@@ -34,7 +38,7 @@ if __name__ == '__main__':
 	# processed_data.to_pickle(processed_data_filename)
 
 	# Build Named Entity Recognizer.
-	#ner_model.build_ner_model(processed_data_train, processed_data_test, "Logistic Regression")
+	# ner_model.build_ner_model(processed_data_train, processed_data_test, "Logistic Regression")
 	#ner_model.build_ner_model(processed_data, "Support Vector Machine")
 	ner_model.build_ner_model(processed_data_train, processed_data_test, "Random Forest")
 	#ner_model.build_ner_model(processed_data_train, processed_data_test, "Decision Tree Classifier")
