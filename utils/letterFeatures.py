@@ -121,12 +121,37 @@ def nextWordISsaid(data):
 	else :
 		return 0		
 
+def isItPrecededByIn(data):
+	prevWord = str(data["prev4"])
+	if ("in" == prevWord):
+		return 1
+	if ("In" == prevWord):
+		return 1
+	return 0
+
+def isFirstLetterofEveryWordCapital(data):
+	words = str(data["word"])
+	words = words.split(" ")
+	for word in words:
+		if (word[0].isalpha() == False) :
+			if (len(word) > 1) :
+				if (word[1].isalpha() == False):
+					return 0
+				else :
+					if (word[1].islower() == True):
+						return 0
+			else:
+				return 0	
+		elif (word[0].islower() == True):
+			return 0
+	return 1
+
 '''
 f = open('../data/data_window_ngram-5.pkl', 'rb')
 data = pd.read_pickle(f)
 f.close()
 print(data.iloc[0])
 for index, row in data.iterrows():
-	if(nextWordISsaid(row)):
-		print("%s %s" %(row["word"], row["after0"]))
+	if(isFirstLetterofEveryWordCapital(row)):
+		print("%s" %(row["word"]))
 '''
