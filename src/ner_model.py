@@ -2,6 +2,9 @@ import sys
 from tqdm import tqdm
 import numpy as np
 
+from IPython.core import debugger
+breakpoint = debugger.set_trace
+
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
@@ -13,7 +16,7 @@ from sklearn.feature_selection import VarianceThreshold, SelectKBest, chi2
 
 sys.path.append('../utils')
 
-import letterFeatures, posFeatures
+import letterFeatures, posFeatures, ruleBasedFeatures
 
 import nltk
 nltk.download('averaged_perceptron_tagger')
@@ -43,9 +46,13 @@ def generate_features(data):
 		features.append(letterFeatures.isItPrecededByIn(row))
 		features.append(letterFeatures.isFirstLetterofEveryWordCapital(row))
 		# POS Tagging Features
-
 		features += posFeatures.posCounts(row)
 		features += posFeatures.posCountsNGram(row) # 1-gram
+
+		# Rule based features
+		features.append(ruleBasedFeatures.wordContainsDayOfWeek(row))
+		features.append(ruleBasedFeatures.wordContainsMonth(row))
+
 
 		X.append(features)
 
@@ -80,7 +87,7 @@ def training(X_train, Y_train, method):
 		model = DecisionTreeClassifier()
 		model.fit(X_train, Y_train)
 	elif method == "Random Forest":
-		model = RandomForestClassifier(n_estimators=10, max_depth=None, min_samples_split=2, random_state=0)
+		model = RandomForestClassifier(n_estimators=100, max_depth=None, min_samples_split=2, random_state=0)
 		model.fit(X_train, Y_train)
 	else:
 		print("Incorrect Input")
@@ -126,9 +133,10 @@ def build_ner_model(data_train, data_test, method):
 	print("---------- Evaluation performance on training data ----------")
 
 	false_pos_idx, false_neg_idx = evaluate_model(X_train, Y_train, model)
-	data_train.iloc[false_pos_idx[0], :].reset_index().to_pickle('../result/'+method+'_false_pos_train.pkl')
-	data_train.iloc[false_neg_idx[0], :].reset_index().to_pickle('../result/'+method+'_false_neg_train.pkl')
+	data_train.iloc[false_pos_idx[0], :].reset_index(drop=True).to_pickle('../result/'+method+'_false_pos_train.pkl')
+	data_train.iloc[false_neg_idx[0], :].reset_index(drop=True).to_pickle('../result/'+method+'_false_neg_train.pkl')
 
+	# breakpoint()
 
 	print("---------- Testing Phase ----------")
 	# Evaluting the model
@@ -138,7 +146,9 @@ def build_ner_model(data_train, data_test, method):
 	print("Class Distribution of test data : ", np.unique(Y_test, return_counts = True), "\n")
 
 	false_pos_idx, false_neg_idx = evaluate_model(X_test, Y_test, model)
-	data_test.iloc[false_pos_idx[0], :].reset_index().to_pickle('../result/'+method+'_false_pos.pkl')
-	data_test.iloc[false_neg_idx[0], :].reset_index().to_pickle('../result/'+method+'_false_neg.pkl')
+	data_test.iloc[false_pos_idx[0], :].reset_index(drop=True).to_pickle('../result/'+method+'_false_pos.pkl')
+	data_test.iloc[false_neg_idx[0], :].reset_index(drop=True).to_pickle('../result/'+method+'_false_neg.pkl')
+
+	# breakpoint()
 
 
