@@ -146,13 +146,85 @@ def isFirstLetterofEveryWordCapital(data):
 			return 0
 	return 1
 
-#next word is "has"
+def nextWordIsHas(data):
+	word = str(data["after0"])
+	if (word == "has") :
+		return 1
+	elif (word == "Has") :
+		return 1
+	if (word == "has,") :
+		return 1
+	elif (word == "Has,") :
+		return 1
+	if (word == "has.") :
+		return 1
+	else :
+		return 0
+
+def isTheFirstWordCapsNew(data):
+	word = str(data["word"])
+	word = word.split(" ")
+	if (len(word) == 2):
+		if (word[0] == "New") :
+			return 1
+	return 0		
+
+def isThePrevWordCapsNew(data):
+	word = str(data["word"])
+	word = word.split(" ")
+	if (len(word) == 1):
+		prevWord = str(data["prev4"])
+		if (prevWord == "New") :
+			return 1
+	return 0		
+
+def isThePrevWordADirection(data):
+	word = str(data["prev4"])
+	if "North" in word[0:5]:
+		return 1
+	elif "north" in word[0:5]:
+		return 1
+	elif "South" in word[0:5]:
+		return 1
+	elif "south" in word[0:5]:
+		return 1
+	elif "East" in word[0:4]:
+		return 1
+	elif "east" in word[0:4]:
+		return 1
+	elif "West" in word[0:4]:
+		return 1
+	elif "west" in word[0:4]:
+		return 1
+	return 0	
+
+def isTheFirstWordADirection(data):
+	word = str(data["word"])
+	word = word.split(" ")
+	word = word[0]
+	if "North" in word[0:5]:
+		return 1
+	elif "north" in word[0:5]:
+		return 1
+	elif "South" in word[0:5]:
+		return 1
+	elif "south" in word[0:5]:
+		return 1
+	elif "East" in word[0:4]:
+		return 1
+	elif "east" in word[0:4]:
+		return 1
+	elif "West" in word[0:4]:
+		return 1
+	elif "west" in word[0:4]:
+		return 1
+	return 0	
 '''
 f = open('../data/data_window_ngram-5.pkl', 'rb')
 data = pd.read_pickle(f)
 f.close()
 print(data.iloc[0])
 for index, row in data.iterrows():
-	if(isFirstLetterofEveryWordCapital(row)):
-		print("%s" %(row["word"]))
+	if(isThePrevWordADirection(row)):
+		print("%s %s %s %d" %(row["prev4"], row["word"], row["labels"], row["file_ids"]))
 '''
