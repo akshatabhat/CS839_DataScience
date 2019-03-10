@@ -7,7 +7,7 @@
 * Sign up: Brexit Whatsapp updates and all-new Brexit Bulletin
 Theresa May has sought to play down reports that she will face MPs with a stark Brexit choice between her deal and delaying Brexit just a few days before March 29, after her top civil servant was overheard outlining the plan in a bar.
 Speaking in the House of Commons, Mrs May told MPs not to pay heed to "what someone said to someone else as overheard by someone else, in a bar".
-  "It is very clear the government's position is the same. We triggered Article 50 (the process by which the <loc>UK</loc> leaves the EU)... that had a two-year time limit, that ends on the 29 March."
+  "It is very clear the government's position is the same. We triggered Article 50 (the process by which the <loc>UK</loc> leaves the <loc>EU</loc> )... that had a two-year time limit, that ends on the 29 March."
 She added: "We want to leave with a deal, and that's what we are working for."
 As there is no majority support for a 'no deal' scenario in the House of Commons, it is likely that an extension to Article 50 will be requested in March anyway if MPs continue to refuse to back the deal.
 It came as Olly Robbins, the Prime Minister’s chief Brexit negotiator, was rebuked by the Brexit Secretary, who warned that the <loc>UK</loc> cannot extend Article 50 into the “darkness”.
@@ -95,13 +95,13 @@ A no-deal Brexit would lead to a "major dislocation" to the Scottish economy, ac
 In a State of the Economy report published on Wednesday, <loc>Scotland</loc>'s chief economic adviser, Gary Gillespie, indicated that disruptions to logistics, supply, trade, investment, migration and market confidence could cause a "significant structural change in the economy".
    The analysis suggested that although the country had experienced a "positive year" economically, with growth in areas such as exports and high labour market performance, uncertainty around the <loc>UK</loc>'s withdrawal from the <loc>EU</loc> remained a "live risk".
 The report highlighted business activity softening towards the end of 2018, with business confidence also becoming weaker - attributed to growing uncertainty over Brexit.
-  It also pointed to forecasts that the Scottish economy is expected to grow by between 1% and 1.5% over 2019, although indicated that these would need to be reconsidered in the absence of an orderly departure from the EU.
+  It also pointed to forecasts that the Scottish economy is expected to grow by between 1% and 1.5% over 2019, although indicated that these would need to be reconsidered in the absence of an orderly departure from the <loc>EU</loc> .
    The <loc>UK</loc> is expected to leave the <loc>EU</loc> on March 29, however Prime Minister Theresa May has not been able to gain sufficient support from MPs to support her deal.
 10:01AMSir Keir Starmer insists 2nd referendum is still on the table
  The Shadow Brexit Secretary has insisted the "only credible options" left for Labour are a "close economic relationship" with the <loc>European Union</loc> or a "public vote".
 Speaking amid an ongoing row over the party's Brexit strategy, Sir Keir refused to comment on reports that a reference to a referendum was removed by Jeremy Corbyn's office before his letter to the Prime Minister was sent.
 It was reported last week that Sir Keir had helped draft the letter, which is said to have originally contained a reference to a public vote, but that this was removed without his knowledge.
-  Asked about the controversy this morning, he told the Today programme: "The letter set out the close economic relationship in detail, it was credible, it's been well received in the <loc>UK</loc> and the EU.
+  Asked about the controversy this morning, he told the Today programme: "The letter set out the close economic relationship in detail, it was credible, it's been well received in the <loc>UK</loc> and the <loc>EU</loc> .
 "We made absolutely clear the next day - I said so, Jeremy Corbyn sent an email to all members - that a public vote is an option still on the table."
    Reacting to comments reportedly made by Olly Robbins, Sir Keir added: "What the Prime Minister is up to is obvious. She's coming to Parliament every other week, pretending there's progress and trying to buy another two weeks, edging her way towards March 21, when the next <loc>EU</loc> summit is, to try to put her deal up against no-deal in those final few weeks.
 "Parliament needs to say 'That's not on'."
