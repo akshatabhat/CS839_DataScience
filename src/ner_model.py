@@ -45,6 +45,12 @@ def generate_features(data):
 		features.append(letterFeatures.nextWordISsaid(row))
 		features.append(letterFeatures.isItPrecededByIn(row))
 		features.append(letterFeatures.isFirstLetterofEveryWordCapital(row))
+		features.append(letterFeatures.nextWordIsHas(row))
+		features.append(letterFeatures.isTheFirstWordCapsNew(row))
+		features.append(letterFeatures.isThePrevWordCapsNew(row))
+		features.append(letterFeatures.isThePrevWordADirection(row))
+		features.append(letterFeatures.isTheFirstWordADirection(row))
+
 		# POS Tagging Features
 		features += posFeatures.posCounts(row)
 		features += posFeatures.posCountsNGram(row) # 1-gram
@@ -181,7 +187,7 @@ def build_ner_model(data_train, data_test, method):
 	data_train.iloc[false_pos_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_pos_train.pkl')
 	data_train.iloc[false_neg_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_neg_train.pkl')
 
-	breakpoint()
+	#breakpoint()
 
 
 	print("---------- Testing Phase ----------")
@@ -196,6 +202,6 @@ def build_ner_model(data_train, data_test, method):
 	data_test.iloc[false_pos_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_pos.pkl')
 	data_test.iloc[false_neg_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_neg.pkl')
 
-	breakpoint()
+	#breakpoint()
 
 
