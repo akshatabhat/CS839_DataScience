@@ -20,9 +20,9 @@ if __name__ == '__main__':
 	# Load and read data into pandas dataframe
 	input_filename = '../Data/data_window_ngram-5.pkl'
 	data = load_data(input_filename)
-	# data = data[data['file_ids'] < 100].reset_index()
-	# data_train = data[data['file_ids'] < 70].reset_index()
-	# data_test = data[data['file_ids'] >= 70].reset_index()
+	# data = data[data['file_ids'] < 300].reset_index()
+	# data_train = data[data['file_ids'] < 220].reset_index()
+	# data_test = data[data['file_ids'] >= 220].reset_index()
 
 	data_train = data[data['file_ids'] < 400].reset_index()
 	data_test = data[data['file_ids'] >= 400].reset_index()
@@ -41,5 +41,5 @@ if __name__ == '__main__':
 	# ner_model.build_ner_model(processed_data_train, processed_data_test, "Logistic Regression")
 	#ner_model.build_ner_model(processed_data, "Support Vector Machine")
 	ner_model.build_ner_model(processed_data_train, processed_data_test, "Random Forest")
-	#ner_model.build_ner_model(processed_data_train, processed_data_test, "Decision Tree Classifier")
+	ner_model.build_ner_model(processed_data_train, processed_data_test, "Decision Tree Classifier")
 
