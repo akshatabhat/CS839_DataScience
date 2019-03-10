@@ -1,13 +1,13 @@
  * Theresa May plays down reports of 'deal or delay' choice in March
 * May's chief negotiator rebuked after he let slip the plan in a bar
- * Telegraph View: It's no wonder Europeans hold the <loc>EU</loc> in contempt
+  * Telegraph View: It's no wonder Europeans hold the <loc>EU</loc> in contempt
 * PM's chief negotiator: back Theresa May's deal or prepare for Brexit delay
 * Philip Johnston: The PM could be pushed into a no-deal Brexit she doesn't want
 * Mark Carney drops Project Fear as he talks up free trade potential of Brexit
 * Sign up: Brexit Whatsapp updates and all-new Brexit Bulletin
 Theresa May has sought to play down reports that she will face MPs with a stark Brexit choice between her deal and delaying Brexit just a few days before March 29, after her top civil servant was overheard outlining the plan in a bar.
 Speaking in the House of Commons, Mrs May told MPs not to pay heed to "what someone said to someone else as overheard by someone else, in a bar".
-"It is very clear the government's position is the same. We triggered Article 50 (the process by which the <loc>UK</loc> leaves the EU)... that had a two-year time limit, that ends on the 29 March."
+ "It is very clear the government's position is the same. We triggered Article 50 (the process by which the <loc>UK</loc> leaves the EU)... that had a two-year time limit, that ends on the 29 March."
 She added: "We want to leave with a deal, and that's what we are working for."
 As there is no majority support for a 'no deal' scenario in the House of Commons, it is likely that an extension to Article 50 will be requested in March anyway if MPs continue to refuse to back the deal.
 It came as Olly Robbins, the Prime Minister’s chief Brexit negotiator, was rebuked by the Brexit Secretary, who warned that the <loc>UK</loc> cannot extend Article 50 into the “darkness”.
@@ -25,9 +25,9 @@ Mr Barclay also insisted that <loc>Brussels</loc> would be highly unlikely to gr
 “Any extension is not a unilateral decision,” he added. “In the meetings with many of the European leaders that David Lidington and I had, what came over was actually that it is not in anyone's interests to have an extension without any clarity.
 "They have obviously elections for the Parliament and a Commission that will be formed at the end of May, so there is no desire on the European side to see what one described to me as an 'extension in darkness', where there is no clarity as to why we are extending."
 At a glance | What is Article 50?6:25PM'No news' not good news
- Michel Barnier has some sobering words for <loc>EU</loc> countries this evening as he confirms there is still no movement on the vexed question of the Irish border from the <loc>UK</loc>.
+  Michel Barnier has some sobering words for <loc>EU</loc> countries this evening as he confirms there is still no movement on the vexed question of the Irish border from the <loc>UK</loc>.
 The lack of a compromise emerging this week, despite Mr Barnier meetings his British counterpart Steve Barclay for dinner in <loc>Brussels</loc> earlier this week, will fuel speculation that the Prime Minister is simply running down the clock.
-EU Council President Donald Tusk, speaking after a Brexit talks update meeting with Michel Barnier in <loc>Brussels</loc> this evening: ‘No news is not always good news. EU27 still waiting for concrete, realistic proposals from London on how to break Brexit impasse.’
+ <loc>EU</loc> Council President Donald Tusk, speaking after a Brexit talks update meeting with Michel Barnier in <loc>Brussels</loc> this evening: ‘No news is not always good news. EU27 still waiting for concrete, realistic proposals from London on how to break Brexit impasse.’
 - Nick Gutteridge (@nick_gutteridge) February 13, 2019
 5:03PMERG to rebel?
 It appears the ERG may vote against the Government tomorrow on a motion which, they fear, would remove 'no deal' from the negotiating table and therefore considerable leverage,
@@ -44,7 +44,7 @@ The statement did not give details of which figures are affected by the error.
 The Home Office had earlier contested the report's claims, describing them as "inaccurate and untrue".
 3:21PMDowning Street: No deal still an option
 Downing Street has denied that Theresa May is taking a no-deal Brexit off the table.
- Eurosceptic Tories are threatening to rebel in a key Brexit vote on Thursday over a motion tabled in the Prime Minister's name which they claim would commit her to avoiding <loc>EU</loc> withdrawal without a deal.
+  Eurosceptic Tories are threatening to rebel in a key Brexit vote on Thursday over a motion tabled in the Prime Minister's name which they claim would commit her to avoiding <loc>EU</loc> withdrawal without a deal.
 The motion asks the House to reiterate its support for the approach agreed on January 29, when the Commons backed an amendment authorising Mrs May to go back to <loc>Brussels</loc> to renegotiate the controversial Irish backstop.
 But members of the backbench European Research Group say that it effectively endorses another amendment approved by MPs the same day, which rules out no-deal but is not binding on the Government.
 One ERG member told the BrexitCentral website: "We told the Government very clearly last night that we will not support this motion and in fact we urged them, indeed pleaded with them at senior level, to withdraw it yesterday - but they took absolutely no notice. Frankly, we despair."
@@ -67,7 +67,7 @@ She says the <loc>UK</loc> must have an independent trade policy. She also downp
 12:25PMSNP challenges May over Robbins' comments
 Ian Blackford, the <loc>Westminster</loc> leader of the Scottish Nationalists, says that the Prime Minister has been "rumbled by your own loose-lipped adviser", a reference to Olly Robbins, who has been thrust into the spotlight over claims that MPs will face a choice of the deal or an extension of Article 50.
 He asks her whether she will now confirm she is seeking to delay Brexit.
- She hits back by pointing out he could provide certainty to business by backing her deal, adding that the Scottish independence his party seeks would mean <loc>Scotland</loc> leaving the <loc>EU</loc> on no deal terms.
+  She hits back by pointing out he could provide certainty to business by backing her deal, adding that the Scottish independence his party seeks would mean <loc>Scotland</loc> leaving the <loc>EU</loc> on no deal terms.
 12:22PMMay hits back at Labour's Brexit ambiguity
 Mrs May says that Jeremy Corbyn has decided to focus his questions on Chris Grayling to avoid bringing up Brexit, which his own party is fiercely divided over.
 She the country does not know the Labour leader backs a referendum, a deal, of if he even backs Brexit.
@@ -93,17 +93,17 @@ Trade minister Jesse Norman says it's a bit rich for Labour to accuse the Govern
 11:33AM<loc>Scotland</loc>'s chief economist issues no-deal warning
 A no-deal Brexit would lead to a "major dislocation" to the Scottish economy, according to the country's chief economist.
 In a State of the Economy report published on Wednesday, <loc>Scotland</loc>'s chief economic adviser, Gary Gillespie, indicated that disruptions to logistics, supply, trade, investment, migration and market confidence could cause a "significant structural change in the economy".
- The analysis suggested that although the country had experienced a "positive year" economically, with growth in areas such as exports and high labour market performance, uncertainty around the <loc>UK</loc>'s withdrawal from the <loc>EU</loc> remained a "live risk".
+  The analysis suggested that although the country had experienced a "positive year" economically, with growth in areas such as exports and high labour market performance, uncertainty around the <loc>UK</loc>'s withdrawal from the <loc>EU</loc> remained a "live risk".
 The report highlighted business activity softening towards the end of 2018, with business confidence also becoming weaker - attributed to growing uncertainty over Brexit.
-It also pointed to forecasts that the Scottish economy is expected to grow by between 1% and 1.5% over 2019, although indicated that these would need to be reconsidered in the absence of an orderly departure from the EU.
- The <loc>UK</loc> is expected to leave the <loc>EU</loc> on March 29, however Prime Minister Theresa May has not been able to gain sufficient support from MPs to support her deal.
+ It also pointed to forecasts that the Scottish economy is expected to grow by between 1% and 1.5% over 2019, although indicated that these would need to be reconsidered in the absence of an orderly departure from the EU.
+  The <loc>UK</loc> is expected to leave the <loc>EU</loc> on March 29, however Prime Minister Theresa May has not been able to gain sufficient support from MPs to support her deal.
 10:01AMSir Keir Starmer insists 2nd referendum is still on the table
 The Shadow Brexit Secretary has insisted the "only credible options" left for Labour are a "close economic relationship" with the European Union or a "public vote".
 Speaking amid an ongoing row over the party's Brexit strategy, Sir Keir refused to comment on reports that a reference to a referendum was removed by Jeremy Corbyn's office before his letter to the Prime Minister was sent.
 It was reported last week that Sir Keir had helped draft the letter, which is said to have originally contained a reference to a public vote, but that this was removed without his knowledge.
-Asked about the controversy this morning, he told the Today programme: "The letter set out the close economic relationship in detail, it was credible, it's been well received in the <loc>UK</loc> and the EU.
+ Asked about the controversy this morning, he told the Today programme: "The letter set out the close economic relationship in detail, it was credible, it's been well received in the <loc>UK</loc> and the EU.
 "We made absolutely clear the next day - I said so, Jeremy Corbyn sent an email to all members - that a public vote is an option still on the table."
- Reacting to comments reportedly made by Olly Robbins, Sir Keir added: "What the Prime Minister is up to is obvious. She's coming to Parliament every other week, pretending there's progress and trying to buy another two weeks, edging her way towards March 21, when the next <loc>EU</loc> summit is, to try to put her deal up against no-deal in those final few weeks.
+  Reacting to comments reportedly made by Olly Robbins, Sir Keir added: "What the Prime Minister is up to is obvious. She's coming to Parliament every other week, pretending there's progress and trying to buy another two weeks, edging her way towards March 21, when the next <loc>EU</loc> summit is, to try to put her deal up against no-deal in those final few weeks.
 "Parliament needs to say 'That's not on'."
 Asked whether he would vote for Mrs May's deal over a no-deal if it came to a division days before the March 29 deadline for Brexit, Sir Keir said: "No, I think at that stage there would be a concerted effort to force the Prime Minister to seek an extension of Article 50 and I think that would get a majority in the House."
 9:40AMBrexiteers attack Robbins over Article 50 comments

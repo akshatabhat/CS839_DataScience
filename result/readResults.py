@@ -4,3 +4,10 @@ f = open("Random Forest_false_pos.pkl",'rb')
 data = pd.read_pickle(f)
 for index, row in data.iterrows():
 	print("%s %s" %(row["file_ids"], row["word"]))
+f.close()
+
+f = open("Random Forest_false_pos_train.pkl",'rb')
+data = pd.read_pickle(f)
+for index, row in data.iterrows():
+	print("%s %s" %(row["file_ids"], row["word"]))
+f.close()
