@@ -20,7 +20,7 @@ for window_size in window_sizes:
     out_filename = "data"
     #### Files to parse. 
     ## Files that are currently annotated: 1-110, 200-310, 400-510.
-    file_ids = ["100"]
+    file_ids = [485]
     #### Parsing parameters
     ## Number of words that we look at one time.
     # window_size = 1
@@ -46,9 +46,9 @@ for window_size in window_sizes:
     ## Load previous dataframe and remove all entries
     df_prev = pd.read_pickle(out_path + out_filename + out_filename_info + ".pkl")
     for ID in file_ids:
-        df_prev = df_prev[df_prev.file_ids != int(ID)]
+        df_prev = df_prev[df_prev.file_ids != ID]
     ## Add entries for dataframes that were redone
     df_prev = pd.concat([df_prev,df],axis=0)
 
-    df_prev.to_pickle(out_path + out_filename + out_filename_info + "_prev.pkl")
+    df_prev.to_pickle(out_path + out_filename + out_filename_info + ".pkl")
 
