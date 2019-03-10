@@ -1,6 +1,6 @@
- <loc>New Zealand</loc>’s immigration boom wasn’t as big as reported at the time, a major revision by Statistics <loc>NZ</loc> has found.
+ <loc>New <loc>Zealand</loc></loc>’s immigration boom wasn’t as big as reported at the time, a major revision by Statistics <loc>NZ</loc> has found.
 That means we’ll need to build fewer houses to meet the current shortage, says Westpac senior economist Satish Ranchhod.
-The new, more accurate, data shows there are fewer people in <loc>New Zealand</loc> than we thought and that has major implications for the economic outlook, he says.
+The new, more accurate, data shows there are fewer people in <loc>New <loc>Zealand</loc></loc> than we thought and that has major implications for the economic outlook, he says.
 Net migration peaked at 64,000 in mid-2016, not 72,500, in 2017, according to revised figures. It is now tracking at 43,000 — about 20,000 fewer migrants a year than previously thought.
 Far from being an arcane revision of methodology, the new migration figures change the outlook for GDP growth, employment and housing, Ranchhod says.
 Stats <loc>NZ</loc> has revised the figures based on new research about how many of our new long-term arrivals actually stay in the country.
