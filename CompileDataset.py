@@ -11,7 +11,7 @@ import matplotlib
 #### Local Imports
 import UtilsData
 
-window_sizes = [1]
+window_sizes = [1,2]
 
 for window_size in window_sizes:
     #### Paths and filenames
