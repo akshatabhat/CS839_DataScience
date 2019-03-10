@@ -52,6 +52,8 @@ def generate_features(data):
 		# Rule based features
 		features.append(ruleBasedFeatures.wordContainsDayOfWeek(row))
 		features.append(ruleBasedFeatures.wordContainsMonth(row))
+		features.append(ruleBasedFeatures.prevWordContainsDirection(row))
+		features.append(ruleBasedFeatures.wordContainsDirection(row))
 
 
 		X.append(features)
@@ -136,7 +138,7 @@ def build_ner_model(data_train, data_test, method):
 	data_train.iloc[false_pos_idx[0], :].reset_index(drop=True).to_pickle('../result/'+method+'_false_pos_train.pkl')
 	data_train.iloc[false_neg_idx[0], :].reset_index(drop=True).to_pickle('../result/'+method+'_false_neg_train.pkl')
 
-	# breakpoint()
+	breakpoint()
 
 	print("---------- Testing Phase ----------")
 	# Evaluting the model
@@ -149,6 +151,6 @@ def build_ner_model(data_train, data_test, method):
 	data_test.iloc[false_pos_idx[0], :].reset_index(drop=True).to_pickle('../result/'+method+'_false_pos.pkl')
 	data_test.iloc[false_neg_idx[0], :].reset_index(drop=True).to_pickle('../result/'+method+'_false_neg.pkl')
 
-	# breakpoint()
+	breakpoint()
 
 

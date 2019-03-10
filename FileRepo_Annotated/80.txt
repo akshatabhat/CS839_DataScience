@@ -11,4 +11,4 @@ The academic said that while, as with Brexit, the first economic impact of such 
 This, he suggested, in turn might make it more likely that an “alternative form of independence” was proposed which helped ameliorate some of these impacts.
 Willie Rennie, leader of the Scottish Liberal Democrats, said: “This report should make clear to the Nationalists that independence would only worsen the economic chaos of Brexit.
 “Straight away, independence would mean almost £10bn per year less for public services. A lower rate of economic growth will further eat away at cash for the NHS and education. Rather than stomp their feet, the SNP should face the facts: breaking up is hard to do.”
-An SNP spokesman said: “Brexit poses a massive economic threat to <loc>Scotland</loc> and, combined with Westminster’s shambolic handling, it is making the case for independence stronger by the day.”
+An SNP spokesman said: “Brexit poses a massive economic threat to <loc>Scotland</loc> and, combined with <loc>Westminster</loc>’s shambolic handling, it is making the case for independence stronger by the day.”

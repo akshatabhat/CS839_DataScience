@@ -17,6 +17,7 @@ def GetWordsFromTextFile(text_file):
     text = text.replace('\n', ' ') # Replace new line characters with whitespace so the window can easily look across sentences 
     text = text.replace('-', ' ') # For special cases like US-China we should just remove the -. 
     text = text.replace('—', ' ') # For special cases like US-China we should just remove the -. 
+    text = text.replace('/', ' ') # For special cases like US/China we should just remove the /. 
     text = re.sub(' +', ' ', text) # Remove all duplicate whitespace characters
     ## After splitting at ' ' we should not get any individual word to be only whitespace. Instead they would be empty strings.
     words = text.split(' ') 

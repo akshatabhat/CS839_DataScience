@@ -29,7 +29,21 @@ def wordContainsMonth(row):
             return True
     return False
 
-# def isPrevWordDirection(row):
+def prevWordContainsDirection(row):
+    directions = ['north','south','east','west']
+    prev_str = str(row['prev4']).lower()
+    for direction in directions:
+        if(direction in prev_str):
+            return True
+    return False
+
+def wordContainsDirection(row):
+    directions = ['north','south','east','west']
+    word = str(row['word']).lower()
+    for direction in directions:
+        if(direction in word):
+            return True
+    return False
 
 
 # df = pd.read_pickle('../Data/data_window_ngram-5.pkl')
