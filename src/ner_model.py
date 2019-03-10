@@ -116,10 +116,10 @@ def training(X_train, Y_train, method, random_grid=None):
 	print("---------- Building model ----------")
 
 	if method == "Logistic Regression":
-		model = LogisticRegression(C=1e5, solver='lbfgs')
+		model = LogisticRegression(C=1e5, solver='lbfgs', max_iter=500)
 		model.fit(X_train, Y_train)
 	elif method == "Support Vector Machine":
-		model = SVC(gamma='scale')
+		model = SVC(gamma='auto', C=0.9)
 		model.fit(X_train, Y_train) 
 	elif method == "Decision Tree Classifier":
 		model = DecisionTreeClassifier()
@@ -137,14 +137,18 @@ def training(X_train, Y_train, method, random_grid=None):
 		print("Incorrect Input")
 	return model
 
+def post_processing(X_test, Y_test, Y_pred):
+	pass
+
 def evaluate_model(X_test, Y_test, model):
 	Y_pred = model.predict(X_test)
+
 
 	false_neg_idx = np.where((Y_test==1) & (Y_pred==0)) # False Negative
 
 	false_pos_idx = np.where((Y_pred==1) & (Y_test==0)) # False Positive
 
-
+	# Before Post-processing
 	accuracy = metrics.accuracy_score(Y_test, Y_pred)
 	precision = metrics.precision_score(Y_test, Y_pred) # tp/(tp+fp)
 	recall = metrics.recall_score(Y_test, Y_pred) # tp/(tp+fn)
@@ -154,6 +158,10 @@ def evaluate_model(X_test, Y_test, model):
 	print("Recall : ", recall)
 	print("f1-score : ", f1_score)
 	print("")
+
+
+
+
 	return false_pos_idx, false_neg_idx
 
 def build_ner_model(data_train, data_test, method):
@@ -189,7 +197,7 @@ def build_ner_model(data_train, data_test, method):
 	data_train.iloc[false_pos_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_pos_train.pkl')
 	data_train.iloc[false_neg_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_neg_train.pkl')
 
-	breakpoint()
+	#breakpoint()
 
 
 	print("---------- Testing Phase ----------")
@@ -204,6 +212,6 @@ def build_ner_model(data_train, data_test, method):
 	data_test.iloc[false_pos_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_pos.pkl')
 	data_test.iloc[false_neg_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_neg.pkl')
 
-	breakpoint()
+	#breakpoint()
 
 
