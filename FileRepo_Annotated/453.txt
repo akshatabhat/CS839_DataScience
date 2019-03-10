@@ -1,7 +1,7 @@
  The Reserve Bank has trimmed its growth forecasts as it warned of a global slowdown, but is still expecting the economy to grow solidly this year.
 Yesterday the central bank left the official cash rate (OCR) unchanged at 1.75 per cent and indicated the benchmark rate was likely to stay at this level into 2021, even longer than previously indicated.
 Updated growth forecasts show the economy is expected to grow at about 3 per cent in 2019, faster than in the second half of 2018 but below what it had forecast back in December.
-Despite a weaker outlook, and an indication that the next move for interest rates could be down, the <loc>New Zealand</loc> dollar jumped more than half a cent against the <loc>United States</loc> dollar.
+Despite a weaker outlook, and an indication that the next move for interest rates could be down, the <loc>New <loc>Zealand</loc></loc> dollar jumped more than half a cent against the <loc>United States</loc> dollar.
 "Trading-partner growth is expected to further moderate in 2019 and global commodity prices have already softened, reducing the tailwind that <loc>New <loc>Zealand</loc></loc> economic activity has benefited from," Reserve Bank governor Adrian Orr said.
 "The risk of a sharper downturn in trading-partner growth has also heightened over recent months."
 Although overseas factors were weakening, Orr said low interest rates and strong government spending were expected to "support a pick-up in <loc>New <loc>Zealand</loc></loc>'s [economic] growth over 2019".
