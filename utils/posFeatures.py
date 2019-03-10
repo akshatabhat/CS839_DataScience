@@ -8,7 +8,7 @@ breakpoint = debugger.set_trace
 def containsNoun(pos_counts):
     return ((pos_counts['NN'] > 0) or (pos_counts['NNP'] > 0) or (pos_counts['NNS'] > 0) or (pos_counts['NNPS'] > 0)) 
 
-def isNoun(pos_counts):
+# def isNoun(pos_counts):
 
 def posCounts(row):
     pos_counts = {
@@ -70,7 +70,7 @@ def posCounts(row):
         except KeyError:
             print("Error in posCount: Key {} not found. Ignoring entry".format(tag))
     pos_count_vals = list(pos_counts.values())
-    breakpoint()
+    # breakpoint()
     return (pos_count_vals) 
 
 
