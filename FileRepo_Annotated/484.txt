@@ -91,7 +91,7 @@ She also states that the <loc>UK</loc> "is just not serious" in tackling terrori
 Question Time is now live on BBC One from <loc>Aylesbury</loc>.
 Question Time
 Who is Jacob Rees-Mogg?
-He is the Conservative MP for <loc>North East <loc>Somerset</loc></loc>.
+He is the Conservative MP for <loc>North <loc>East <loc>Somerset</loc></loc></loc>.
 He is also the Chairman of the eurosceptic European Research Group.
 Has his own weekly podcast named the 'Moggcast'.
 Who is Lisa Nandy?
