@@ -57,6 +57,12 @@ def preprocessing(data):
 			if (pos != len):
 				if (letterFeatures.allCapitals(row) == 0):
 					drop_index.append(index)
+		elif (letterFeatures.numWords(row) == 2):
+			word = str(row["word"])
+			word = word.split(" ")
+			for char in word[0] :
+				if (char.isalpha() == False):
+					drop_index.append(index)
 	data.drop(drop_index, inplace=True)
 	print("")
 	return data
@@ -67,7 +73,6 @@ f.close()
 print(data)
 data = preprocessing(data)
 for index, row in data.iterrows():
-	if (row["labels"] == False) :
 	#print("prev_word: %s || word: %s || next_word: %s || label: %s" %(row["prev4"], row["word"], row["after0"], row["labels"]))
-		print("file: %d || word: %s" %(row["file_ids"], row["word"]))
+	print("file: %d || word: %s" %(row["file_ids"], row["word"]))
 '''

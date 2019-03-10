@@ -28,7 +28,7 @@ def generate_features(data):
 		
 		# Generate Letter Fetures
 
-		features.append(letterFeatures.firstLetterCapital(row))
+		#features.append(letterFeatures.firstLetterCapital(row))
 		features.append(letterFeatures.allCapitals(row))
 		#features.append(letterFeatures.allLower(row))
 		features.append(letterFeatures.isFirstLetterAlphabet(row))
