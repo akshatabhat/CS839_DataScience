@@ -68,20 +68,24 @@ def feature_selection(X, Y, method):
 	return X
 
 def create_grid_for_CV():
-	# Number of trees in random forest
-	n_estimators = [int(x) for x in np.linspace(start = 10, stop = 1000, num = 50)]
-	# Number of features to consider at every split
+	# No. of trees in random forest
+	n_estimators = [int(x) for x in np.linspace(start = 50, stop = 500, num = 50)]
+
+	# No. of features to consider at every split
 	max_features = ['auto', 'sqrt']
-	# Maximum number of levels in tree
+
+	# Max number of levels in tree
 	max_depth = [int(x) for x in np.linspace(10, 110, num = 11)]
 	max_depth.append(None)
-	# Minimum number of samples required to split a node
+	# Min number of samples required to split a node
 	min_samples_split = [2, 5, 10]
-	# Minimum number of samples required at each leaf node
+
+	# Min number of samples required at each leaf node
 	min_samples_leaf = [1, 2, 4]
+
 	# Method of selecting samples for training each tree
 	bootstrap = [True, False]
-	# Create the random grid
+	
 	random_grid = {'n_estimators': n_estimators,
 	               'max_features': max_features,
 	               'max_depth': max_depth,
@@ -91,7 +95,7 @@ def create_grid_for_CV():
 	
 	return random_grid
 	
-def training(X_train, Y_train, method, random_grid):
+def training(X_train, Y_train, method, random_grid=None):
 	print("---------- Building model ----------")
 
 	if method == "Logistic Regression":
@@ -105,12 +109,13 @@ def training(X_train, Y_train, method, random_grid):
 		model.fit(X_train, Y_train)
 	elif method == "Random Forest":
 		model = RandomForestClassifier(random_state = 42)
-		#model.fit(X_train, Y_train)
-		rf_random = RandomizedSearchCV(estimator = model, param_distributions = random_grid, n_iter = 2, cv = 3, verbose=2, random_state=42, n_jobs = -1)
-		rf_random.fit(X_train, Y_train)
-		print(rf_random.best_params_)
-		print(rf_random.cv_results_)
-		model = rf_random
+		if random_grid is None:
+			model.fit(X_train, Y_train)
+		else:
+			rf_random = RandomizedSearchCV(estimator = model, param_distributions = random_grid, n_iter = 10, cv = 3, verbose=2, random_state=42, n_jobs = -1)
+			rf_random.fit(X_train, Y_train)
+			print(rf_random.best_params_)
+			model = rf_random
 	else:
 		print("Incorrect Input")
 	return model
@@ -147,19 +152,24 @@ def build_ner_model(data_train, data_test, method):
 	# Feature Selection 
 	# X_train = feature_selection(X_train, Y, 'select-k-best')
 
-	# Creating Grid for CV
-	random_grid = create_grid_for_CV()
+	# Creating Grid for CV - Set it to None, if not using.
+	random_grid = None #create_grid_for_CV()
 
 	# Training model
 	model = training(X_train, Y_train, method, random_grid)
 
 	# Evaluating the model with training data
 
+	if random_grid:
+		result_folder = '../result/CV/'
+	else:
+		result_folder = '../result/'
+
 	print("---------- Evaluation performance on training data ----------")
 
 	false_pos_idx, false_neg_idx = evaluate_model(X_train, Y_train, model)
-	#data_train.iloc[false_pos_idx[0], :].reset_index().to_pickle('../result/'+method+'_false_pos_train.pkl')
-	#data_train.iloc[false_neg_idx[0], :].reset_index().to_pickle('../result/'+method+'_false_neg_train.pkl')
+	data_train.iloc[false_pos_idx[0], :].reset_index().to_pickle(result_folder+method+'_false_pos_train.pkl')
+	data_train.iloc[false_neg_idx[0], :].reset_index().to_pickle(result_folder+method+'_false_neg_train.pkl')
 
 	print("---------- Testing Phase ----------")
 	# Evaluting the model
@@ -169,8 +179,8 @@ def build_ner_model(data_train, data_test, method):
 	print("Class Distribution of test data : ", np.unique(Y_test, return_counts = True), "\n")
 
 	false_pos_idx, false_neg_idx = evaluate_model(X_test, Y_test, model)
-	#data_test.iloc[false_pos_idx[0], :].reset_index().to_pickle('../result/'+method+'_false_pos.pkl')
-	#data_test.iloc[false_neg_idx[0], :].reset_index().to_pickle('../result/'+method+'_false_neg.pkl')
+	data_test.iloc[false_pos_idx[0], :].reset_index().to_pickle(result_folder+method+'_false_pos.pkl')
+	data_test.iloc[false_neg_idx[0], :].reset_index().to_pickle(result_folder+method+'_false_neg.pkl')
 
 
 
