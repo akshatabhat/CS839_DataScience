@@ -60,7 +60,7 @@ def preprocessing(data):
 	data.drop(drop_index, inplace=True)
 	print("")
 	return data
-
+'''
 f = open('../data/data_window_ngram-5.pkl', 'rb')
 data = pd.read_pickle(f)
 f.close()
@@ -70,3 +70,4 @@ for index, row in data.iterrows():
 	if (row["labels"] == False) :
 	#print("prev_word: %s || word: %s || next_word: %s || label: %s" %(row["prev4"], row["word"], row["after0"], row["labels"]))
 		print("file: %d || word: %s" %(row["file_ids"], row["word"]))
+'''

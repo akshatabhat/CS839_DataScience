@@ -146,6 +146,7 @@ def isFirstLetterofEveryWordCapital(data):
 			return 0
 	return 1
 
+#next word is "has"
 '''
 f = open('../data/data_window_ngram-5.pkl', 'rb')
 data = pd.read_pickle(f)
