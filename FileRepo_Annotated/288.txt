@@ -3,7 +3,7 @@ Olaf Scholz said the German economy - the biggest in the eurozone at £3.1trilli
 But he also admitted <loc>Germany</loc>’s public finances could come under pressure, with slowing growth bringing an end to a run of massive budget surpluses.
 He claimed many companies “are very confident about their future prospects”.
 But the finance minister acknowledged slowing expansion would lead to increased pressure on the country’s budget.
-  Related articles Eurozone crisis: German output slumps AGAIN - fears economy <loc>EU</loc> sleepwalking to crisis: Merkel’s successor says Europe ‘not prep...
+   Related articles Eurozone crisis: German output slumps AGAIN - fears economy <loc>EU</loc> sleepwalking to crisis: Merkel’s successor says Europe ‘not prep...
 In a warning to feuding ministers in Angela Merkel’s "grand coalition", Mr Scholz told the Financial Times: “We can afford a lot, but not everything, and not at the same time.
 The finance minister, who is also deputy leader of the German Social Democratic party, rejected calls from Angela Merkel’s coalition partner the Christian Democrats to cut taxes in order to stimulate the economy and see off any potential economic downturn.
 Finance ministry bosses have warned the German government could face a shortfall of £21.6billion by 2023 as tax revenues are likely to be below previous estimates.
@@ -14,7 +14,7 @@ But despite the German Finance Minister attempted to calm nerves over any potent
 The economy shrunk 0.2 percent in the third quarter, largely due to continued struggles in the lucrative car sector, with Deutsche Bank expecting the same contraction for the start of 2019.
 On Thursday, <loc>Germany</loc>’s Federal Statistics Office revealed a surprise fall in industrial output for December - the fourth consecutive month of decline.
 The data revealed output was down 0.4 percent on November - in huge contrast to economists polled by Reuters who predicted an increase of 0.7 percent.
- Related articles <loc>Germany</loc> TERRIFIED of Brexit: No deal could trigger ‘MASSIVE CRISIS'... EUROZONE CRISIS: Growth forecast SLASHED - fears mount for economies
+  Related articles <loc>Germany</loc> TERRIFIED of Brexit: No deal could trigger ‘MASSIVE CRISIS'... EUROZONE CRISIS: Growth forecast SLASHED - fears mount for economies
 <loc>Germany</loc> economy - valued at £3.1trillion - is the biggest in the eurozone
 In a report earlier this week, Deutsche Bank - <loc>Germany</loc> biggest lender - warned the country is hurtling towards recession, expressing dismay at how the financial landscape is looking.
 Deutsche Bank economists, including Sebastian Becker, wrote: "The start of the German economy into 2019 has been a major disappointment so far.

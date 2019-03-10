@@ -1,6 +1,6 @@
  <loc>GERMANY</loc> is bracing itself for a slide into recession ahead of Thursday’s release of vital economy growth figures, which could heap more pressure on Chancellor Angela Merkel.
- The country’s Federal Statistics Office will publish the Gross Domestic Product numbers for the final quarter of 2018. This will answer the vital question of whether the EU’s biggest economy at £3.1trillion has just barely managed growth or has recorded a decline for the second successive quarter. <loc>Germany</loc>’s economy shrunk 0.2 percent in the third quarter of last year, largely due to slumps in the lucrative car sector, not helped by growing trade tensions between the <loc>US</loc> and <loc>China</loc>.
- Related articles EUROZONE CRISIS: <loc>Germany</loc> ‘drifting towards RECESSION’ Europe is BIGGEST THREAT to global economy: 'VICIOUS DEBT CRISIS'
+  The country’s Federal Statistics Office will publish the Gross Domestic Product numbers for the final quarter of 2018. This will answer the vital question of whether the <loc>EU’s</loc> biggest economy at £3.1trillion has just barely managed growth or has recorded a decline for the second successive quarter. <loc>Germany</loc>’s economy shrunk 0.2 percent in the third quarter of last year, largely due to slumps in the lucrative car sector, not helped by growing trade tensions between the <loc>US</loc> and <loc>China</loc>.
+  Related articles EUROZONE CRISIS: <loc>Germany</loc> ‘drifting towards RECESSION’ Europe is BIGGEST THREAT to global economy: 'VICIOUS DEBT CRISIS'
 Last week, Deutsche Bank - <loc>Germany</loc>’s biggest lender - warned the country’s economy is dangerously close to sliding into recession, describing the start of 2019 as a “major disappointment”.
 <loc>Germany</loc>’s biggest lender expects the economy to contract further during the quarter, with new business surveys pointing towards souring moods at companies and worsening expectations for new orders.
 Economists, including Sebastian Becker, wrote in the report: “The start of the German economy into 2019 has been a major disappointment so far.
@@ -10,9 +10,9 @@ Deutsche Bank is expecting the same 0.2 percent contraction to start off 2019. A
 The bank added in its note: "Given much weaker than expected January business surveys and in particular the slump in their more forward looking components we are now expecting the German economy to contract again in Q1 2019.
 "Global economic policy uncertainty jumped in December marking a new all-time high.”
 "Most of the global trouble spots have taken a turn for the worse in January, making it very hard to assume a fundamental improvement during the reminder of Q1."
-Alarm bells are still ringing in <loc>Germany</loc> and the European Union as a whole, as several negative indicators point towards serious economic problems for <loc>Germany</loc>.
+ Alarm bells are still ringing in <loc>Germany</loc> and the <loc>European Union</loc> as a whole, as several negative indicators point towards serious economic problems for <loc>Germany</loc>.
 At the start of this year, the German government sparked fears of financial turmoil by reducing its GDP forecast for this year from 1.8 percent at the end of 2018 to just one percent.
-  Related articles German finance minister ADMITS budget pressures - recession fears grow <loc>EU</loc> BOMBSHELL: Economists claim the euro is 'spreading STAGNATION'
+   Related articles German finance minister ADMITS budget pressures - recession fears grow <loc>EU</loc> BOMBSHELL: Economists claim the euro is 'spreading STAGNATION'
 <loc>Germany</loc> news: Deutsche Bank warned the country is 'drifting towards recession'
 Last week, German output surprisingly fell in December for the fourth consecutive month, with data from the Federal Statistics Office revealing industrial output slumped 0.4 percent from November and 3.9 percent from December 2017.
 Thomas Gitzel of VP Bank Group, warned: “A positive GDP reading in the fourth quarter of 2018 now looks tight.
@@ -25,7 +25,7 @@ But he acknowledged slowing expansion would eventually lead to increased pressur
 Mr Scholz told the Financial Times: “We can afford a lot, but not everything, and not at the same time.”
 The finance minister, who is also deputy leader of the German Social Democratic party, also rejected calls from Angela Merkel’s coalition partner the Christian Democrats to cut taxes in order to stimulate the economy and see off any potential economic downturn.
 Finance ministry bosses have warned the German government could face a shortfall of £21.6billion by 2023 as tax revenues are likely to be below previous estimates.
- <loc>Germany</loc> is also hoping there is a breakthrough in negotiations between <loc>Britain</loc> and the <loc>EU,</loc> as a leading study revealed a no-deal Brexit could put 100,000 jobs at risk in the country, with the lucrative motor sector hit hardest.
+  <loc>Germany</loc> is also hoping there is a breakthrough in negotiations between <loc>Britain</loc> and the <loc>EU,</loc> as a leading study revealed a no-deal Brexit could put 100,000 jobs at risk in the country, with the lucrative motor sector hit hardest.
 <loc>Germany</loc> news: Angela Merkel's CDU party had called for taxes to be cut to stimulate the economy
 The Halle Institute for Economic Research said the manufacturing sector would be particularly vulnerable because of uncertainties around future trading relationships.
 <loc>Germany</loc> sold 770,000 vehicles to the <loc>UK</loc> in 2017, with 15,000 jobs reliant on this lucrative trading area.

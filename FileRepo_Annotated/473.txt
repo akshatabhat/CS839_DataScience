@@ -1,7 +1,7 @@
  <loc>Germany</loc>’s economy stalled in the final quarter of last year, just skirting recession as fallout from global trade disputes and Brexit put the brakes on a decade of expansion amid signs that exports will stay subdued for the time being.
 Gross domestic product in <loc>Europe</loc>’s biggest economy was unchanged for the quarter, the Federal Statistics Office said on Thursday. That was below the 0.1 per cent growth forecast in a Reuters poll and the 0.2 per cent expansion achieved by the euro zone as a whole.
 “<loc>Germany</loc> got away with a black eye,” DekaBank economist Andreas Scheuerle said.
-Many of the country’s traditionally export-focused large companies have been hit hard by a cooling global economy and trade disputes triggered by <loc>US</loc> President Donald Trump. They also face taking a hit if <loc>Britain</loc>’s exit from the European Union next month is a disorderly one.
+ Many of the country’s traditionally export-focused large companies have been hit hard by a cooling global economy and trade disputes triggered by <loc>US</loc> President Donald Trump. They also face taking a hit if <loc>Britain</loc>’s exit from the <loc>European Union</loc> next month is a disorderly one.
 Steel-to-elevators group Thyssenkrupp on Tuesday warned of a darkening economic backdrop, signalling tough times for its capital goods business as it works through a major restructuring and major car markets go into reverse.
 The Economy Ministry said indicators suggested that exports would be subdued in the coming months but that a construction boom was likely to continue and private consumption will remain strong.
 “Solid domestic drivers and fiscal stimulus are providing some support at the beginning of the year,” the ministry added.

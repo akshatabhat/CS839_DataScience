@@ -1,6 +1,6 @@
  <loc>ITALY</loc>’S industrial production has fallen for the fourth straight month, raising fears the country’s recession could last longer than expected and heaping further pressure on the eurozone.
 The latest data from the Italian National Institute of Statistics revealed output slumped 0.8 percent in December from November. This is in surprise contrast to projections of economists polled by Bloomberg and Reuters, who had forecasted a 0.4 percent gain. Industrial production plunged 5.5 percent on an annual basis - the biggest drop since December 2012.
- Related articles Eurozone CRISIS: <loc>Italy</loc> service sector hit as growth stagnates EUROZONE CRISIS: Growth forecast SLASHED - fears mount for economies
+  Related articles Eurozone CRISIS: <loc>Italy</loc> service sector hit as growth stagnates EUROZONE CRISIS: Growth forecast SLASHED - fears mount for economies
 It’s the latest in a series of blows to strike <loc>Italy</loc>’s economy this year, with the European Commission expressing fears over its long-term viability.
 On Thursday, the Commission slashed <loc>Italy</loc>’s 2019 growth forecast from 1.2 percent to 0.2 percent, which would be its weakest annual performance in five years.
 Last week, <loc>Italy</loc> slid into recession after a second consecutive quarter of decline was recorded for the last three months of 2018.
@@ -9,11 +9,11 @@ The country’s economy contracted 0.2 percent in October to December following 
 A recession is defined by economists as gross domestic product falling for two consecutive quarters.
 The new figures mark the third recession for <loc>Italy</loc> since the global financial crisis more than a decade ago.
 Figures from the Purchasing Managers’ Index have revealed factory activity weakened to 47.8 points in January from 49.2 points the month before - the sharpest fall since 2013.
-Rome spent much of last year engaged in a bitter spat with European Union finance chiefs over its highly-contentious budget plans.
-  The Italian government finally passed their monetary agreement at the end of December, averting a major showdown with the <loc>EU</loc> after being accused of breaching spending commitments.
+ Rome spent much of last year engaged in a bitter spat with <loc>European Union</loc> finance chiefs over its highly-contentious budget plans.
+   The Italian government finally passed their monetary agreement at the end of December, averting a major showdown with the <loc>EU</loc> after being accused of breaching spending commitments.
 Related articles <loc>Italy</loc> bank chief admits no-deal Brexit risks MAJOR REPERCUSSIONS Eurozone CRISIS: <loc>Italy</loc>’s economic shrink strains France and Germany
-  <loc>Italy</loc> crisis: The country's government was involved in a bitter war of words with <loc>EU</loc> finance chiefs
-  Rome proposed a debt target of 2.4 percent of GDP but the <loc>EU</loc> would only allow 2.04 percent for 2019, falling to 1.8 percent next year and 1.5 percent in 2021.
+   <loc>Italy</loc> crisis: The country's government was involved in a bitter war of words with <loc>EU</loc> finance chiefs
+   Rome proposed a debt target of 2.4 percent of GDP but the <loc>EU</loc> would only allow 2.04 percent for 2019, falling to 1.8 percent next year and 1.5 percent in 2021.
 Rabobank rates strategist Lyn Graham-Taylor said: “There is a lot of chat about the technical recession and what that means for budget deficit slippage.
 “The PMI data adds to the economic gloom and has raised concern that the budget deficit will be worse than thought and that has spooked the market.”
 Michael Hewson, chief markets analyst at CMC Markets, said: "<loc>Italy</loc> has a huge debt burden and the government had hoped for better growth.
@@ -25,5 +25,5 @@ The latest shock figures for <loc>Italy</loc> is also another huge blow for the 
 On Thursday, growth forecasts were slashed by the European Commission, warning this will slow to 1.3 percent this year from 1.9 percent in 2018.
 Growth is expected to rebound slightly to 1.6 percent in 2020, but alarm bells will be ringing throughout the bloc as the new estimates are less optimistic than the Commission’s previous forecasts.
 In November, <loc>Brussels</loc> forecasted eurozone growth to hit 1.9 percent this year and 1.7 percent in 2020.
-The Commission is also forecasting growth in a 27-nation European Union - without <loc>Britain</loc> due to its Brexit departure on March 29 - to dramatically slow.
+ The Commission is also forecasting growth in a 27-nation <loc>European Union</loc> - without <loc>Britain</loc> due to its Brexit departure on March 29 - to dramatically slow.
 This is expected to be 1.5 percent this year compared to 2.1 percent in 2018, and is forecast to expand by 1.8 percent in 2020.
