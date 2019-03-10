@@ -95,7 +95,7 @@ He is the Conservative MP for <loc>North East <loc>Somerset</loc></loc>.
 He is also the Chairman of the eurosceptic European Research Group.
 Has his own weekly podcast named the 'Moggcast'.
 Who is Lisa Nandy?
-She is the Labour MP for Wigan.
+She is the Labour MP for <loc>Wigan</loc>.
 Ms Nandy the Former Shadow Energy Secretary.
 She admitted that she might back Mrs May's deal.
 Who is Jimmy Wales?
