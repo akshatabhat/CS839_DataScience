@@ -16,7 +16,7 @@ from sklearn.feature_selection import VarianceThreshold, SelectKBest, chi2
 
 sys.path.append('../utils')
 
-import letterFeatures, posFeatures, ruleBasedFeatures
+import letterFeatures, posFeatures, ruleBasedFeatures, dictFeatures
 
 import nltk
 nltk.download('averaged_perceptron_tagger')
@@ -58,9 +58,11 @@ def generate_features(data):
 		# Rule based features
 		features.append(ruleBasedFeatures.wordContainsDayOfWeek(row))
 		features.append(ruleBasedFeatures.wordContainsMonth(row))
-		features.append(ruleBasedFeatures.prevWordContainsDirection(row))
-		features.append(ruleBasedFeatures.wordContainsDirection(row))
+		#features.append(ruleBasedFeatures.prevWordContainsDirection(row))
+		#features.append(ruleBasedFeatures.wordContainsDirection(row))
 
+		#dictionary features
+		features.append(dictFeatures.dictionaryTwoLetterCapitalWordexceptUSUKEU(row))
 
 		X.append(features)
 
