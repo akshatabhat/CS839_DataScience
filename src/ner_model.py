@@ -119,6 +119,15 @@ def build_ner_model(data_train, data_test, method):
 	# Training model
 	model = training(X_train, Y_train, method)
 
+	# Evaluating the model with training data
+
+	print("---------- Evaluation performance on training data ----------")
+
+	false_pos_idx, false_neg_idx = evaluate_model(X_train, Y_train, model)
+	data_train.iloc[false_pos_idx[0], :].to_pickle('../result/'+method+'_false_pos_train.pkl')
+	data_train.iloc[false_neg_idx[0], :].to_pickle('../result/'+method+'_false_neg_train.pkl')
+
+
 	print("---------- Testing Phase ----------")
 	# Evaluting the model
 	X_test = generate_features(data_test)
