@@ -1,5 +1,5 @@
- An economist of ING Bank Manila forecasts lower trade and current account deficit for the <loc>Philippines</loc> in 2019, mainly due to projections of lower oil importation.
-Slightly lower than what we saw in 2018 mainly because (of) the trade deficit (which is) still quite substantial but narrow from what we saw in 2018, Nicholas Mapa, ING Bank Manila senior economist said.
+ An economist of ING Bank <loc>Manila</loc> forecasts lower trade and current account deficit for the <loc>Philippines</loc> in 2019, mainly due to projections of lower oil importation.
+Slightly lower than what we saw in 2018 mainly because (of) the trade deficit (which is) still quite substantial but narrow from what we saw in 2018, Nicholas Mapa, ING Bank <loc>Manila</loc> senior economist said.
 He, however, did not give specifics.
 Data from the Philippine Statistics Authority (PSA) showed that exports in December 2018 posted a 12.3 percent contraction while imports dropped by 9.4 percent.
 This brought the trade gap to USD3.75 billion, down from year-ago's USD2.97 billion.

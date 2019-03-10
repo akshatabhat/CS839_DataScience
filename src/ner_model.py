@@ -9,6 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
+from sklearn.feature_selection import VarianceThreshold, SelectKBest, chi2
 
 sys.path.append('../utils')
 
@@ -26,25 +27,48 @@ def generate_features(data):
 		#print("row : ", row)
 		
 		# Generate Letter Fetures
+
 		features.append(letterFeatures.firstLetterCapital(row))
 		features.append(letterFeatures.allCapitals(row))
-		features.append(letterFeatures.allLower(row))
+		#features.append(letterFeatures.allLower(row))
 		features.append(letterFeatures.isFirstLetterAlphabet(row))
-		features.append(letterFeatures.containsDigits(row))
+		#features.append(letterFeatures.containsDigits(row))
 		features.append(letterFeatures.stringLen(row))
-
+		features.append(letterFeatures.numWords(row))
+		features.append(letterFeatures.isFirstLetterofAnyWordCapital(row))
+		features.append(letterFeatures.doesTheStringContainQuotes(row))
+		features.append(letterFeatures.isItPrecededByThe(row))
+		features.append(letterFeatures.numberOfVowels(row))
+		features.append(letterFeatures.nextWordISsaid(row))
+		features.append(letterFeatures.isItPrecededByIn(row))
+		features.append(letterFeatures.isFirstLetterofEveryWordCapital(row))
 		# POS Tagging Features
-		features += posFeatures.posCounts(data)
-		features += posFeatures.posCountsNGram(data) # 1-gram
+
+		features += posFeatures.posCounts(row)
+		features += posFeatures.posCountsNGram(row) # 1-gram
 
 		X.append(features)
 
-	print("")	
-	return np.asarray(X)
+		
+	X = np.asarray(X)
+	print("Total number of features : ", X.shape[1], "\n")
 
+	return X
+
+def feature_selection(X, Y, method):
+	print("---------- Performing feature selection using", method, " ---------- ", )
+	if method == 'threshold':
+		sel = VarianceThreshold(threshold=(.8 * (1 - .8)))
+		X = sel.fit_transform(X)
+	elif method == 'select-k-best':
+		sel = SelectKBest(score_func=chi2, k=130)
+		X = sel.fit_transform(X, Y)
+
+	print("Number of features selected : ", X.shape[1], "\n")
+	return X
 
 def training(X_train, Y_train, method):
-	print("---------- Training model using", method ,"----------")
+	print("---------- Building model ----------")
 
 	if method == "Logistic Regression":
 		model = LogisticRegression(C=1e5, solver='lbfgs')
@@ -64,6 +88,12 @@ def training(X_train, Y_train, method):
 
 def evaluate_model(X_test, Y_test, model):
 	Y_pred = model.predict(X_test)
+
+	false_neg_idx = np.where((Y_test==1) & (Y_pred==0)) # False Negative
+
+	false_pos_idx = np.where((Y_pred==1) & (Y_test==0)) # False Positive
+
+
 	accuracy = metrics.accuracy_score(Y_test, Y_pred)
 	precision = metrics.precision_score(Y_test, Y_pred) # tp/(tp+fp)
 	recall = metrics.recall_score(Y_test, Y_pred) # tp/(tp+fn)
@@ -72,18 +102,43 @@ def evaluate_model(X_test, Y_test, model):
 	print("Precision : ", precision)
 	print("Recall : ", recall)
 	print("f1-score : ", f1_score)
+	print("")
+	return false_pos_idx, false_neg_idx
 
-def build_ner_model(data, method):
+def build_ner_model(data_train, data_test, method):
+	print("----------",method,"----------")
+	print("---------- Training Phase ----------")
+
 
 	# Generate feature matrix
-	X = generate_features(data)
-	Y = data['labels'].astype(int)
-	print("Class Distribution : \n", np.unique(Y, return_counts = True))
+	X_train = generate_features(data_train)
+	Y_train = data_train['labels'].astype(int)
+	print("Class Distribution of training data : ", np.unique(Y_train, return_counts = True)), "\n"
 
-	X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.33) #TODO
+	# Feature Selection 
+	# X_train = feature_selection(X_train, Y, 'select-k-best')
 
 	# Training model
 	model = training(X_train, Y_train, method)
 
+	# Evaluating the model with training data
+
+	print("---------- Evaluation performance on training data ----------")
+
+	false_pos_idx, false_neg_idx = evaluate_model(X_train, Y_train, model)
+	data_train.iloc[false_pos_idx[0], :].reset_index().to_pickle('../result/'+method+'_false_pos_train.pkl')
+	data_train.iloc[false_neg_idx[0], :].reset_index().to_pickle('../result/'+method+'_false_neg_train.pkl')
+
+
+	print("---------- Testing Phase ----------")
 	# Evaluting the model
-	evaluate_model(X_test, Y_test, model)
+	X_test = generate_features(data_test)
+	Y_test = data_test['labels'].astype(int)
+	print("---------- Evaluation performance on test data ----------")
+	print("Class Distribution of test data : ", np.unique(Y_test, return_counts = True), "\n")
+
+	false_pos_idx, false_neg_idx = evaluate_model(X_test, Y_test, model)
+	data_test.iloc[false_pos_idx[0], :].reset_index().to_pickle('../result/'+method+'_false_pos.pkl')
+	data_test.iloc[false_neg_idx[0], :].reset_index().to_pickle('../result/'+method+'_false_neg.pkl')
+
+

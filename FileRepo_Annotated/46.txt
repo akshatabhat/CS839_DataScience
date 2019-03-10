@@ -11,4 +11,4 @@ James Knightley of ING said that, as both order and output for factories slowed,
 Other economists agreed that the growth indicated by the headline figure was due to inventories building up, rather than output rising.
 Samuel Tombs of Pantheon MacroEconomics said: “Contingency planning for a no-deal Brexit is providing only limited support to manufacturers at a time of weakening underlying demand, both in the domestic and export markets.”
 While the <loc>UK</loc>’s figures might have been better that those for the eurozone, which fell for the third consecutive month, this was also only a result of Brexit preparations, he added.
-Stockpiling was expected to continue in the months ahead of the deadline to exit the EU, as political deadlock in Westminster persists.
+ Stockpiling was expected to continue in the months ahead of the deadline to exit the <loc>EU,</loc> as political deadlock in Westminster persists.

@@ -15,7 +15,7 @@ Leading socio-political organisations in the country, including NEF, PANDEF, Afe
 The leaders, who spoke on behalf of their groups were, Prof. Ango Abdullahi, Chief Edwin Clark, Chief Ayo Adebanjo, Chief John Nwodo and Dr. Bitrus Pogu. They urged Nigerians to vote for Atiku because he would bring the change desired by the country.
 Before the endorsements, a field work conducted by the Pollster, Williams and Associates, revealed that Atiku will defeat Buhari in the February 16 presidential election.
 The agency had, in a similar fieldwork in 2015, predicted the defeat of President Goodluck Jonathan in the presidential election, using same methodology it employed now.
-Similarly, a forecast by the Economist Intelligence Unit in Africa had revealed that Buhari would be defeated by Atiku, when they clash at the presidential poll next week.
+Similarly, a forecast by the Economist Intelligence Unit in <loc>Africa</loc> had revealed that Buhari would be defeated by Atiku, when they clash at the presidential poll next week.
 Atiku: Security Agencies Have No Business in Electoral Process
 Meanwhile, Atiku has warned security agencies against interfering in the electoral process, saying they have no business in the electoral process.
 The former vice president, who gave the warning while speaking at the presidential campaign of the party in <loc>Jalingo</loc>, <loc>Taraba</loc> State, said security agencies’ role in the country’s electoral process is to maintain law and order.

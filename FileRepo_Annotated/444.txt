@@ -1,11 +1,11 @@
- AN ECONOMIST has predicted that the most likely outcome of Theresa May's Brexit negotiations with the EU for a better deal, is an extension of Article 50.
-During an interview with CNBC wealth manager, Marie Owens Thomsen indicated that what might be best for both the EU and the <loc>UK</loc> is an extension of Article 50 to ensure that more talks can be had to avoid a no deal Brexit scenario. The CNBC host raised the issue of more EU nations leaving the bloc after Brexit but the economist redirected focus to the terminology used regarding the Brexit talks, seemingly defending the EU’s intransigence. “Well with all due respect, I sort of resent the debate being framed as a deal, there is too much transactional economics going on.
+   AN ECONOMIST has predicted that the most likely outcome of Theresa May's Brexit negotiations with the <loc>EU</loc> for a better deal, is an extension of Article 50.
+  During an interview with CNBC wealth manager, Marie Owens Thomsen indicated that what might be best for both the <loc>EU</loc> and the <loc>UK</loc> is an extension of Article 50 to ensure that more talks can be had to avoid a no deal Brexit scenario. The CNBC host raised the issue of more <loc>EU</loc> nations leaving the bloc after Brexit but the economist redirected focus to the terminology used regarding the Brexit talks, seemingly defending the EU’s intransigence. “Well with all due respect, I sort of resent the debate being framed as a deal, there is too much transactional economics going on.
 Related articles Theresa May offers DEFIANT answer to key no deal Brexit question BBC host STUNS Soubry as she SHUTS DOWN second referendum
 “The values that the Europeans are defending are totally fundamental values to our whole civilisation and they should not be transacted with.
-“I just wish the EU would be a little bit more vocal about those issues.”
-The CNBC host then questioned whether the economist believed that the EU was correct in maintaining their stance that the best deal had been reached regarding Brexit.
+  “I just wish the <loc>EU</loc> would be a little bit more vocal about those issues.”
+  The CNBC host then questioned whether the economist believed that the <loc>EU</loc> was correct in maintaining their stance that the best deal had been reached regarding Brexit.
 The wealth manager seemingly avoided the question but did explain her prediction that Brexit would be delayed for talks to continue.
-Economist Marie Owens Thomsen has argued that Brexit should be delayed for the EU and <loc>UK</loc>'s benefit
+  Economist Marie Owens Thomsen has argued that Brexit should be delayed for the <loc>EU</loc> and <loc>UK</loc>'s benefit
 She said: “I think a delay is probably going to be the most likely outcome as far as we can see from this point in time and I would argue the longer the delay the better.
 “It just gives everyone more time to sort out these difficult issues.
 “Usually we don’t like uncertainty but in this case, I think the longer we prolong it the better.
@@ -14,4 +14,4 @@ She said: “I think a delay is probably going to be the most likely outcome as 
 The idea of extending Article 50 has angered some Brexiteers as Mrs May has had two years to iron out the details of her Brexit withdrawal agreement.
 Other Brexiteers, most notably members of the ERG, have argued that leaving on a WTO Brexit would not be as disastrous as forecasted and should be the default option if an agreement cannot be met.
 By law, the <loc>UK</loc> is to leave the European Union on the 29th of March with or without a deal.
-Following an amendment passed in the House of Commons, Theresa May continues to speak with <loc>Brussels</loc> and the EU in hopes of renegotiating the controversial Irish backstop despite Donald Tusk and other EU figures insisting that nothing can be altered regarding the backstop.
+  Following an amendment passed in the House of Commons, Theresa May continues to speak with <loc>Brussels</loc> and the <loc>EU</loc> in hopes of renegotiating the controversial Irish backstop despite Donald Tusk and other <loc>EU</loc> figures insisting that nothing can be altered regarding the backstop.

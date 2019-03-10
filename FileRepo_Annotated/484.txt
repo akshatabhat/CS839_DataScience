@@ -1,6 +1,6 @@
- BBC Question Time tonight hosts a panel including Tory MP Jacob Rees-Mogg and Labour's Lisa Nandy, who will debate the week's main political stories after reports Theresa May will force MPs to back her deal or face a delay in the <loc>UK</loc>'s withdrawal from the EU.
+  BBC Question Time tonight hosts a panel including Tory MP Jacob Rees-Mogg and Labour's Lisa Nandy, who will debate the week's main political stories after reports Theresa May will force MPs to back her deal or face a delay in the <loc>UK</loc>'s withdrawal from the EU.
 BBC Question Time LIVE
-Question Time will also feature Wikipedia founder Jimmy Wales, economist Grace Blakely and comedian Geoff Norcott. With Theresa May running out of time for her Brexit deal, it's likely the debate will focus on the ongoing Brexit negotiations especially after the reports of Oliy Robbins admitting that the EU will probably give the <loc>UK</loc> an extension to Article 50. The panel will also likely talk about Shamima Begum who fled the <loc>UK</loc> to join ISIS.
+  Question Time will also feature Wikipedia founder Jimmy Wales, economist Grace Blakely and comedian Geoff Norcott. With Theresa May running out of time for her Brexit deal, it's likely the debate will focus on the ongoing Brexit negotiations especially after the reports of Oliy Robbins admitting that the <loc>EU</loc> will probably give the <loc>UK</loc> an extension to Article 50. The panel will also likely talk about Shamima Begum who fled the <loc>UK</loc> to join ISIS.
 Related articles May told ‘Get your act together’ to deter 'panic-buying' over Brexit Second Brexit vote would ‘THREATEN <loc>UK</loc>’s democracy’ - WARNING
 The show will be broadcast on BBC One at 10.45pm.
 Follow below for live updates - times in GMT.
@@ -39,7 +39,7 @@ The majority of the audience boo the man as he describes the place as insular.
 The question was met with huge cheers - the loudest of the night.
 Mr Norcott says: "We need rebalance this <loc>London</loc>-centric that we have."
 Ms Blakely takes the mantle by agreeing that we must ditrubute transport evenly.
-She adds: "The <loc>UK</loc> is the most regionally unabalanced country in the EU and we must rebalance our economy away from <loc>London</loc>."
+  She adds: "The <loc>UK</loc> is the most regionally unabalanced country in the <loc>EU</loc> and we must rebalance our economy away from <loc>London</loc>."
 11.19pm: Mr Norcott quips that the arguing feels more like Valentine's Day
 He criticises Jean-Claude Junker for not having "the stones" for not talking to the people.
 One audience member asks why there was no bipartisan agreement going forward.
@@ -61,7 +61,7 @@ The problem is similar she argues.
 Ms Bruce asks her where she stands to which Ms Nandy responds "I stand where Labour stood in 2013."
 The Labour MP also insists that the Prime Minister is putting "party before country".
 11.07pm: Ms Nandy follows
-She raises the point of receiving medication from the EU.
+ She raises the point of receiving medication from the EU.
 Ms Nandy adds: "The majority of MPs are being held to ransom by the ERG."
 11:01pm: Next question - Have the British people been let down over Brexit while MPs pursue their own agendas?
 Mr Rees-Mogg answers first and starts by producing the Withdrawal Agreement to the laughter of the audience.
@@ -95,7 +95,7 @@ He is the Conservative MP for <loc>North East <loc>Somerset</loc></loc>.
 He is also the Chairman of the eurosceptic European Research Group.
 Has his own weekly podcast named the 'Moggcast'.
 Who is Lisa Nandy?
-She is the Labour MP for Wigan.
+She is the Labour MP for <loc>Wigan</loc>.
 Ms Nandy the Former Shadow Energy Secretary.
 She admitted that she might back Mrs May's deal.
 Who is Jimmy Wales?
