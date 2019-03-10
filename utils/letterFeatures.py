@@ -218,13 +218,46 @@ def isTheFirstWordADirection(data):
 		return 1
 	elif "west" in word[0:4]:
 		return 1
+	return 0
+
+def followedByOrPrecededByTo(data):
+	prevword = str(data["prev4"])
+	nextword = str(data["after0"])
+	if (prevword == "to") :
+		return 1
+	elif (nextword == "to") :
+		return 1
+	return 0
+
+def dictionaryTwoLetterCapitalWordexceptUSUKEU(data):
+	word = str(data["word"])
+	if (len(word) == 2) :
+		if (word.isupper() == True) :
+			if (word == "US") :
+				return 0
+			elif (word == "UK") :
+				return 0
+			elif (word == "EU") :
+				return 0
+			elif (word == "NZ") :
+				return 0
+			elif (word == "MP") :
+				return 0
+			elif (word == "UP") :
+				return 0
+			elif (word == "SA") :
+				return 0
+			else :
+				return 1
 	return 0	
-'''
+
 f = open('../data/data_window_ngram-5.pkl', 'rb')
 data = pd.read_pickle(f)
 f.close()
-print(data.iloc[0])
+#print(data.iloc[0])
+#print("%20s | %20s  | %20s | %5s | %3s" %("previous word", "word", "next word", "label", "file_ids"))
+print("%20s | %5s | %3s" %("word", "label", "file_ids"))
 for index, row in data.iterrows():
-	if(isThePrevWordADirection(row)):
-		print("%s %s %s %d" %(row["prev4"], row["word"], row["labels"], row["file_ids"]))
-'''
+	if(dictionaryTwoLetterCapitalWordexceptUSUKEU(row)):
+		#print("%20s | %20s  | %20s | %5s | %3d" %(row["prev4"], row["word"], row["after0"], row["labels"], row["file_ids"]))
+		print("%20s | %5s | %3d" %(row["word"], row["labels"], row["file_ids"]))
