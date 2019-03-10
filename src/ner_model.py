@@ -40,6 +40,8 @@ def generate_features(data):
 		features.append(letterFeatures.isItPrecededByThe(row))
 		features.append(letterFeatures.numberOfVowels(row))
 		features.append(letterFeatures.nextWordISsaid(row))
+		features.append(letterFeatures.isItPrecededByIn(row))
+		features.append(letterFeatures.isFirstLetterofEveryWordCapital(row))
 		# POS Tagging Features
 
 		features += posFeatures.posCounts(row)
