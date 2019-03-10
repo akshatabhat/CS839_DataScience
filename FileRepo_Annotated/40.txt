@@ -1,10 +1,10 @@
- China’s manufacturing activity contracted for a second consecutive month in January, official data showed yesterday, another sign of the country’s economic slowdown.
+ <loc>China’s</loc> manufacturing activity contracted for a second consecutive month in January, official data showed yesterday, another sign of the country’s economic slowdown.
 The Purchasing Managers’ Index (PMI), a gauge of factory conditions, came in at 49.5 for the month, up slightly from 49.4 in December, according to the National Bureau of Statistics.
 Although this marks the first lift in four months, it remained below the 50 mark separating expansion from contraction.
 “The expansion of production in the manufacturing sector stepped up slightly,” NBS analyst Zhao Qinghe said in a statement.
-Nie Wen, an economist at Huabao Trust in Shanghai, said January activity was lifted by the front-loading of production before China’s Lunar New Year holiday next week and a “big issuance of municipal bonds and corporate bonds, both of which helped maintain demand”.
+Nie Wen, an economist at Huabao Trust in <loc>Shanghai</loc>, said January activity was lifted by the front-loading of production before <loc>China’s</loc> Lunar New Year holiday next week and a “big issuance of municipal bonds and corporate bonds, both of which helped maintain demand”.
 Mr Nie warned: “The rebound will be a short-lived one.” Many businesses close for the Chinese New Year, with workers heading home to celebrate the week-long holiday.
 “While the manufacturing PMI didn’t weaken any further in January it suggests the economy lost momentum at the start of the year,” Marcel Thieliant, senior economist at Capital Economics, wrote in a research note.
-China in 2018 reported its slowest economy growth in almost three decades, losing more steam in the last quarter as it battles a massive debt pile and a US trade war.
-Cabinet-level officials from the US and China are meeting for two days of negotiations in Washington that started yesterday to try to resolve trade frictions that have seen both sides levy punitive tariffs on goods ­accounting for about 60 per cent of their trade.
-They are trying to meet a March 1 deadline and forestall a US threat to increase tariffs on about $US200 billion ($275bn) of Chinese products.AFP, DOW JONES NEWSWIRES
+<loc>China</loc> in 2018 reported its slowest economy growth in almost three decades, losing more steam in the last quarter as it battles a massive debt pile and a <loc>US</loc> trade war.
+Cabinet-level officials from the <loc>US</loc> and <loc>China</loc> are meeting for two days of negotiations in <loc>Washington</loc> that started yesterday to try to resolve trade frictions that have seen both sides levy punitive tariffs on goods ­accounting for about 60 per cent of their trade.
+They are trying to meet a March 1 deadline and forestall a <loc>US</loc> threat to increase tariffs on about $US200 billion ($275bn) of Chinese products.AFP, DOW JONES NEWSWIRES

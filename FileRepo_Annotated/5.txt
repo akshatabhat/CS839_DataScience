@@ -5,7 +5,7 @@ Bloomberg first reported Mr. Cain was a candidate for a Fed board seat.
 The seven-member board is a major financial regulator, and the governors are all voting members of the Fed's interest-rate-setting committee.
 Mr. Cain didn't immediately respond to a request for comment.
 A nomination would likely subject Mr. Cain to scrutiny of sexual-harassment accusations that first surfaced during his presidential campaign, which ended in 2011. The accusations, denied by Mr. Cain , had resulted in settlements by the National Restaurant Association, where he served for several years as CEO.
-Mr. Cain joined the board of directors for the Federal Reserve Bank of <loc>Kansas City</loc> in 1992 and served as the board's chairman from 1995 to 1996. He had earlier served as a director of the <loc>Kansas City</loc> Fed's <loc>Omaha</loc>, <loc>Neb.</loc>, branch.
+Mr. Cain joined the board of directors for the Federal Reserve Bank of <loc><loc>Kansas</loc> City</loc> in 1992 and served as the board's chairman from 1995 to 1996. He had earlier served as a director of the <loc><loc>Kansas</loc> City</loc> Fed's <loc>Omaha</loc>, <loc>Neb.</loc>, branch.
 Mr. Cain served as chief executive officer of Godfather's Pizza from 1986 until 1996, before leading the restaurant trade group.
 He ran for the GOP presidential nomination in 2012 and served as an economic adviser in the 1996 presidential campaign of former <loc>Kansas</loc> Sen. Robert Dole.
 Mr. Cain was critical of the Fed during and after his presidential campaign. He said the central bank's rate policy "manipulates the dollar" in a 2012 column in The Wall Street Journal. In the article, Mr. Cain advocated a return to the gold standard that the <loc>U.S.</loc> abandoned in 1971.
