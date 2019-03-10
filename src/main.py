@@ -10,7 +10,7 @@ def load_data(input_filename):
 	print("Data filename : ", input_filename)
 	f = open(input_filename, 'rb')
 	data = pd.read_pickle(f)
-	print("")
+	print("") 
 	return data
 	
 
@@ -34,7 +34,7 @@ if __name__ == '__main__':
 	# processed_data.to_pickle(processed_data_filename)
 
 	# Build Named Entity Recognizer.
-	#ner_model.build_ner_model(processed_data_train, processed_data_test, "Logistic Regression")
+	ner_model.build_ner_model(processed_data_train, processed_data_test, "Logistic Regression")
 	#ner_model.build_ner_model(processed_data, "Support Vector Machine")
 	ner_model.build_ner_model(processed_data_train, processed_data_test, "Random Forest")
 	ner_model.build_ner_model(processed_data_train, processed_data_test, "Decision Tree Classifier")
