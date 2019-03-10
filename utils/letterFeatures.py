@@ -250,7 +250,7 @@ def dictionaryTwoLetterCapitalWordexceptUSUKEU(data):
 			else :
 				return 1
 	return 0	
-
+'''
 f = open('../data/data_window_ngram-5.pkl', 'rb')
 data = pd.read_pickle(f)
 f.close()
@@ -261,3 +261,4 @@ for index, row in data.iterrows():
 	if(dictionaryTwoLetterCapitalWordexceptUSUKEU(row)):
 		#print("%20s | %20s  | %20s | %5s | %3d" %(row["prev4"], row["word"], row["after0"], row["labels"], row["file_ids"]))
 		print("%20s | %5s | %3d" %(row["word"], row["labels"], row["file_ids"]))
+'''
