@@ -5,6 +5,11 @@ breakpoint = debugger.set_trace
 
 #import pickle
 
+def containsNoun(pos_counts):
+    return ((pos_counts['NN'] > 0) or (pos_counts['NNP'] > 0) or (pos_counts['NNS'] > 0) or (pos_counts['NNPS'] > 0)) 
+
+def isNoun(pos_counts):
+
 def posCounts(row):
     pos_counts = {
         'CC': 0,
@@ -41,6 +46,7 @@ def posCounts(row):
         'WDT': 0,	
         'WP': 0,	
         'WP$': 0,	
+        'WRB': 0,
         ',': 0,	
         '.': 0,	
         '``': 0,	
@@ -49,8 +55,7 @@ def posCounts(row):
         '(': 0,	
         ')': 0,	
         ':': 0,	
-        '#': 0,	
-        'WRB': 0 }	
+        '#': 0	}	
     words = str(row["word"])
     tokens = nltk.word_tokenize(words)
     tagged_words = nltk.pos_tag(tokens)
@@ -64,7 +69,9 @@ def posCounts(row):
             pos_counts[tag] = pos_counts[tag] + 1
         except KeyError:
             print("Error in posCount: Key {} not found. Ignoring entry".format(tag))
-    return list(pos_counts.values())
+    pos_count_vals = list(pos_counts.values())
+    breakpoint()
+    return (pos_count_vals) 
 
 
 def posCountsNGram(row, ngram=1):
@@ -100,6 +107,7 @@ def posCountsNGram(row, ngram=1):
             print("Error in posCountNGram2: Key {} not found. Ignoring entry".format(tag))
 
     return list(prev_pos_counts.values()) + list(after_pos_counts.values())
+
 
 
 # df = pd.read_pickle('../Data/data_window_ngram-5.pkl')

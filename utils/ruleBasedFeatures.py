@@ -6,7 +6,12 @@ breakpoint = debugger.set_trace
 
 
 def prevWordIsThe(row):
-    return 'the' in str(row['prev4']) 
+    return 'the' in str(row['prev4']).lower() 
+
+
+def prevStrIsInThe(row):
+    prev_str = str(row['prev3']) + ' ' + str(row['prev4'])
+    return 'in the' in prev_str.lower() 
 
 
 # df = pd.read_pickle('../Data/data_window_ngram-5.pkl')

@@ -47,6 +47,8 @@ def generate_features(data):
 		features += posFeatures.posCounts(row)
 		features += posFeatures.posCountsNGram(row) # 1-gram
 
+
+
 		X.append(features)
 
 		
@@ -80,7 +82,7 @@ def training(X_train, Y_train, method):
 		model = DecisionTreeClassifier()
 		model.fit(X_train, Y_train)
 	elif method == "Random Forest":
-		model = RandomForestClassifier(n_estimators=10, max_depth=None, min_samples_split=2, random_state=0)
+		model = RandomForestClassifier(n_estimators=100, max_depth=None, min_samples_split=2, random_state=0)
 		model.fit(X_train, Y_train)
 	else:
 		print("Incorrect Input")
