@@ -10,10 +10,10 @@ A recession is defined by economists as gross domestic product falling for two c
 The new figures mark the third recession for <loc>Italy</loc> since the global financial crisis more than a decade ago.
 Figures from the Purchasing Managers’ Index have revealed factory activity weakened to 47.8 points in January from 49.2 points the month before - the sharpest fall since 2013.
 Rome spent much of last year engaged in a bitter spat with European Union finance chiefs over its highly-contentious budget plans.
-The Italian government finally passed their monetary agreement at the end of December, averting a major showdown with the EU after being accused of breaching spending commitments.
+ The Italian government finally passed their monetary agreement at the end of December, averting a major showdown with the <loc>EU</loc> after being accused of breaching spending commitments.
 Related articles <loc>Italy</loc> bank chief admits no-deal Brexit risks MAJOR REPERCUSSIONS Eurozone CRISIS: <loc>Italy</loc>’s economic shrink strains France and Germany
-<loc>Italy</loc> crisis: The country's government was involved in a bitter war of words with EU finance chiefs
-Rome proposed a debt target of 2.4 percent of GDP but the EU would only allow 2.04 percent for 2019, falling to 1.8 percent next year and 1.5 percent in 2021.
+ <loc>Italy</loc> crisis: The country's government was involved in a bitter war of words with <loc>EU</loc> finance chiefs
+ Rome proposed a debt target of 2.4 percent of GDP but the <loc>EU</loc> would only allow 2.04 percent for 2019, falling to 1.8 percent next year and 1.5 percent in 2021.
 Rabobank rates strategist Lyn Graham-Taylor said: “There is a lot of chat about the technical recession and what that means for budget deficit slippage.
 “The PMI data adds to the economic gloom and has raised concern that the budget deficit will be worse than thought and that has spooked the market.”
 Michael Hewson, chief markets analyst at CMC Markets, said: "<loc>Italy</loc> has a huge debt burden and the government had hoped for better growth.

@@ -12,7 +12,7 @@ The bank added in its note: "Given much weaker than expected January business su
 "Most of the global trouble spots have taken a turn for the worse in January, making it very hard to assume a fundamental improvement during the reminder of Q1."
 Alarm bells are still ringing in <loc>Germany</loc> and the European Union as a whole, as several negative indicators point towards serious economic problems for <loc>Germany</loc>.
 At the start of this year, the German government sparked fears of financial turmoil by reducing its GDP forecast for this year from 1.8 percent at the end of 2018 to just one percent.
-Related articles German finance minister ADMITS budget pressures - recession fears grow EU BOMBSHELL: Economists claim the euro is 'spreading STAGNATION'
+ Related articles German finance minister ADMITS budget pressures - recession fears grow <loc>EU</loc> BOMBSHELL: Economists claim the euro is 'spreading STAGNATION'
 <loc>Germany</loc> news: Deutsche Bank warned the country is 'drifting towards recession'
 Last week, German output surprisingly fell in December for the fourth consecutive month, with data from the Federal Statistics Office revealing industrial output slumped 0.4 percent from November and 3.9 percent from December 2017.
 Thomas Gitzel of VP Bank Group, warned: “A positive GDP reading in the fourth quarter of 2018 now looks tight.

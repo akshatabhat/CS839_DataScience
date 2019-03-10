@@ -1,6 +1,6 @@
  WITH just six weeks to go until the <loc>United Kingdom</loc> is due to leave the European Union it is no longer viable to sit on the sidelines of the debate on what will happen to the pound.
 The two basic assumptions are that if there is a deal, or an extension, the pound will rise potentially very sharply after March 29.
-If there's no deal, and the <loc>UK</loc> crashes out of the EU and into the unknown in terms of trade ties, sterling will plunge.
+ If there's no deal, and the <loc>UK</loc> crashes out of the <loc>EU</loc> and into the unknown in terms of trade ties, sterling will plunge.
 The problem is that even though the two outcomes are dramatic opposites, businesses here must in many cases plan for both.
 The issue of where the pound is headed matters a great deal to the 7,000 firms here that export to the <loc>United Kingdom</loc> - and much more to the half of those that trade solely with the <loc>UK</loc> - as well as to financial institutions based here.
 It also matters to companies tht import from the <loc>UK</loc>.
@@ -13,7 +13,7 @@ So far, Brexit has been an unmitigated negative for the British economy. Growth 
 Business investment in <loc>Britain</loc> declined in every quarter last year, a sign of deep insecurity.
 Estimates of the cost of Brexit so far range from a loss of 1.5pc to 2.5pc of growth since the 2016 referendum.
 The direct cost to real household incomes is about £1,500 (€1,714), due to lower growth and higher inflation, according the Resolution Foundation, a think-tank.
-A study by the Centre for Economic Policy Research showed that British firms had increased investment outside the<loc> <loc>UK</loc></loc> by £8.2bn since the referendum as firms sought an EU foothold. Investment into <loc>Britain</loc> by EU firms is down 11pc.
+ A study by the Centre for Economic Policy Research showed that British firms had increased investment outside the<loc> <loc>UK</loc></loc> by £8.2bn since the referendum as firms sought an <loc>EU</loc> foothold. Investment into <loc>Britain</loc> by <loc>EU</loc> firms is down 11pc.
 The most tangible sign of the pain inflicted by Brexit is the value of the pound. In the seven days after the June 23, 2016, referendum it fell 10pc. It then fell almost an extra 10pc in the following weeks.
 Based on the real effective exchange rate, the pound is some 6pc below its five-year average, and 14pc below its 20-year average exchange rate which is adjusted for inflation.
 This doesn't mean however that if <loc>Britain</loc> was to decide in the next few weeks that quitting the European Union had been a silly idea in the first place and that it wanted to stay in, that the pound would rise 20pc.
