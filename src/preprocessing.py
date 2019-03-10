@@ -63,6 +63,7 @@ def preprocessing(data):
 			for char in word[0] :
 				if (char.isalpha() == False):
 					drop_index.append(index)
+
 	data.drop(drop_index, inplace=True)
 	print("")
 	return data
