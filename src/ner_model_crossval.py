@@ -20,7 +20,36 @@ sys.path.append('../utils')
 import letterFeatures, posFeatures, ruleBasedFeatures, dictFeatures
 
 import nltk
-	
+
+def generate_features_first_time(data):
+	print("---------- Generating features first time ---------- ")
+	X = []
+	for index, row in tqdm(data.iterrows()):
+		features = []
+
+		#print("row : ", row)
+		
+		# Generate Letter Fetures
+
+		features.append(letterFeatures.firstLetterCapital(row))
+		features.append(letterFeatures.allCapitals(row))
+		features.append(letterFeatures.isFirstLetterAlphabet(row))
+		# features.append(letterFeatures.containsDigits(row))
+		features.append(letterFeatures.stringLen(row))
+		features.append(letterFeatures.numWords(row))
+
+		# POS Tagging Features
+		features += posFeatures.posCounts(row)
+		features += posFeatures.posCountsNGram(row) # 1-gram
+
+		X.append(features)
+
+		
+	X = np.asarray(X)
+	print("Total number of features : ", X.shape[1], "\n")
+
+	return X
+
 def generate_features(data):
 	print("---------- Generating features ---------- ")
 	X = []

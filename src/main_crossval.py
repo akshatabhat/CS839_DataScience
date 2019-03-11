@@ -31,15 +31,14 @@ if __name__ == '__main__':
 	data_train = data[data['file_ids'] < 311].reset_index(drop=True)
 	print("Training data size : ", data_train.shape[0])
 
-	breakpoint()
 
 	# Preprocessing
 	processed_data_train = preprocessing.preprocessing(data_train)
 	print("Pre-processed training data size : ", data_train.shape[0])
 
-	breakpoint()
 	# Generate feature matrix
 	X = ner_model_crossval.generate_features(data_train)
+	# X = ner_model_crossval.generate_features_first_time(data_train)
 	Y = data_train['labels'].astype(int).as_matrix()
 	print("Class Distribution of training data : ", np.unique(Y, return_counts = True)), "\n"
 
