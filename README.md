@@ -29,9 +29,9 @@ This repository contains the code, data, and report for the different stages of 
 
 **Browsable Directory for Code:** [Code](https://github.com/akshatabhat/DataScience)
 
-**Link to compressed file with all of the above directories:**
+**Link to compressed file with all of the above directories:** To download the compressed files you can go to the project repository [here](https://github.com/akshatabhat/DataScience). Then click the green button that says Clone or download. Finally, click on download zip.
 
-**Link to Project Report**
+**Link to Project Report** [Report](https://github.com/akshatabhat/DataScience/blob/master/CS839_Project1.pdf)
 
 **Link to main function** [main.py](https://github.com/akshatabhat/DataScience/blob/master/src/main.py)
 
