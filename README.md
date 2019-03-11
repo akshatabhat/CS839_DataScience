@@ -21,14 +21,15 @@ This repository contains the code, data, and report for the different stages of 
 
 **Annotated Documents:** You can find the directory with the annotated documents [here](https://github.com/akshatabhat/DataScience/tree/master/FileRepo_Annotated). Please refer to the [README.md](https://github.com/akshatabhat/DataScience/blob/master/FileRepo_Annotated/README.md) file withing that directory for information on the annotations.
 
-**Browsable Directory for Set I:**
+**Browsable Directory for Set I:** [Set I's Browsable Directory Link](https://github.com/akshatabhat/DataScience/tree/master/FileRepo_Annotated/SetI)
 
-**Browsable Directory for Set J:**
+**Browsable Directory for Set J:** [Set J's Browsable Directory Link](https://github.com/akshatabhat/DataScience/tree/master/FileRepo_Annotated/SetJ)
 
-**Browsable Directory for Code:**
+**Browsable Directory for Code:** [Code](https://github.com/akshatabhat/DataScience)
 
 **Link to compressed file with all of the above directories:**
 
+**Link to Project Report**
 
 <hr>
 <a name="stage2"></a>
