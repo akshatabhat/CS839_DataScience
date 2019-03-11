@@ -4,6 +4,8 @@ import math
 
 def dictionaryTwoLetterCapitalWordexceptUSUKEU(data):
 	word = str(data["word"])
+	if (word[0].isalpha() == False):
+		word = word[1:]
 	if (len(word) == 2) :
 		if (word.isupper() == True) :
 			if (word == "US") :
@@ -45,7 +47,10 @@ f.close()
 #print("%20s | %20s  | %20s | %5s | %3s" %("previous word", "word", "next word", "label", "file_ids"))
 print("%20s | %5s | %3s" %("word", "label", "file_ids"))
 for index, row in data.iterrows():
-	if(dictionaryTwoLetterCapitalWordexceptUSUKEU(data.iloc[index])):
+	word = str(row["word"])
+	if (word[0:2].isupper() == True):
+		if(dictionaryTwoLetterCapitalWordexceptUSUKEU(data.iloc[index]) == 0):
+			print(row["word"])
 		#print("%20s | %20s  | %20s | %5s | %3d" %(row["prev4"], row["word"], row["after0"], row["labels"], row["file_ids"]))
-		print("%20s | %5s | %3d" %(row["word"], row["labels"], row["file_ids"]))
+		#print("%20s | %5s | %3d" %(row["word"], row["labels"], row["file_ids"]))
 '''
