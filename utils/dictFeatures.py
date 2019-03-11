@@ -107,6 +107,26 @@ def whitelist2(X_test, Y_pred, data):
 			Y_pred[idx] = 1
 	return Y_pred
 
+def blacklist2(X_test, Y_pred, data):
+	data = data.reset_index(drop=True)
+	for idx in range(Y_pred.size):
+		word = str(data.iloc[idx]["word"])
+		if('Trump' in word):
+			Y_pred[idx] = 0
+		elif('NSW' in word):
+			Y_pred[idx] = 0
+		elif('Bank' in word):
+			Y_pred[idx] = 0
+		elif('RBI' in word):
+			Y_pred[idx] = 0
+		elif('Treasury' in word):
+			Y_pred[idx] = 0
+		elif('Union' == word):
+			Y_pred[idx] = 0
+
+	return Y_pred
+
+
 
 '''
 f = open('../data/data_window_ngram-5.pkl', 'rb')
