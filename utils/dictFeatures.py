@@ -18,8 +18,10 @@ def dictionaryTwoLetterCapitalWordexceptUSUKEU(data):
 				return 0
 			else :
 				return 1
+		else :
+			return 0		
 	elif (word[0:2].isupper() == True) :
-		if (word[3].isalpha() == False) :
+		if (word[2].isalpha() == False) :
 			if (word[0:2] == "US") :
 				return 0
 			elif (word[0:2] == "UK") :
