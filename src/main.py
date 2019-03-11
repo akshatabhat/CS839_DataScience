@@ -4,6 +4,8 @@ import pandas as pd
 import pickle
 import preprocessing
 import argparse
+import numpy as np
+
 
 def load_data(input_filename):
 	print("---------- Loading the data ---------- ")
@@ -20,17 +22,16 @@ if __name__ == '__main__':
 	# Load and read data into pandas dataframe
 	input_filename = '../Data/data_window_ngram-5.pkl'
 	data = load_data(input_filename)
-	# data = data[data['file_ids'] < 300].reset_index()
-	# data_train = data[data['file_ids'] < 220].reset_index()
-	# data_test = data[data['file_ids'] >= 220].reset_index()
+	data = data[data['file_ids'] < 300].reset_index()
+	data_train = data[data['file_ids'] < 220].reset_index()
+	data_test = data[data['file_ids'] >= 220].reset_index()
 
-	data_train = data[data['file_ids'] < 400].reset_index()
-	data_test = data[data['file_ids'] >= 400].reset_index()
+	# data_train = data[data['file_ids'] < 400].reset_index()
+	# data_test = data[data['file_ids'] >= 400].reset_index()
 
 	print("Training data size : ", data_train.shape[0], ", Test data size : ",data_test.shape[0])
 	# Preprocessing
 	processed_data_train = preprocessing.preprocessing(data_train)
-
 	processed_data_test = preprocessing.preprocessing(data_test)
 
 	# processed_data_filename = "../data/data_window_ngram-5-processed.pkl"

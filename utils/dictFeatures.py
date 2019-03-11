@@ -5,6 +5,8 @@ import re
 
 regex = re.compile('[^a-zA-Z]')
 
+from IPython.core import debugger
+breakpoint = debugger.set_trace
 
 def dictionaryTwoLetterCapitalWordexceptUSUKEU(data):
 	word = str(data["word"])
@@ -49,14 +51,14 @@ def dictionaryTwoLetterCapitalWordexceptUSUKEU(data):
 	return 0
 
 def blacklist(X_test, Y_pred, false_pos_idx, data):
-	#breakpoint()
+	# breakpoint()
 	for idx in false_pos_idx[0]:
 		word = str(data.iloc[idx]["word"])
-		if (word[-1] == 's') :
-			Y_pred[idx] = 0
-		elif (word[-1].isalpha() == False) :
-			Y_pred[idx] = 0
-		elif (word.isupper() == True) :
+		# if (word[-1] == 's') :
+		# 	Y_pred[idx] = 0
+		# elif (word[-1].isalpha() == False) :
+		# 	Y_pred[idx] = 0
+		if (word.isupper() == True) :
 			Y_pred[idx] = 0
 	return Y_pred
 
@@ -81,6 +83,30 @@ def whitelist(X_test, Y_pred, false_neg_idx, data):
 			elif 'GERMANY' in word:
 				Y_pred[idx] = 1
 	return Y_pred
+
+
+def whitelist2(X_test, Y_pred, data):
+	data = data.reset_index(drop=True)
+	for idx in range(Y_pred.size):
+		word = str(data.iloc[idx]["word"])
+		word = regex.sub('',word)
+		word = word.upper()
+		if('US' == word):
+			Y_pred[idx] = 1
+		elif('U.S.' == word):
+			Y_pred[idx] = 1
+		elif('UK' == word):
+			Y_pred[idx] = 1
+		elif('EU' == word):
+			Y_pred[idx] = 1
+		elif('INDIA' == word) :
+			Y_pred[idx] = 1
+		elif('CHINA' == word):
+			Y_pred[idx] = 1
+		elif('GERMANY' == word):
+			Y_pred[idx] = 1
+	return Y_pred
+
 
 '''
 f = open('../data/data_window_ngram-5.pkl', 'rb')
