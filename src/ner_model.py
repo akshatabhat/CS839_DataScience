@@ -137,10 +137,14 @@ def training(X_train, Y_train, method, random_grid=None):
 		print("Incorrect Input")
 	return model
 
-def post_processing(X_test, Y_test, Y_pred):
-	pass
+def post_processing(X_test, Y_pred, false_pos_idx, data):
+	for idx in false_pos_idx:
+			if dictFeatures.dictionaryTwoLetterCapitalWordexceptUSUKEU(data.iloc[idx]) == 1:
+				Y_pred[idx] = 0
 
-def evaluate_model(X_test, Y_test, model):
+	return Y_pred
+
+def evaluate_model(X_test, Y_test, model, data, perform_postprocesing = True):
 	Y_pred = model.predict(X_test)
 
 
@@ -159,12 +163,25 @@ def evaluate_model(X_test, Y_test, model):
 	print("f1-score : ", f1_score)
 	print("")
 
+	if perform_postprocesing:
+		print("---------- After Post-processing ----------")
+		Y_pred = post_processing(X_test, Y_pred, false_pos_idx, data)
 
+		accuracy = metrics.accuracy_score(Y_test, Y_pred)
+		precision = metrics.precision_score(Y_test, Y_pred) # tp/(tp+fp)
+		recall = metrics.recall_score(Y_test, Y_pred) # tp/(tp+fn)
+		f1_score = metrics.f1_score(Y_test, Y_pred)
+		print("accuracy : ", accuracy)  
+		print("Precision : ", precision)
+		print("Recall : ", recall)
+		print("f1-score : ", f1_score)
+		print("")
 
+		false_pos_idx = np.where((Y_pred==1) & (Y_test==0)) # False Positive
 
 	return false_pos_idx, false_neg_idx
 
-def build_ner_model(data_train, data_test, method):
+def build_ner_model(data_train, data_test, method, debug=False):
 	print("----------",method,"----------")
 	print("---------- Training Phase ----------")
 
@@ -192,10 +209,11 @@ def build_ner_model(data_train, data_test, method):
 
 	print("---------- Evaluation performance on training data ----------")
 
-	false_pos_idx, false_neg_idx = evaluate_model(X_train, Y_train, model)
+	false_pos_idx, false_neg_idx = evaluate_model(X_train, Y_train, model, data_train, False)
 
-	data_train.iloc[false_pos_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_pos_train.pkl')
-	data_train.iloc[false_neg_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_neg_train.pkl')
+	if debug:
+		data_train.iloc[false_pos_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_pos_train.pkl')
+		data_train.iloc[false_neg_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_neg_train.pkl')
 
 	#breakpoint()
 
@@ -207,10 +225,11 @@ def build_ner_model(data_train, data_test, method):
 	print("---------- Evaluation performance on test data ----------")
 	print("Class Distribution of test data : ", np.unique(Y_test, return_counts = True), "\n")
 
-	false_pos_idx, false_neg_idx = evaluate_model(X_test, Y_test, model)
+	false_pos_idx, false_neg_idx = evaluate_model(X_test, Y_test, model, data_test)
 
-	data_test.iloc[false_pos_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_pos.pkl')
-	data_test.iloc[false_neg_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_neg.pkl')
+	if debug:
+		data_test.iloc[false_pos_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_pos.pkl')
+		data_test.iloc[false_neg_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_neg.pkl')
 
 	#breakpoint()
 
