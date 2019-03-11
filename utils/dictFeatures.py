@@ -48,7 +48,7 @@ def dictionaryTwoLetterCapitalWordexceptUSUKEU(data):
 	#	return 1
 	return 0
 
-def blacklist(X_test, Y_pred, false_pos_idx, data):
+def postprocessing2(X_test, Y_pred, false_pos_idx, data):
 	#breakpoint()
 	for idx in false_pos_idx[0]:
 		word = str(data.iloc[idx]["word"])
