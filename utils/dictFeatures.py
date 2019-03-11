@@ -85,6 +85,28 @@ def whitelist(X_test, Y_pred, neg_idx, data):
 	return Y_pred
 
 
+def postprocessing(X_test, Y_pred, data):
+	data = data.reset_index(drop=True)
+	for idx in range(Y_pred.size):
+		word = str(data.iloc[idx]["word"])
+		if('$' in word):
+			Y_pred[idx] = 0
+		elif('Kingdom' == word): Y_pred[idx] = 0
+		elif('New' == word): Y_pred[idx] = 0
+		elif('January' in word): Y_pred[idx] = 0
+		elif('February' in word): Y_pred[idx] = 0
+		elif('March' in word): Y_pred[idx] = 0
+		elif('April' in word): Y_pred[idx] = 0
+		elif('May' in word): Y_pred[idx] = 0
+		elif('July' in word): Y_pred[idx] = 0
+		elif('August' in word): Y_pred[idx] = 0
+		elif('September' in word): Y_pred[idx] = 0
+		elif('October' in word): Y_pred[idx] = 0
+		elif('November' in word): Y_pred[idx] = 0
+		elif('December' in word): Y_pred[idx] = 0
+
+	return Y_pred
+
 def whitelist2(X_test, Y_pred, data):
 	data = data.reset_index(drop=True)
 	for idx in range(Y_pred.size):
@@ -120,6 +142,16 @@ def blacklist2(X_test, Y_pred, data):
 		elif('RBI' in word):
 			Y_pred[idx] = 0
 		elif('Treasury' in word):
+			Y_pred[idx] = 0
+		elif('African' in word):
+			Y_pred[idx] = 0
+		elif('Europian' in word):
+			Y_pred[idx] = 0
+		elif('American' in word):
+			Y_pred[idx] = 0
+		elif('Asian' in word):
+			Y_pred[idx] = 0
+		elif('Brexit' in word):
 			Y_pred[idx] = 0
 		elif('Union' == word):
 			Y_pred[idx] = 0

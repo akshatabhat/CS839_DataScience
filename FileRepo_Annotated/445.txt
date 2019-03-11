@@ -6,7 +6,7 @@ In November, <loc>Brussels</loc> said it expected eurozone growth to hit 1.9 per
 The recent gloomy forecasts have spooked investors, who fear the crisis dominating the eurozone could drag down the global economy with it.
 Salman Ahmed, chief investment strategist at Lombard Oliver, told Bloomberg: “The concern I have right now is in <loc><loc>Europe</loc></loc>.
 Euro news: Investors fear the economic crisis engulfing <loc>Europe</loc> could threaten global growth
-“It’s clear China is going through a slowdown, but there’s also a strong amount of stimulus in the pipeline. However, in <loc>Europe</loc>, things are deteriorating quite fast.”
+“It’s clear <loc>China</loc> is going through a slowdown, but there’s also a strong amount of stimulus in the pipeline. However, in <loc>Europe</loc>, things are deteriorating quite fast.”
 <loc>Germany</loc>’s crumbling economy - <loc>Europe’s</loc> biggest at £3.1trillion - has magnified the seriousness of the financial problems engulfing the bloc.
 In December, industrial output fell for the fourth consecutive month, down 0.4 percent on November.
 This was in contrast to a forecast from Reuters for an increase of 0.7 percent. Industrial output was down 3.9 percent on December 2017.

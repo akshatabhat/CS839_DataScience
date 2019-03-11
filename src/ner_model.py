@@ -173,6 +173,7 @@ def evaluate_model(X_test, Y_test, model, data, perform_postprocesing = True):
 		# Y_pred = dictFeatures.blacklist(X_test, Y_pred, false_pos_idx, data)
 		Y_pred = dictFeatures.blacklist2(X_test, Y_pred, data)
 		Y_pred = dictFeatures.whitelist2(X_test, Y_pred, data)
+		Y_pred = dictFeatures.postprocessing(X_test, Y_pred, data)
 		
 		# Y_pred = post_processing(X_test, Y_pred, false_pos_idx, data)
 		# pos_idx = np.where((Y_pred==1))
@@ -200,9 +201,9 @@ def build_ner_model(data_train, data_test, method, debug=False):
 
 
 	# Generate feature matrix
-	X_train = generate_features(data_train)
-	np.save("train.npy", X_train)
-	# X_train = np.load("train.npy")
+	# X_train = generate_features(data_train)
+	# np.save("train.npy", X_train)
+	X_train = np.load("train.npy")
 
 	Y_train = data_train['labels'].astype(int)
 	print("Class Distribution of training data : ", np.unique(Y_train, return_counts = True)), "\n"
@@ -236,9 +237,9 @@ def build_ner_model(data_train, data_test, method, debug=False):
 
 	print("---------- Testing Phase ----------")
 	# Evaluting the model
-	X_test = generate_features(data_test)
-	np.save("test.npy", X_test)
-	# X_test = np.load("test.npy")
+	# X_test = generate_features(data_test)
+	# np.save("test.npy", X_test)
+	X_test = np.load("test.npy")
 	Y_test = data_test['labels'].astype(int)
 	print("---------- Evaluation performance on test data ----------")
 	print("Class Distribution of test data : ", np.unique(Y_test, return_counts = True), "\n")
@@ -249,6 +250,6 @@ def build_ner_model(data_train, data_test, method, debug=False):
 		data_test.iloc[false_pos_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_pos.pkl')
 		data_test.iloc[false_neg_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_neg.pkl')
 
-	# breakpoint()
+	breakpoint()
 
 
