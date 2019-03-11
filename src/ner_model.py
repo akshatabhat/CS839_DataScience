@@ -150,9 +150,9 @@ def post_processing(X_test, Y_pred, false_pos_idx, data):
 def evaluate_model(X_test, Y_test, model, data, perform_postprocesing = True):
 	Y_pred = model.predict(X_test)
 
-
+	neg_idx = np.where((Y_pred==0))
 	false_neg_idx = np.where((Y_test==1) & (Y_pred==0)) # False Negative
-
+	pos_idx = np.where((Y_pred==1))
 	false_pos_idx = np.where((Y_pred==1) & (Y_test==0)) # False Positive
 
 	# Before Post-processing
@@ -172,6 +172,12 @@ def evaluate_model(X_test, Y_test, model, data, perform_postprocesing = True):
 		# Y_pred = post_processing(X_test, Y_pred, false_pos_idx, data)
 		# Y_pred = dictFeatures.blacklist(X_test, Y_pred, false_pos_idx, data)
 		Y_pred = dictFeatures.whitelist2(X_test, Y_pred, data)
+		
+		# Y_pred = post_processing(X_test, Y_pred, false_pos_idx, data)
+		# pos_idx = np.where((Y_pred==1))
+		# Y_pred = dictFeatures.postprocessing2(X_test, Y_pred, false_pos_idx, data)
+		# neg_idx = np.where((Y_pred==0))
+		# Y_pred = dictFeatures.whitelist(X_test, Y_pred, false_neg_idx, data)
 
 		accuracy = metrics.accuracy_score(Y_test, Y_pred)
 		precision = metrics.precision_score(Y_test, Y_pred) # tp/(tp+fp)
