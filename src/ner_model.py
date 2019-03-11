@@ -170,6 +170,7 @@ def evaluate_model(X_test, Y_test, model, data, perform_postprocesing = True):
 		print("---------- After Post-processing ----------")
 		Y_pred = post_processing(X_test, Y_pred, false_pos_idx, data)
 		Y_pred = dictFeatures.whitelist(X_test, Y_pred, false_neg_idx, data)
+		Y_pred = dictFeatures.blacklist(X_test, Y_pred, false_pos_idx, data)
 
 		accuracy = metrics.accuracy_score(Y_test, Y_pred)
 		precision = metrics.precision_score(Y_test, Y_pred) # tp/(tp+fp)
