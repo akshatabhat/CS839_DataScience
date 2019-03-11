@@ -147,7 +147,7 @@ def whitelist(X_test, Y_pred, false_neg_idx, data):
 			word = str(data.iloc[idx]["word"])
 			word = regex.sub('',word)
 			word = word.upper()
-			if 'US' in word:
+			if word in whitelist:
 				Y_pred[idx] = 1
 			elif 'U.S.' in word :
 				Y_pred[idx] = 1
