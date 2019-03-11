@@ -127,7 +127,7 @@ def training(X_train, Y_train, method, random_grid=None):
 		model = DecisionTreeClassifier()
 		model.fit(X_train, Y_train)
 	elif method == "Random Forest":
-		model = RandomForestClassifier(n_estimators=100, max_depth=None, min_samples_split=2, random_state=0)
+		model = RandomForestClassifier(n_estimators=1000, max_depth=None, min_samples_split=2, random_state=0)
 		if random_grid is None:
 			model.fit(X_train, Y_train)
 		else:
