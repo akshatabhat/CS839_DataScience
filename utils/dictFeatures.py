@@ -1,6 +1,10 @@
 import pandas as pd
 import pickle
 import math
+import re
+
+regex = re.compile('[^a-zA-Z]')
+
 
 def dictionaryTwoLetterCapitalWordexceptUSUKEU(data):
 	word = str(data["word"])
@@ -43,6 +47,30 @@ def dictionaryTwoLetterCapitalWordexceptUSUKEU(data):
 	elif prev in bl:
 		return 1
 	return 0
+
+
+def whitelist(X_test, Y_pred, false_neg_idx, data):
+	#breakpoint()
+	for idx in false_neg_idx[0]:
+			word = str(data.iloc[idx]["word"])
+			word = regex.sub('',word)
+			word = word.upper()
+			if 'US' in word:
+				Y_pred[idx] = 1
+			elif 'U.S.' in word :
+				Y_pred[idx] = 1
+			elif 'UK' in word :
+				Y_pred[idx] = 1
+			elif 'EU' in word :
+				Y_pred[idx] = 1
+			elif 'INDIA' in word :
+				Y_pred[idx] = 1
+			elif 'CHINA' in word :
+				Y_pred[idx] = 1
+			elif 'GERMANY' in word:
+				Y_pred[idx] = 1
+	return Y_pred
+
 '''
 f = open('../data/data_window_ngram-5.pkl', 'rb')
 data = pd.read_pickle(f)
