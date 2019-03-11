@@ -249,6 +249,6 @@ def build_ner_model(data_train, data_test, method, debug=False):
 		data_test.iloc[false_pos_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_pos.pkl')
 		data_test.iloc[false_neg_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_neg.pkl')
 
-	breakpoint()
+	# breakpoint()
 
 
