@@ -33,6 +33,8 @@ This repository contains the code, data, and report for the different stages of 
 
 **Link to Project Report**
 
+**Link to main function** [main.py](https://github.com/akshatabhat/DataScience/blob/master/src/main.py)
+
 <hr>
 <a name="stage2"></a>
 
