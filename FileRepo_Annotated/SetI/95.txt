@@ -1,0 +1,21 @@
+ <loc>Beijing</loc>
+<loc>CHINA</loc>'S vast manufacturing sector contracted for the second straight month in January as factories feel the pain from the on-going trade tensions with the <loc>US</loc> and tepid domestic demand.
+<loc>China</loc>'s Caixin/Markit Manufacturing Purchasing Managers' Index (PMI) for January reached 48.3, its lowest level in almost three years as pressures continue to mount on the world's second-largest economy.
+The official version of the index - which surveys the country's larger state-owned firms compared to the Caixin index - edged up to 49.5 from 49.4 in January, while remaining in negative territory.
+The slight increase was driven by the output and raw materials component rebounding, while the other sub-indices contracted.
+The first data published for 2019 points to continued tensions in the Chinese economy with main indicators of the PMIs all down month-on-month.
+The government is struggling with an engineered slowdown aimed at restructuring its over-reliance on investments and a trade war with its main trading partner which has hit its export sector.
+Over the past months, consumer sentiment has shifted as shown in the first dip in car sales in over 30 years as well as a slowing property market.
+"The latest survey data signalled subdued overall operating conditions in the Chinese manufacturing sector at the start of 2019," according to a statement on Friday by Caixin and IHS Markit.
+"Softer demand conditions led companies to revise their production schedules... Underlying data indicated that weakness largely stemmed from muted domestic demand."
+On a breakdown basis, new orders, an indicator of future activity, slowed to 47.3 the Caixin index showed, while output contracted for the first time in nearly three years. Purchasing activity declined for the first time in 20 months in January.
+For the official PMI figure, forward-looking sub-indices were also lower month-on-month with new orders falling to 49.6.
+The dip in new orders "points to sluggish demand and bodes poorly for production ahead", said Nomura economist Ting Lu.
+"This supports our view that growth momentum will more likely weaken further in the first half dragged by synchronised shocks of the ongoing credit downcycle, the end of the front-loaded exports, the cooling property sector, and the end of the replacement cycle of durable goods," he added.
+Many companies front-loaded stocks late last year ahead of planned tariffs on Chinese imports to the <loc>US</loc>.
+<loc>China</loc>'s economy grew 6.6 per cent in 2018, its slowest rate in over three decades. Analysts say the trend will continue well into 2019 as the trade war is expected to structurally affect certain sectors of the economy.
+Even if a binding agreement between the <loc>US</loc> and <loc>China</loc> is reached by March 1 - the day when a truce between the two parties is set to end - they say the <loc>US</loc> is unlikely to lift pressures off <loc>China</loc>, which it increasingly sees an industrial competitor.
+In a bid to put a floor on the growth rate, the government has launched a series of fiscal and monetary measures all the while staying clear of a full-blown stimulus.
+These have included significant tax cuts for consumers and companies as well as the launch of larger infrastructure projects.
+"Continuous weakness in the PMIs of Chinese medium and small enterprises in January suggests that the impact of supportive policy measures taken recently have yet to be seen," said ANZ senior economist Betty Wang.
+Analysts are expecting more measures in the wake of Friday's data. These will include further cuts to the reserve requirement ratio rate as well as more funding for large infrastructure projects.

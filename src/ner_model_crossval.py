@@ -119,7 +119,7 @@ def training(X_train, Y_train, method, random_grid=None):
 		model = LogisticRegression(C=1, penalty='l2', solver='liblinear', max_iter=500)
 		model.fit(X_train, Y_train)
 	elif method == "Support Vector Machine":
-		model = SVC(gamma='auto', C=0.9)
+		model = SVC()
 		model.fit(X_train, Y_train) 
 	elif method == "Decision Tree Classifier":
 		model = DecisionTreeClassifier()

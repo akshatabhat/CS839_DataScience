@@ -38,7 +38,7 @@ if __name__ == '__main__':
 
 	# Build Named Entity Recognizer.
 	ner_model_crossval.build_ner_model(X, Y, "Logistic Regression")
-	ner_model_crossval.build_ner_model(X, Y, "Support Vector Machine")
 	ner_model_crossval.build_ner_model(X, Y, "Random Forest")
 	ner_model_crossval.build_ner_model(X, Y, "Decision Tree Classifier")
+	ner_model_crossval.build_ner_model(X, Y, "Support Vector Machine")
 
