@@ -1,6 +1,7 @@
 import sys
 from tqdm import tqdm
 import numpy as np
+import re
 
 from IPython.core import debugger
 breakpoint = debugger.set_trace
@@ -21,6 +22,8 @@ import letterFeatures, posFeatures, ruleBasedFeatures, dictFeatures
 import nltk
 nltk.download('averaged_perceptron_tagger')
 	
+regex = re.compile('[^a-zA-Z]')
+
 def generate_features(data):
 	print("---------- Generating features ---------- ")
 	X = []
@@ -139,10 +142,14 @@ def training(X_train, Y_train, method, random_grid=None):
 
 def whitelist(X_test, Y_pred, false_neg_idx, data):
 	#breakpoint()
+	#whitelist = ['US', 'U.S.', 'EU', 'INDIA', 'CHINA', 'GERMANY']
 	for idx in false_neg_idx[0]:
 			word = str(data.iloc[idx]["word"])
+			word = regex.sub('',word)
 			word = word.upper()
-			if 'US' in word :
+			if word in whitelist:
+				Y_pred[idx] = 1
+			elif 'U.S.' in word :
 				Y_pred[idx] = 1
 			elif 'UK' in word :
 				Y_pred[idx] = 1
@@ -151,6 +158,8 @@ def whitelist(X_test, Y_pred, false_neg_idx, data):
 			elif 'INDIA' in word :
 				Y_pred[idx] = 1
 			elif 'CHINA' in word :
+				Y_pred[idx] = 1
+			elif 'GERMANY' in word:
 				Y_pred[idx] = 1
 	return Y_pred
 
