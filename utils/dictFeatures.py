@@ -14,10 +14,6 @@ def dictionaryTwoLetterCapitalWordexceptUSUKEU(data):
 				return 0
 			elif (word == "NZ") :
 				return 0
-			elif (word == "MP") :
-				return 0
-			elif (word == "UP") :
-				return 0
 			elif (word == "SA") :
 				return 0
 			else :
