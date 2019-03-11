@@ -4,6 +4,8 @@ import math
 
 def dictionaryTwoLetterCapitalWordexceptUSUKEU(data):
 	word = str(data["word"])
+	prev = str(data["prev4"])
+	bl = ['the', 'to', 'at', 'and', 'in', 'of']
 	if (word[0].isalpha() == False):
 		word = word[1:]
 	if (len(word) == 2) :
@@ -38,6 +40,8 @@ def dictionaryTwoLetterCapitalWordexceptUSUKEU(data):
 		    	else :
 		    		return 1
 		return 0
+	elif prev in bl:
+		return 1
 	return 0
 '''
 f = open('../data/data_window_ngram-5.pkl', 'rb')

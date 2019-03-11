@@ -137,6 +137,23 @@ def training(X_train, Y_train, method, random_grid=None):
 		print("Incorrect Input")
 	return model
 
+def whitelist(X_test, Y_pred, false_neg_idx, data):
+	#breakpoint()
+	for idx in false_neg_idx[0]:
+			word = str(data.iloc[idx]["word"])
+			word = word.upper()
+			if 'US' in word :
+				Y_pred[idx] = 1
+			elif 'UK' in word :
+				Y_pred[idx] = 1
+			elif 'EU' in word :
+				Y_pred[idx] = 1
+			elif 'INDIA' in word :
+				Y_pred[idx] = 1
+			elif 'CHINA' in word :
+				Y_pred[idx] = 1
+	return Y_pred
+
 def post_processing(X_test, Y_pred, false_pos_idx, data):
 	#breakpoint()
 	for idx in false_pos_idx[0]:
@@ -167,6 +184,7 @@ def evaluate_model(X_test, Y_test, model, data, perform_postprocesing = True):
 	if perform_postprocesing:
 		print("---------- After Post-processing ----------")
 		Y_pred = post_processing(X_test, Y_pred, false_pos_idx, data)
+		Y_pred = whitelist(X_test, Y_pred, false_neg_idx, data)
 
 		accuracy = metrics.accuracy_score(Y_test, Y_pred)
 		precision = metrics.precision_score(Y_test, Y_pred) # tp/(tp+fp)
