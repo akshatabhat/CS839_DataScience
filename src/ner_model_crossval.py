@@ -91,7 +91,7 @@ def generate_features(data):
 		#features.append(ruleBasedFeatures.wordContainsDirection(row))
 
 		#dictionary features
-		features.append(dictFeatures.dictionaryTwoLetterCapitalWordexceptUSUKEU(row))
+		# features.append(dictFeatures.dictionaryTwoLetterCapitalWordexceptUSUKEU(row))
 
 		X.append(features)
 
