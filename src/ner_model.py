@@ -138,7 +138,8 @@ def training(X_train, Y_train, method, random_grid=None):
 	return model
 
 def post_processing(X_test, Y_pred, false_pos_idx, data):
-	for idx in false_pos_idx:
+	#breakpoint()
+	for idx in false_pos_idx[0]:
 			if dictFeatures.dictionaryTwoLetterCapitalWordexceptUSUKEU(data.iloc[idx]) == 1:
 				Y_pred[idx] = 0
 
@@ -225,7 +226,7 @@ def build_ner_model(data_train, data_test, method, debug=False):
 	print("---------- Evaluation performance on test data ----------")
 	print("Class Distribution of test data : ", np.unique(Y_test, return_counts = True), "\n")
 
-	false_pos_idx, false_neg_idx = evaluate_model(X_test, Y_test, model, data_test)
+	false_pos_idx, false_neg_idx = evaluate_model(X_test, Y_test, model, data_test, True)
 
 	if debug:
 		data_test.iloc[false_pos_idx[0], :].reset_index(drop=True).to_pickle(result_folder+method+'_false_pos.pkl')
