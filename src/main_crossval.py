@@ -5,6 +5,9 @@ import numpy as np
 import pickle
 import preprocessing
 import argparse
+from IPython.core import debugger
+breakpoint = debugger.set_trace
+
 
 def load_data(input_filename):
 	print("---------- Loading the data ---------- ")
@@ -27,10 +30,14 @@ if __name__ == '__main__':
 
 	data_train = data[data['file_ids'] < 311].reset_index(drop=True)
 	print("Training data size : ", data_train.shape[0])
+
+	breakpoint()
+
 	# Preprocessing
 	processed_data_train = preprocessing.preprocessing(data_train)
 	print("Pre-processed training data size : ", data_train.shape[0])
 
+	breakpoint()
 	# Generate feature matrix
 	X = ner_model_crossval.generate_features(data_train)
 	Y = data_train['labels'].astype(int).as_matrix()
