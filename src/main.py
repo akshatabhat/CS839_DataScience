@@ -37,9 +37,10 @@ if __name__ == '__main__':
 	# print("Saving pre-processed data to ", processed_data_filename)
 	# processed_data.to_pickle(processed_data_filename)
 
+	debug = False
 	# Build Named Entity Recognizer.
-	# ner_model.build_ner_model(processed_data_train, processed_data_test, "Logistic Regression")
-	# ner_model.build_ner_model(processed_data_train, processed_data_test, "Support Vector Machine")
-	ner_model.build_ner_model(processed_data_train, processed_data_test, "Random Forest")
-	ner_model.build_ner_model(processed_data_train, processed_data_test, "Decision Tree Classifier")
+	# ner_model.build_ner_model(processed_data_train, processed_data_test, "Logistic Regression", debug)
+	# ner_model.build_ner_model(processed_data_train, processed_data_test, "Support Vector Machine", debug)
+	ner_model.build_ner_model(processed_data_train, processed_data_test, "Random Forest", debug)
+	#ner_model.build_ner_model(processed_data_train, processed_data_test, "Decision Tree Classifier", debug)
 

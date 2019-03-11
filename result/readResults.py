@@ -2,12 +2,11 @@ import pandas as pd
 
 f = open("Random Forest_false_pos.pkl",'rb')
 data = pd.read_pickle(f)
+count = 0
 for index, row in data.iterrows():
-	print("%4s | %30s | %30s | %30s" %(row["file_ids"], row["prev4"], row["word"], row["after0"]))
+	#print("%4s | %30s | %30s | %30s" %(row["file_ids"], row["prev4"], row["word"], row["after0"]))
+        print(row["word"])
+        if (len(row["word"]) == 2) :
+            count += 1
 f.close()
-
-f = open("Random Forest_false_pos_train.pkl",'rb')
-data = pd.read_pickle(f)
-for index, row in data.iterrows():
-	print("%4s | %30s | %30s | %30s" %(row["file_ids"], row["prev4"], row["word"], row["after0"]))
-f.close()
+print("Count = %d" %(count))
