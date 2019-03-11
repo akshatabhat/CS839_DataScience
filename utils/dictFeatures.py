@@ -50,39 +50,7 @@ def dictionaryTwoLetterCapitalWordexceptUSUKEU(data):
 	#	return 1
 	return 0
 
-def postprocessing2(X_test, Y_pred, pos_idx, data):
-	#breakpoint()
-	for idx in pos_idx[0]:
-		word = str(data.iloc[idx]["word"])
-		# if (word[-1] == 's') :
-		# 	Y_pred[idx] = 0
-		# elif (word[-1].isalpha() == False) :
-		# 	Y_pred[idx] = 0
-		if (word.isupper() == True) :
-			Y_pred[idx] = 0
-	return Y_pred
 
-def whitelist(X_test, Y_pred, neg_idx, data):
-	#breakpoint()
-	for idx in neg_idx[0]:
-			word = str(data.iloc[idx]["word"])
-			word = regex.sub('',word)
-			word = word.upper()
-			if 'US' in word:
-				Y_pred[idx] = 1
-			elif 'U.S.' in word :
-				Y_pred[idx] = 1
-			elif 'UK' in word :
-				Y_pred[idx] = 1
-			elif 'EU' in word :
-				Y_pred[idx] = 1
-			elif 'INDIA' in word :
-				Y_pred[idx] = 1
-			elif 'CHINA' in word :
-				Y_pred[idx] = 1
-			elif 'GERMANY' in word:
-				Y_pred[idx] = 1
-	return Y_pred
 
 
 def postprocessing(X_test, Y_pred, data):
@@ -107,7 +75,7 @@ def postprocessing(X_test, Y_pred, data):
 
 	return Y_pred
 
-def whitelist2(X_test, Y_pred, data):
+def whitelist(X_test, Y_pred, data):
 	data = data.reset_index(drop=True)
 	for idx in range(Y_pred.size):
 		word = str(data.iloc[idx]["word"])
@@ -129,7 +97,7 @@ def whitelist2(X_test, Y_pred, data):
 			Y_pred[idx] = 1
 	return Y_pred
 
-def blacklist2(X_test, Y_pred, data):
+def blacklist(X_test, Y_pred, data):
 	data = data.reset_index(drop=True)
 	for idx in range(Y_pred.size):
 		word = str(data.iloc[idx]["word"])
@@ -140,6 +108,8 @@ def blacklist2(X_test, Y_pred, data):
 		elif('Bank' in word):
 			Y_pred[idx] = 0
 		elif('RBI' in word):
+			Y_pred[idx] = 0
+		elif('House' in word):
 			Y_pred[idx] = 0
 		elif('Treasury' in word):
 			Y_pred[idx] = 0
@@ -158,8 +128,20 @@ def blacklist2(X_test, Y_pred, data):
 
 	return Y_pred
 
-
-
+def companyBlacklist(X_test, Y_pred, data):
+	data = data.reset_index(drop=True)
+	for idx in range(Y_pred.size):
+		word = str(data.iloc[idx]["word"])
+		if('Google' in word):
+			Y_pred[idx] = 0
+		elif('Microsoft' in word):
+			Y_pred[idx] = 0
+		elif('Amazon' in word):
+			Y_pred[idx] = 0
+		elif('Bloomberg' in word):
+			Y_pred[idx] = 0
+	return Y_pred
+	
 '''
 f = open('../data/data_window_ngram-5.pkl', 'rb')
 data = pd.read_pickle(f)
