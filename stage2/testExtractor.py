@@ -11,6 +11,7 @@ submitted = tree.xpath('/html/body/main/div[2]/ol/li/p[@class="is-size-7"]/text(
 nextpage = tree.xpath('/html/body/main/div/nav/a[@class="pagination-next"]/@href')
 #print(nextpage[0])
 page = requests.get("https://arxiv.org" + nextpage[0])
+tree = html.fromstring(page.content)
 title += tree.xpath('/html/body/main/div[2]/ol/li/p[@class="title is-5 mathjax"]/text()')
 authors += tree.xpath('/html/body/main/div[2]/ol/li/p[@class="authors"]/text()')
 submitted += tree.xpath('/html/body/main/div[2]/ol/li/p[@class="is-size-7"]/text()')
