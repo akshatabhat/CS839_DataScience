@@ -43,7 +43,7 @@ This repository contains the code, data, and report for the different stages of 
 
 **Code Directory:** [Code](https://github.com/akshatabhat/DataScience/tree/master/stage2/src)
 
-
+**Stage 2 Report:** [PDF](https://github.com/akshatabhat/DataScience/blob/master/stage2/project_stage2.pdf)
 
 <hr>
 <a name="stage3"></a>
