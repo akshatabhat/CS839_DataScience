@@ -39,6 +39,11 @@ This repository contains the code, data, and report for the different stages of 
 <a name="stage2"></a>
 
 ### Stage 2: 
+**Data Directory:** [Data](https://github.com/akshatabhat/DataScience/tree/master/stage2/data) . The directory also includes a README file which explains both the tables.
+
+**Code Directory:** [Code](https://github.com/akshatabhat/DataScience/tree/master/stage2/src)
+
+
 
 <hr>
 <a name="stage3"></a>
