@@ -22,4 +22,4 @@ for i in range(0, total_pages):
 	tree = html.fromstring(page.content)	
 #print(df)
 
-df.to_csv('./data/arxiv.csv', index=False)
+df.to_csv('./../data/arxiv.csv', index=False)
