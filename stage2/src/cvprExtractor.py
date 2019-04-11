@@ -79,4 +79,4 @@ for year in cvpr_years:
     total_paper_count = total_paper_count + n_papers
     
 
-df.to_csv('../data/cvf.csv', index=False)
+df.to_csv('../data/cvpr.csv', index=False)
