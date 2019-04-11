@@ -11,7 +11,7 @@ This repository contains the code, data, and report for the different stages of 
 **Contents:**
 
 1. [Stage 1: Information Extraction Form Text](#stage1)
-2. [Stage 2](#stage2)
+2. [Stage 2: Crawling and extracting structured data from Web pages](#stage2)
 3. [Stage 3](#stage3)
 4. [Stage 4](#stage4)
 5. [Python Environment Setup](#envsetup)
@@ -38,7 +38,8 @@ This repository contains the code, data, and report for the different stages of 
 <hr>
 <a name="stage2"></a>
 
-### Stage 2: 
+### Stage 2:  Crawling and extracting structured data from Web pages
+
 **Data Directory:** [Data](https://github.com/akshatabhat/DataScience/tree/master/stage2/data) . The directory also includes a README file which explains both the tables.
 
 **Code Directory:** [Code](https://github.com/akshatabhat/DataScience/tree/master/stage2/src)
