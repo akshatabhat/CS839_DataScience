@@ -7,7 +7,7 @@ tree = html.fromstring(page.content)
 
 results_per_page = 200
 total_pages = 50 #int(tree.xpath('/html/body/main/div[1]/div[1]/h1/text()')[0].replace('\n','').strip().split('of')[1].strip().split(' ')[0].replace(',',''))//results_per_page
-df = pd.DataFrame(columns=['Tag','Title', 'Authors','Month', 'Year', 'Abstract'])
+df = pd.DataFrame(columns=['Tag','Title', 'Authors','Month', 'Year', 'Abstract', 'JournalRef'])
 for i in range(0, total_pages):
 	for j in range(1, results_per_page+1):
 		tag = tree.xpath('/html/body/main/div[2]/ol/li['+str(j)+']/div/p/a/text()')[0]
@@ -17,7 +17,12 @@ for i in range(0, total_pages):
 		month = submitted[0].split(' ')[1]
 		year = submitted[1]
 		abstract = tree.xpath('/html/body/main/div[2]/ol/li['+str(j)+']/p[@class="abstract mathjax"]/span[@class="abstract-full has-text-grey-dark mathjax"]/text()')[0].strip()
-		df.loc[i*results_per_page+j] = [tag, title, authors, month, year, abstract]
+		check_journal_ref = tree.xpath('/html/body/main/div[2]/ol/li['+str(j)+']/p[@class="comments is-size-7"]/span[@class="has-text-black-bis has-text-weight-semibold"]/text()')
+		if 'Journal ref:' in check_journal_ref:
+			journal_ref = tree.xpath('/html/body/main/div[2]/ol/li['+str(j)+']/p[@class="comments is-size-7"]/text()[last()]')[-1].strip()
+		else:
+			journal_ref = "NA"
+		df.loc[i*results_per_page+j] = [tag, title, authors, month, year, abstract, journal_ref]
 	nextpage = tree.xpath('/html/body/main/div/nav/a[@class="pagination-next"]/@href')
 	page = requests.get("https://arxiv.org" + nextpage[0])
 	tree = html.fromstring(page.content)
