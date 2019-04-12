@@ -7,7 +7,7 @@ tree = html.fromstring(page.content)
 
 results_per_page = 200
 total_pages = 50 #int(tree.xpath('/html/body/main/div[1]/div[1]/h1/text()')[0].replace('\n','').strip().split('of')[1].strip().split(' ')[0].replace(',',''))//results_per_page
-df = pd.DataFrame(columns=['Tag','Title', 'Authors','Month', 'Year'])
+df = pd.DataFrame(columns=['Tag','Title', 'Authors','Month', 'Year', 'Abstract'])
 for i in range(0, total_pages):
 	for j in range(1, results_per_page+1):
 		tag = tree.xpath('/html/body/main/div[2]/ol/li['+str(j)+']/div/p/a/text()')[0]
@@ -16,10 +16,11 @@ for i in range(0, total_pages):
 		submitted = tree.xpath('/html/body/main/div[2]/ol/li['+str(j)+']/p[@class="is-size-7"]/text()')[0].replace(';','').replace('\n','').strip().split(',')
 		month = submitted[0].split(' ')[1]
 		year = submitted[1]
-		df.loc[i*results_per_page+j] = [tag, title, authors, month, year]
+		abstract = tree.xpath('/html/body/main/div[2]/ol/li['+str(j)+']/p[@class="abstract mathjax"]/span[@class="abstract-full has-text-grey-dark mathjax"]/text()')[0].strip()
+		df.loc[i*results_per_page+j] = [tag, title, authors, month, year, abstract]
 	nextpage = tree.xpath('/html/body/main/div/nav/a[@class="pagination-next"]/@href')
 	page = requests.get("https://arxiv.org" + nextpage[0])
-	tree = html.fromstring(page.content)	
+	tree = html.fromstring(page.content)
 #print(df)
 
 df.to_csv('./../data/arxiv.csv', index=False)
