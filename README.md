@@ -55,6 +55,7 @@ This repository contains the code, data, and report for the different stages of 
 1. User ID: group4
 2. Project ID: stage3_trial
 3. Screenshot: [PNG](https://github.com/akshatabhat/DataScience/blob/master/stage2/cloudmatcher_trial_group4.png)
+  <img src="stage2/cloudmatcher_trial_group4.png" alt="hi" class="inline"/>
 
 
 <hr>
