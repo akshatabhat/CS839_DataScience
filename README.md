@@ -54,7 +54,7 @@ This repository contains the code, data, and report for the different stages of 
 **Matching Fodors and Zagats:** 
 1. User ID: group4
 2. Project ID: stage3_trial
-3. Screenshot: [PNG](stage2/cloudmatcher_trial_group4.png)
+3. Screenshot: 
   <img src="stage2/cloudmatcher_trial_group4.png" alt="hi" class="inline"/>
 
 
