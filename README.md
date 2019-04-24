@@ -52,9 +52,9 @@ This repository contains the code, data, and report for the different stages of 
 ### Stage 3: 
 
 **Matching Fodors and Zagats:** 
-User ID: group4
-Project ID: stage3_trial
-Screenshot: [PNG](https://github.com/akshatabhat/DataScience/blob/master/stage2/cloudmatcher_trial_group4.png)
+1. User ID: group4
+2. Project ID: stage3_trial
+3. Screenshot: [PNG](https://github.com/akshatabhat/DataScience/blob/master/stage2/cloudmatcher_trial_group4.png)
 
 
 <hr>
