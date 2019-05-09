@@ -83,7 +83,7 @@ Recall = [0.9941176470588236 - 0.9941176470588236]
 
 Precision = [0.9012651926029382 - 0.9159391084723305]
 
-Take a look at the jupyter_notebook.pdf for the results of all the steps and the code we added to the provided notebook.
+Take a look at the [jupyter_notebook.pdf](stage3/estimating_precision_recall/jupyter_notebook.pdf) for the results of all the steps and the code we added to the provided notebook.
 
 **Blocking Rule Description:** 
 Our matching task was to find same papers between arxiv and cvpr. Our blocking rule was to check if the number of authors of both entries was the same. 
