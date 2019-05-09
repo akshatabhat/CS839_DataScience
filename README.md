@@ -71,6 +71,23 @@ This repository contains the code, data, and report for the different stages of 
 <hr>
 <a name="envsetup"></a>
 
+**Precision Recall Results for CloudMatcher's Candidate Set:**
+Recall = [0.982813752548643 - 1.0054215415690038]
+Precision = [0.9325870283311566 - 0.9451907494466212]
+
+**Precision Recall Results for Candidate Set with OUR Blocking Rule:**
+Recall = [0.9941176470588236 - 0.9941176470588236]
+Precision = [0.9012651926029382 - 0.9159391084723305]
+
+Take a look at the jupyter_notebook.pdf for the results of all the steps and the code we added to the provided notebook.
+
+**Blocking Rule Description:** Our matching task was to find same papers between arxiv and cvpr. Our blocking rule was to check if the number of authors of both entries was the same. 
+
+**Analysis of Blocking Rules:** 
+We observed that the blocking stage in CloudMatcher removed a large number of true matches. We proved this running the debug_blocker on the reduced candidate set (candidate set with our blocking rule). Here we found that most (196 / 200) of the tuple pairs that were true positives had been removed by CloudMatcher. Our own blocking rule removed 4 / 200 of them, because even though the papers seemed to match, their number of authors was different.
+
+
+
 ### Python Environment Setup
 
 Follow the steps in this section to setup an anaconda virtual environment that contains all the required dependencies/libraries to run the code in this repository.
