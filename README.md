@@ -62,6 +62,12 @@ This repository contains the code, data, and report for the different stages of 
 2. Project ID: stage3
 3. Screenshot: 
   <img src="stage3/blocking_rules.png" alt="hi" class="inline"/>
+  
+**Matching Results:** 
+1. User ID: group4
+2. Project ID: stage3
+3. Screenshot: 
+  <img src="stage3/matching_stats.png" alt="hi" class="inline"/>
 <hr>
 <a name="envsetup"></a>
 
