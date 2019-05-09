@@ -83,6 +83,7 @@ This repository contains the code, data, and report for the different stages of 
 
 
 **Candidate Set L**
+
 [cand_set_blocked_and_labeled.csv](stage3/estimating_precision_recall/cand_set_blocked_and_labeled.csv) : *Size = 397*
 
 **Precision Recall Results for CloudMatcher's Candidate Set:**
@@ -100,8 +101,11 @@ Precision = [0.9012651926029382 - 0.9159391084723305]
 Take a look at the [jupyter_notebook.pdf](stage3/estimating_precision_recall/jupyter_notebook.pdf) for the results of all the steps and the code we added to the provided notebook.
 
 **Iterations:**
+
 Step 1 : Our initial Candidate Set had 5401 elements. We randomly sampled 50 elements and found only 2 matching pairs, resulting in a density of 0.04.
+
 Step 2: We added a Blocking Rule (description given below) which reduced the candidate set to 397 elements.
+
 Step 3: We labeled all the 397 elements in the new candiate set L.
 
 **Blocking Rule Description:** 
