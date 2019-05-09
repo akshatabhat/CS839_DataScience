@@ -71,6 +71,51 @@ This repository contains the code, data, and report for the different stages of 
 <hr>
 <a name="envsetup"></a>
 
+**Files Downloaded from CloudMatcher**
+
+[Table A](stage3/estimating_precision_recall/cvpr.csv)
+
+[Table B](stage3/estimating_precision_recall/arxiv.csv)
+
+[Candidate Set](stage3/estimating_precision_recall/cand_set.csv) : *Size = 5401*
+
+[Prediction List](stage3/estimating_precision_recall/pred_list.csv)
+
+
+**Candidate Set L**
+
+[cand_set_blocked_and_labeled.csv](stage3/estimating_precision_recall/cand_set_blocked_and_labeled.csv) : *Size = 397*
+
+**Precision Recall Results for CloudMatcher's Candidate Set:**
+
+Recall = [0.982813752548643 - 1.0054215415690038]
+
+Precision = [0.9325870283311566 - 0.9451907494466212]
+
+**Precision Recall Results for Candidate Set with OUR Blocking Rule:**
+
+Recall = [0.9941176470588236 - 0.9941176470588236]
+
+Precision = [0.9012651926029382 - 0.9159391084723305]
+
+Take a look at the [jupyter_notebook.pdf](stage3/estimating_precision_recall/jupyter_notebook.pdf) for the results of all the steps and the code we added to the provided notebook.
+
+**Iterations:**
+
+Step 1 : Our initial Candidate Set had 5401 elements. We randomly sampled 50 elements and found only 2 matching pairs, resulting in a density of 0.04.
+
+Step 2: We added a Blocking Rule (description given below) which reduced the candidate set to 397 elements.
+
+Step 3: We labeled all the 397 elements in the new candiate set L.
+
+**Blocking Rule Description:** 
+Our matching task was to find same papers between arxiv and cvpr. Our blocking rule was to check if the number of authors of both entries was the same. 
+
+**Analysis of Blocking Rules:** 
+We observed that the blocking stage in CloudMatcher removed a large number of true matches. We proved this running the debug_blocker on the reduced candidate set (candidate set with our blocking rule). Here we found that most (196 / 200) of the tuple pairs that were true positives had been removed by CloudMatcher. Our own blocking rule removed 4 / 200 of them, because even though the papers seemed to match, their number of authors was different.
+
+
+
 ### Python Environment Setup
 
 Follow the steps in this section to setup an anaconda virtual environment that contains all the required dependencies/libraries to run the code in this repository.
