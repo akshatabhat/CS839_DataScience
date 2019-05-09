@@ -81,6 +81,10 @@ This repository contains the code, data, and report for the different stages of 
 
 [Prediction List](stage3/estimating_precision_recall/pred_list.csv)
 
+
+**Candidate Set L**
+[cand_set_blocked_and_labeled.csv](stage3/estimating_precision_recall/cand_set_blocked_and_labeled.csv) : *Size = 397*
+
 **Precision Recall Results for CloudMatcher's Candidate Set:**
 
 Recall = [0.982813752548643 - 1.0054215415690038]
