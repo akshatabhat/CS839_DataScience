@@ -71,6 +71,12 @@ This repository contains the code, data, and report for the different stages of 
 <hr>
 <a name="envsetup"></a>
 
+**Files Downloaded from CloudMatcher**
+[Table A](stage3/estimating_precision_recall/cvpr.csv)
+[Table B](stage3/estimating_precision_recall/arxiv.csv)
+[Candidate Set](stage3/estimating_precision_recall/cand_set.csv)
+[Prediction List](stage3/estimating_precision_recall/pred_list.csv)
+
 **Precision Recall Results for CloudMatcher's Candidate Set:**
 
 Recall = [0.982813752548643 - 1.0054215415690038]
