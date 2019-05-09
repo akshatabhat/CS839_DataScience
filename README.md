@@ -77,7 +77,7 @@ This repository contains the code, data, and report for the different stages of 
 
 [Table B](stage3/estimating_precision_recall/arxiv.csv)
 
-[Candidate Set](stage3/estimating_precision_recall/cand_set.csv)
+[Candidate Set](stage3/estimating_precision_recall/cand_set.csv) : *Size = 5401*
 
 [Prediction List](stage3/estimating_precision_recall/pred_list.csv)
 
@@ -94,6 +94,11 @@ Recall = [0.9941176470588236 - 0.9941176470588236]
 Precision = [0.9012651926029382 - 0.9159391084723305]
 
 Take a look at the [jupyter_notebook.pdf](stage3/estimating_precision_recall/jupyter_notebook.pdf) for the results of all the steps and the code we added to the provided notebook.
+
+**Iterations**
+Step 1 : Our initial Candidate Set had 5401 elements. We randomly sampled 50 elements and found only 2 matching pairs, resulting in a density of 0.04.
+Step 2: We added a Blocking Rule (description given below) which reduced the candidate set to 397 elements.
+Step 3: We labeled all the 397 elements in the new candiate set L.
 
 **Blocking Rule Description:** 
 Our matching task was to find same papers between arxiv and cvpr. Our blocking rule was to check if the number of authors of both entries was the same. 
